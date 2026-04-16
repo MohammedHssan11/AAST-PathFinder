@@ -1,0 +1,189 @@
+{
+  "campus": {
+    "campus_id": "ALAMEIN",
+    "name": "El Alamein Campus",
+    "city": "El Alamein",
+    "country": "Egypt",
+    "description": "Smart campus designed to deliver modern business and technology education with advanced facilities, residential services, and extracurricular life."
+  },
+
+  "college": {
+    "college_id": "CMT_ALAMEIN",
+    "name": "College of Management & Technology – Alamein",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Business-focused college combining management education with technology-enabled learning and international dual-degree pathways.",
+
+    "vision": "To be recognized as a premier business college in higher education and applied research serving industry and society.",
+
+    "mission": "To provide high-quality business education and research through competent faculty, modern facilities, international partnerships, and continuous improvement to serve national and global communities.",
+
+    "accreditation": {
+      "national": [],
+      "international": [
+        "University of Hull Dual Degree Framework"
+      ]
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Academic quality maintained through international partnership standards, blended learning models, and continuous academic development."
+    }
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Science",
+    "level": "Undergraduate",
+    "study_duration_years": 4,
+    "total_semesters": 8,
+    "delivery_modes": [
+      "On-campus (Face-to-Face)",
+      "Online / Blended Learning"
+    ]
+  },
+
+  "programs": [
+    {
+      "program_id": "BUS_MARKETING",
+      "name": "Business Administration – Marketing",
+      "focus": "Marketing strategy, consumer behavior, digital marketing, branding, and market analysis",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "BUS_FINANCE",
+      "name": "Business Administration – Finance",
+      "focus": "Corporate finance, financial analysis, investment, banking, and financial markets",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "ACCOUNTING",
+      "name": "Accounting",
+      "focus": "Financial accounting, managerial accounting, auditing, taxation, and financial reporting",
+      "industry_alignment": "very_high"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.7,
+    "practical_intensity": 0.6,
+    "quantitative_intensity": 0.65,
+    "project_dependency": "medium",
+    "case_study_dependency": "high",
+    "technology_dependency": "medium_high"
+  },
+
+  "pressure_profile": {
+    "workload_level": "medium",
+    "deadline_pressure": "medium",
+    "evaluation_style": "exams + projects + coursework",
+    "failure_risk": "low_medium"
+  },
+
+  "training_and_industry": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "training_methods": [
+      "Summer internships",
+      "Industry-linked projects",
+      "Case studies",
+      "Professional workshops"
+    ],
+    "industry_alignment": "high"
+  },
+
+  "international_programs": {
+    "dual_degree": true,
+    "partner_university": "University of Hull – United Kingdom",
+    "certification_outcome": [
+      "AASTMT Bachelor Degree",
+      "University of Hull Bachelor Degree"
+    ],
+    "professional_body_exemptions": true
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Business administration",
+      "Finance and accounting",
+      "Marketing and consumer behavior",
+      "Sustainability and management innovation"
+    ],
+    "industry_projects": true,
+    "applied_research_orientation": "medium"
+  },
+
+  "facilities_and_resources": [
+    "Smart Campus infrastructure",
+    "Modern laboratories",
+    "On-campus student dormitories",
+    "Sports playgrounds",
+    "Art and crafting rooms",
+    "Technology-enabled classrooms"
+  ],
+
+  "student_life": {
+    "extracurricular_activities": true,
+    "events_and_clubs": true,
+    "campus_life_intensity": "high",
+    "residential_experience": true
+  },
+
+  "student_support": {
+    "academic_advising": true,
+    "career_guidance": true,
+    "financial_support": true
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Corporate companies",
+      "Banks and financial institutions",
+      "Marketing and advertising agencies",
+      "Accounting and auditing firms",
+      "Multinational companies",
+      "Entrepreneurship and startups"
+    ],
+    "common_roles": [
+      "Marketing Specialist",
+      "Financial Analyst",
+      "Accountant",
+      "Business Development Executive",
+      "Operations Coordinator"
+    ],
+    "international_employability": "high"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students seeking business careers",
+      "Students interested in international exposure",
+      "Students preferring structured business education",
+      "Students valuing campus life and activities"
+    ],
+    "less_suitable_for": [
+      "Students seeking engineering or heavy technical majors",
+      "Students preferring purely theoretical economics"
+    ]
+  },
+
+  "core_values": [
+    "Ethical standards",
+    "Student-centered education",
+    "Quality and excellence",
+    "Research and scholarship",
+    "Community service",
+    "Diversity and transparency",
+    "Justice and equality"
+  ],
+
+  "leadership": {
+    "dean": "Dr. Niveen El-Saghier"
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_cross_college_comparison": true,
+    "supports_personality_matching": true,
+    "supports_international_pathways": true
+  }
+}

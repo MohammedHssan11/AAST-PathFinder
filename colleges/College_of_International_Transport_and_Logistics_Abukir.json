@@ -1,0 +1,116 @@
+{
+  "college_id": "CITL_ABUKIR",
+  "college_name": "College of International Transport and Logistics",
+  "branch": "Abu Kir / Alexandria",
+  "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+  "accreditations": {
+    "international": [
+      "AACSB (First accredited college in International Transport, Logistics and Supply Chain Management)",
+      "Golden FIBAA",
+      "Association of Arab Universities",
+      "International Federation of Universities"
+    ],
+    "national": [
+      "Supreme Council of Egyptian Universities (SCU)",
+      "National Authority for Quality Assurance and Accreditation of Education (NAQAAE)",
+      "Egyptian Ministry of Higher Education",
+      "Saudi Ministry of Higher Education",
+      "Oman Ministry of Higher Education"
+    ]
+  },
+
+  "degree_history": {
+    "first_bachelor_awarded": "October 1996",
+    "original_department": "Management and Economics – College of Maritime Transport",
+    "college_established": "2007–2008",
+    "initial_major": "Trade Management & International Transport",
+    "scu_accreditation_first_granted": "January 2003"
+  },
+
+  "academic_programs": {
+    "bachelor_programs": [
+      "Logistics and International Trade Management",
+      "Transport Logistics Management",
+      "Logistics and Supply Chain Management",
+      "Petroleum and Energy Logistics Management"
+    ],
+    "language_tracks": [
+      "Arabic Section",
+      "English Section"
+    ]
+  },
+
+  "departments": [
+    "Logistics and International Trade Management Department",
+    "Transport Logistics Management Department",
+    "Logistics and Supply Chain Management Department",
+    "Petroleum and Energy Logistics Management Department"
+  ],
+
+  "professional_certificates": [
+    "Higher FIATA Diploma in Supply Chain Management",
+    "FIATA Diploma in Freight Forwarding",
+    "International Road Union (IRU)",
+    "International Air Transport Association (IATA) Diploma",
+    "Medical Centers and Clinic Management Diploma",
+    "Mediation and Dispute Resolution Professional Certificate"
+  ],
+
+  "leadership_history": [
+    {
+      "name": "Prof. Ayman Ragab",
+      "period": "2008–2009",
+      "role": "Dean – Graduate School of Business Administration, Alexandria"
+    },
+    {
+      "name": "Prof. Khaled Hanafy",
+      "period": "2009–2013",
+      "role": "Secretary General, Union of Arab Chambers"
+    },
+    {
+      "name": "Prof. Gehan Saleh",
+      "period": "2013–2018",
+      "role": "Economic Affairs Advisor to Egyptian Prime Minister"
+    },
+    {
+      "name": "Prof. Sara El Gazzar",
+      "period": "2018–Present",
+      "role": "Dean of CITL"
+    }
+  ],
+
+  "current_dean": {
+    "name": "Dr. Sara El Gazzar",
+    "title": "Dean of the College of International Transport and Logistics"
+  },
+
+  "college_identity": {
+    "description": "Educational center of excellence in logistics, supply chain management, international transport, and trade in the Middle East and North Africa.",
+    "student_body": "Students from Egypt, Arab countries, and Africa",
+    "teaching_approach": "Applied, multidisciplinary, continuously updated to meet global business needs"
+  },
+
+  "mission": "Contributing to the social and economic development of the Arab region by offering distinguished change agents qualified through comprehensive educational programs, high calibre faculty, and centers of excellence in research, training, and consultancies while strictly committed to the highest levels of quality.",
+
+  "vision": "To be a regional and international center of excellence in logistics, supply chain management, and international transport education, research, and professional development.",
+
+  "industry_and_research": {
+    "services": [
+      "Professional training",
+      "Research",
+      "Consultancy services"
+    ],
+    "international_collaboration": "Programs developed in cooperation with UK universities"
+  },
+
+  "dean_message_summary": {
+    "focus": [
+      "Strategic importance of logistics and transport to Egypt",
+      "Egypt as a global trade hub",
+      "Alignment with national mega-projects",
+      "Multidisciplinary logistics education",
+      "Strong international partnerships"
+    ]
+  }
+}

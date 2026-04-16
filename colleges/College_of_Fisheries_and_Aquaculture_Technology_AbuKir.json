@@ -1,0 +1,70 @@
+{
+  "college_id": "CFAT_ABUKIR",
+  "college_name": "College of Fisheries and Aquaculture Technology - AbuKir",
+  "raw_text": "College of Fisheries and Aquaculture Technology  AbuKir\n(1) Memorandum of Understanding (MOU) [Student Training]: World Fish Center. 26/05/2022\n\n(2) Training Agreement [Student training]: Euromed International Company. 1/4/2020\n\n(3) Cooperation Protocol [Student training]: Summermoon company for fish production. 16/12/2019\n\n(4) Letter of Intent [Student training, Personnel exchange program]: Third Institute of Oceanography (TIO), China. 26/11/2019\n\n(5) Memorandum of Understanding (MOU) [Student Training, Staff Exchange]: Kaliningrad State Technical University (KSTU), Russia. 01/08/2019\n\n(6) Cooperation Agreement [Student Training, Staff Exchange, Joint Research]: Central Laboratory for Aquaculture Research – Agricultural Research Center &Faculty of Science – Alexandria University, Egypt. 04/07/2018The Marketing Major requires finishing 11 basic courses, 23 core courses, 16 major courses and 7 elective courses\n\n\nAcademic departments:\n- Fisheries Technology department.\n- Aquaculture department. College of Fisheries and Aquaculture Technology Core purpose\nCore purpose:\nThe College aims to produce qualified graduates to manage and develop the fish resources in the Arabian countries through the following:\n- Prepare cadres capable of fisheries management, fishery statistics and assessment of fish stocks and create new policies to achieve sustainable development of fisheries.\n- Preparation of familiar cadres by fisheries laws and IMO laws.\n- Prepare cadres capable of designing and operating the modern fishing nets with the ability to command and maintenance of fishing vessels and deal with navigation equipment.\n- Prepare cadres capable of fish cultivating and breeding and managing fish farms.\n- Prepare cadres capable of fish handling and processing for marketing in global markets.\n- High quality education, combined with effective research and outreach programs to support the scientific researches in fisheries and aquaculture sectors.\n- Provide technical consultations and scientific support in fisheries and aquaculture and working in the feasibility studies for investment in these sectors.Duration of the study:\nThe college scheduled to take place at Alexandria branch of the Academy (Abu Qir) for 4 years, divided into 8 essential semesters, in addition to optional annual summer semester. The basic semester is 16 weeks, including registration, study and exams, while the duration of the summer semester is 6 weeks and its registration apply as per AAST rules.To qualify cadres with scientific and applied capabilities to match modern technologies and laws regulating the development of fish resources as well as community service. This would be done by spreading awareness of the importance of fisheries and aquaculture in cooperation with national, Arab and international institutions.Accreditation:\n1. The college offers Bachelor degree accredited by the Supreme Council of Egyptian Universities in 2014 and 2019.Also accredited by the Egyptian Authority for Maritime Safety in 2020, This accreditation certifies college graduates to work as an officer in charge of navigational watch on fishing vessels.\n\n2. ZEvA accreditation from Central Agency for Evaluation and Accreditation, Germany",
+  "location": {
+    "city": "Alexandria",
+    "country": "Egypt",
+    "branch": "Abu Qir"
+  },
+  "establishment": {
+    "year_established": null,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+  "degrees_programs": {
+    "undergraduate": [
+      "Bachelor of Fisheries and Aquaculture Technology"
+    ],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+  "accreditation": {
+    "national": [
+      "Supreme Council of Egyptian Universities",
+      "Egyptian Authority for Maritime Safety"
+    ],
+    "international": [
+      "ZEvA Central Agency for Evaluation and Accreditation, Germany"
+    ]
+  },
+  "training_and_practice": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "sea_or_field_training": true,
+    "description": "Student training, staff exchange, personnel exchange programs, and joint research through multiple MOUs and cooperation agreements with national and international institutions."
+  },
+  "industry_and_international_relations": [
+    "World Fish Center",
+    "Euromed International Company",
+    "Summermoon company for fish production",
+    "Third Institute of Oceanography (TIO), China",
+    "Kaliningrad State Technical University (KSTU), Russia",
+    "Central Laboratory for Aquaculture Research – Agricultural Research Center",
+    "Faculty of Science – Alexandria University"
+  ],
+  "facilities_and_resources": [],
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": "The study duration is 4 years divided into 8 essential semesters with an optional annual summer semester. The basic semester is 16 weeks and the summer semester is 6 weeks as per AAST rules."
+  },
+  "research_and_innovation": {
+    "research_focus": "Fisheries management, aquaculture, fishery statistics, fish stock assessment, fish processing, sustainable development of fisheries",
+    "industry_projects": true
+  },
+  "quality_assurance": {
+    "qa_unit_exists": null,
+    "qa_description": null
+  },
+  "vision_mission": {
+    "vision": null,
+    "mission": "The College aims to produce qualified graduates to manage and develop the fish resources in the Arabian countries through preparing cadres capable of fisheries management, aquaculture, fish processing, compliance with fisheries and IMO laws, and supporting sustainable development through education, research, outreach, and technical consultation."
+  },
+  "extra_sections": {
+    "Academic Departments": "Fisheries Technology department; Aquaculture department.",
+    "Core Purpose": "Prepare qualified cadres in fisheries management, aquaculture, fish processing, navigation and fishing vessel operation, fisheries laws, sustainable development, technical consultation, feasibility studies, and community service.",
+    "Study Structure": "Marketing Major requires finishing 11 basic courses, 23 core courses, 16 major courses and 7 elective courses."
+  }
+}

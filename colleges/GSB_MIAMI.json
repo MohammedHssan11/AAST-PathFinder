@@ -1,0 +1,121 @@
+{
+  "college_id": "GSB_MIAMI",
+  "college_name": "Graduate School of Business",
+  "branch": "Miami",
+
+  "location": {
+    "city": "Alexandria",
+    "area": "Miami",
+    "country": "Egypt"
+  },
+
+  "establishment": {
+    "year_established": null,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "academic_level": "postgraduate",
+
+  "degrees_programs": {
+    "undergraduate": [],
+    "postgraduate": [
+      {
+        "degree": "Master of Business Administration",
+        "abbreviation": "MBA"
+      },
+      {
+        "degree": "Doctor of Business Administration",
+        "abbreviation": "DBA"
+      }
+    ],
+    "professional_certificates": []
+  },
+
+  "accreditation": {
+    "national": [
+      "Egyptian Supreme Council for Universities"
+    ],
+    "international": [],
+    "notes": "Programs are officially recognized and validated by the Supreme Council of Universities"
+  },
+
+  "vision_mission": {
+    "vision": "To be recognized as one of the top business education service providers in the Arab region, offering rigorous graduate programs in management alongside impactful intellectual contributions and outreach initiatives.",
+    "mission": "To contribute to the intellectual and human capital development of future business leaders by continuously updating graduate programs that advance management and business practices in a rapidly changing world."
+  },
+
+  "core_values": [
+    "Innovation",
+    "Diversity and Inclusion",
+    "Excellence",
+    "Ethics and Social Responsibility",
+    "Lifelong Learning"
+  ],
+
+  "educational_objectives": [
+    "Promote critical thinking and creative problem solving",
+    "Provide experiential learning through case studies, internships, and research",
+    "Prepare graduates for ethical and responsible leadership",
+    "Integrate sustainability and social responsibility into business education",
+    "Align curricula with emerging global business trends"
+  ],
+
+  "institutes_and_centers": [
+    "Graduate School of Business (GSB)",
+    "Advanced Management Institute (AMI)",
+    "Institute of Public Administration (IPA)",
+    "Business Development Center (BDC)",
+    "Institute of Finance and Investment (IFI)",
+    "Arab Institute of Trade and Commodities Exchange (AITCE)",
+    "International Programs Unit"
+  ],
+
+  "training_and_practice": {
+    "industry_training": true,
+    "mandatory_training": false,
+    "description": "Experiential learning through internships, applied research projects, executive training programs, and business consultancy services."
+  },
+
+  "industry_and_international_relations": [
+    "Industrial and business community representatives",
+    "Industry partners",
+    "Thought leaders and professional experts"
+  ],
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Management and leadership",
+      "Innovation and entrepreneurship",
+      "Ethical business practices",
+      "Sustainability and social responsibility",
+      "Future management challenges"
+    ],
+    "industry_projects": true
+  },
+
+  "governance": {
+    "college_council": [
+      "Vice President of AASTMT for Postgraduate Studies and Scientific Research",
+      "Dean of Graduate School of Business",
+      "Dean of International Graduate Programs",
+      "Vice Dean for Educational Affairs",
+      "Vice Dean for Student Affairs",
+      "Vice Dean for Training and Community Service",
+      "Assistant Deans (Alexandria & Cairo)",
+      "Head of Quality Assurance Unit",
+      "Industry Representative",
+      "Student Representative"
+    ]
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": true,
+    "qa_description": "Continuous program review and quality assurance aligned with Supreme Council of Universities standards."
+  },
+
+  "strategic_positioning": {
+    "focus": "Executive education, leadership development, applied research",
+    "target_students": "Working professionals, executives, future business leaders",
+    "regional_role": "One of the leading postgraduate business schools in the Arab region"
+  }
+}

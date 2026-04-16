@@ -1,0 +1,47 @@
+[
+  {
+    "name": "College of Computing and Information Technology - Computer Science",
+    "score": 87.13,
+    "fee": 5165.0,
+    "afford": "affordable",
+    "penalty": 0.0,
+    "alignment": 89.92,
+    "match": "program"
+  },
+  {
+    "name": "College of Computing and Information Technology - Computer Science",
+    "score": 87.13,
+    "fee": 5165.0,
+    "afford": "affordable",
+    "penalty": 0.0,
+    "alignment": 89.92,
+    "match": "program"
+  },
+  {
+    "name": "College of International Transport and Logistics \u2013 Port Said - Petroleum and Energy Logistics Management",
+    "score": 86.93,
+    "fee": 4985.0,
+    "afford": "affordable",
+    "penalty": 0.0,
+    "alignment": 89.8,
+    "match": "program"
+  },
+  {
+    "name": "College of Computing and Information Technology - Cybersecurity",
+    "score": 86.73,
+    "fee": 5165.0,
+    "afford": "affordable",
+    "penalty": 0.0,
+    "alignment": 87.76,
+    "match": "program"
+  },
+  {
+    "name": "College of Computing and Information Technology - Cybersecurity",
+    "score": 86.73,
+    "fee": 5165.0,
+    "afford": "affordable",
+    "penalty": 0.0,
+    "alignment": 87.76,
+    "match": "program"
+  }
+]

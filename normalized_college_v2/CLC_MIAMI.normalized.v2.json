@@ -1,0 +1,1147 @@
+﻿{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "CLC_MIAMI.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "college",
+    "college_id": "CLC_MIAMI",
+    "college_name": "College of Language and Communication - Miami"
+  },
+  "official_data": {
+    "location": {
+      "city": "Alexandria",
+      "country": "Egypt",
+      "branch": "Miami"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A specialized academic college within AASTMT focusing on language studies, media production, and communication sciences.",
+      "current_status": "Active undergraduate and postgraduate programs with practical media and communication training.",
+      "future_prospectus": null
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        "BA in Media",
+        "BA in Language and Translation",
+        "BA in Media - Radio & TV Production",
+        "BA in Digital Media"
+      ],
+      "postgraduate": [
+        "Diploma in Teaching Arabic for Non-Natives",
+        "MA in English for Specific Purposes",
+        "MA in Applied Linguistics",
+        "PhD in Applied Linguistics",
+        "MA in Film & Literature"
+      ],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities"
+      ],
+      "international": [
+        "Universitat Autònoma de Barcelona"
+      ]
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Thanaweia Amma",
+        "IGCSE",
+        "American Diploma",
+        "IB",
+        "French Baccalaureate",
+        "German Abitur"
+      ],
+      "entry_exams_required": true,
+      "medical_fitness_required": true,
+      "age_limit": 22,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": null,
+      "withdraw_deadline_week": null,
+      "max_absence_percent": null,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": [
+        "English placement test is required to determine language level."
+      ]
+    },
+    "training_and_practice": {
+      "mandatory_training": true,
+      "industry_training": true,
+      "field_or_sea_training": false,
+      "description": "Students must complete 60 hours of training. Academic curricula include essential practical assessments and projects, with internal and international training opportunities."
+    },
+    "international_mobility": {
+      "available": true,
+      "mobility_types": [
+        "student_exchange"
+      ],
+      "regions": [],
+      "partner_bodies": [
+        "Universitat Autònoma de Barcelona",
+        "University of Geneva",
+        "University of Leicester",
+        "Sheridan University",
+        "University of Central Lancashire"
+      ],
+      "evidence_based_notes": [
+        "raw_text: College of Language and Communication  Miami\nWhat degree programs does CLC offer in Alexandria?\nBA in Language & Translation, paired with a minor in Communicati"
+      ]
+    },
+    "research_and_innovation": {
+      "research_focus": "Language studies, communication, media, translation, applied linguistics",
+      "industry_projects": true
+    },
+    "facilities_and_resources": [
+      "Professional TV studios",
+      "Radio studios",
+      "Photography studios",
+      "Editing labs",
+      "Computer labs with advanced software",
+      "Language and translation labs",
+      "Theatre for performance training",
+      "Library",
+      "Clinic",
+      "Cafeterias",
+      "Recreational areas"
+    ],
+    "industry_and_external_relations": [
+      "Universitat Autònoma de Barcelona",
+      "University of Geneva",
+      "University of Leicester",
+      "Sheridan University",
+      "University of Central Lancashire",
+      "Pyramedia Abu Dhabi",
+      "Elaf Translation UAE"
+    ],
+    "vision_mission": {
+      "vision": "The CLC aspires to become a smart academic institution that has a positive impact in the field of language and communication studies through educational quality, research, innovation and entrepreneurship.",
+      "mission": "As a center of excellence, the CLC aspires to achieve sustainable development by equipping students with educational and training programs that meet international standards."
+    },
+    "leadership": []
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.55,
+      "math_intensity": 0.5,
+      "practical_intensity": 0.5,
+      "field_work_intensity": 0.4,
+      "research_orientation": 0.62,
+      "career_flexibility": 0.55,
+      "egypt_employability": {
+        "level": 2,
+        "score": 0.52
+      },
+      "international_employability": {
+        "level": 1,
+        "score": 0.45
+      },
+      "international_mobility_strength": {
+        "level": 3,
+        "label": "strong",
+        "score": 0.82
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "BA in Language and Translation",
+        "decision_profile": {
+          "theoretical_depth": 0.64,
+          "math_intensity": 0.14,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.35,
+          "design_creativity": 0.58,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.36,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.55,
+          "ai_focus": 0.5,
+          "data_focus": 0.34,
+          "software_focus": 0.28,
+          "security_focus": 0.5,
+          "hardware_focus": 0.1,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.62,
+          "language_communication_focus": 0.96,
+          "law_policy_focus": 0.5,
+          "research_orientation": 0.66,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.5,
+          "remote_work_fit": 0.82
+        },
+        "career_paths": [
+          "Translator",
+          "Interpreter",
+          "Localization Specialist",
+          "Terminology Specialist",
+          "Subtitling Specialist"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in multilingual communication and cross-cultural contexts",
+          "Comfortable with precise language analysis and text refinement"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for BA in Language & Translation focused on translation, interpretation, and localization practice.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Media",
+          "BA in Media - Radio & TV Production",
+          "BA in Media - Digital Media"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Media, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media - Radio & TV Production, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "BA in Media",
+        "decision_profile": {
+          "theoretical_depth": 0.58,
+          "math_intensity": 0.18,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.15,
+          "design_creativity": 0.8,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.5,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.72,
+          "ai_focus": 0.5,
+          "data_focus": 0.4,
+          "software_focus": 0.38,
+          "security_focus": 0.5,
+          "hardware_focus": 0.15,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.74,
+          "language_communication_focus": 0.9,
+          "law_policy_focus": 0.5,
+          "research_orientation": 0.52,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.5,
+          "remote_work_fit": 0.56
+        },
+        "career_paths": [
+          "Journalist",
+          "News Producer",
+          "Media Researcher",
+          "Communication Consultant",
+          "Content Producer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in storytelling, reporting, and public-facing communication",
+          "Comfortable developing written and multimedia content"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for BA in Media focused on journalism, media writing, and public communication.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Language & Translation",
+          "BA in Media - Radio & TV Production",
+          "BA in Media - Digital Media"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Language & Translation, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media - Radio & TV Production, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "BA in Media - Radio & TV Production",
+        "decision_profile": {
+          "theoretical_depth": 0.55,
+          "math_intensity": 0.3,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.35,
+          "design_creativity": 0.9,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.8,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.6,
+          "ai_focus": 0.5,
+          "data_focus": 0.28,
+          "software_focus": 0.2,
+          "security_focus": 0.5,
+          "hardware_focus": 0.15,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.92,
+          "language_communication_focus": 0.78,
+          "law_policy_focus": 0.5,
+          "research_orientation": 0.52,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.5,
+          "remote_work_fit": 0.36
+        },
+        "career_paths": [
+          "Broadcast Producer",
+          "TV Program Producer",
+          "Radio Producer",
+          "Studio Director",
+          "Video Producer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in on-air production, studio coordination, and broadcast content",
+          "Prefers hands-on media creation with technical production workflows"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for BA in Media - Radio & TV Production focused on studio production, broadcast workflows, and audiovisual storytelling.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Language & Translation",
+          "BA in Media",
+          "BA in Media - Digital Media"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Language & Translation, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "BA in Digital Media",
+        "decision_profile": {
+          "theoretical_depth": 0.56,
+          "math_intensity": 0.24,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.44,
+          "design_creativity": 0.84,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.44,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.55,
+          "ai_focus": 0.5,
+          "data_focus": 0.66,
+          "software_focus": 0.84,
+          "security_focus": 0.5,
+          "hardware_focus": 0.15,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.84,
+          "language_communication_focus": 0.76,
+          "law_policy_focus": 0.5,
+          "research_orientation": 0.5,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.5,
+          "remote_work_fit": 0.92
+        },
+        "career_paths": [
+          "Digital Content Strategist",
+          "Social Media Producer",
+          "Multimedia Producer",
+          "Digital Community Manager",
+          "Content Creator"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in digital storytelling, online platforms, and audience engagement",
+          "Comfortable combining creative content work with fast-moving publishing workflows"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for BA in Digital Media focused on platform content, multimedia publishing, and digital audience engagement.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Language & Translation",
+          "BA in Media",
+          "BA in Media - Radio & TV Production"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Language & Translation, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "Diploma in Teaching Arabic for Non-Natives",
+        "decision_profile": {
+          "theoretical_depth": 0.7,
+          "math_intensity": 0.1,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.35,
+          "design_creativity": 0.72,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.4,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.55,
+          "ai_focus": 0.5,
+          "data_focus": 0.5,
+          "software_focus": 0.5,
+          "security_focus": 0.5,
+          "hardware_focus": 0.1,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.6,
+          "language_communication_focus": 0.95,
+          "law_policy_focus": 0.5,
+          "research_orientation": 0.7,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.72,
+          "remote_work_fit": 0.72
+        },
+        "career_paths": [
+          "Arabic Language Instructor",
+          "Curriculum Developer",
+          "Language Assessment Specialist",
+          "Instructional Materials Developer",
+          "Educational Content Specialist"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in language teaching and learner-centered communication",
+          "Comfortable designing lessons for diverse proficiency levels"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for Diploma in Teaching Arabic for Non-Natives focused on Arabic language pedagogy for diverse learner groups.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Language & Translation",
+          "BA in Media",
+          "BA in Media - Radio & TV Production"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Language & Translation, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "MA in English for Specific Purposes",
+        "decision_profile": {
+          "theoretical_depth": 0.78,
+          "math_intensity": 0.12,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.08,
+          "design_creativity": 0.72,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.22,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.56,
+          "ai_focus": 0.5,
+          "data_focus": 0.3,
+          "software_focus": 0.22,
+          "security_focus": 0.5,
+          "hardware_focus": 0.1,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.62,
+          "language_communication_focus": 0.9,
+          "law_policy_focus": 0.5,
+          "research_orientation": 0.78,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.5,
+          "remote_work_fit": 0.68
+        },
+        "career_paths": [
+          "ESP Curriculum Specialist",
+          "Corporate Language Trainer",
+          "Language Needs Analyst",
+          "Instructional Designer",
+          "Assessment Specialist"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in tailoring language instruction to professional or academic domains",
+          "Comfortable linking linguistic theory with applied teaching practice"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for MA in English for Specific Purposes focused on language instruction for academic and professional settings.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Language & Translation",
+          "BA in Media",
+          "BA in Media - Radio & TV Production"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Language & Translation, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "MA in Applied Linguistics",
+        "decision_profile": {
+          "theoretical_depth": 0.86,
+          "math_intensity": 0.12,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.1,
+          "design_creativity": 0.72,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.2,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.54,
+          "ai_focus": 0.5,
+          "data_focus": 0.36,
+          "software_focus": 0.24,
+          "security_focus": 0.5,
+          "hardware_focus": 0.1,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.6,
+          "language_communication_focus": 0.94,
+          "law_policy_focus": 0.54,
+          "research_orientation": 0.9,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.5,
+          "remote_work_fit": 0.66
+        },
+        "career_paths": [
+          "Applied Linguistics Researcher",
+          "Language Assessment Specialist",
+          "Curriculum Developer",
+          "Academic Lecturer",
+          "Language Policy Analyst"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in language structure, assessment, and evidence-based pedagogy",
+          "Comfortable with research-informed analysis of language learning contexts"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for MA in Applied Linguistics focused on language analysis, assessment, and applied language research.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Language & Translation",
+          "BA in Media",
+          "BA in Media - Radio & TV Production"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Language & Translation, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "PhD in Applied Linguistics",
+        "decision_profile": {
+          "theoretical_depth": 0.92,
+          "math_intensity": 0.1,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.06,
+          "design_creativity": 0.72,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.18,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.42,
+          "ai_focus": 0.5,
+          "data_focus": 0.4,
+          "software_focus": 0.18,
+          "security_focus": 0.5,
+          "hardware_focus": 0.1,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.6,
+          "language_communication_focus": 0.96,
+          "law_policy_focus": 0.5,
+          "research_orientation": 0.96,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.5,
+          "remote_work_fit": 0.7
+        },
+        "career_paths": [
+          "Applied Linguistics Researcher",
+          "University Lecturer",
+          "Language Policy Analyst",
+          "Research Supervisor",
+          "Assessment Framework Specialist"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in sustained academic research and high-level scholarly writing",
+          "Comfortable leading theoretical and applied inquiry in language studies"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for PhD in Applied Linguistics focused on advanced language research, university teaching, and policy scholarship.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Language & Translation",
+          "BA in Media",
+          "BA in Media - Radio & TV Production"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Language & Translation, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "MA in Film & Literature",
+        "decision_profile": {
+          "theoretical_depth": 0.55,
+          "math_intensity": 0.3,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.35,
+          "design_creativity": 0.8,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.4,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.55,
+          "ai_focus": 0.5,
+          "data_focus": 0.5,
+          "software_focus": 0.5,
+          "security_focus": 0.5,
+          "hardware_focus": 0.15,
+          "business_focus": 0.5,
+          "finance_focus": 0.5,
+          "logistics_focus": 0.5,
+          "maritime_focus": 0.5,
+          "healthcare_focus": 0.5,
+          "creativity_design_focus": 0.5,
+          "language_communication_focus": 0.89,
+          "law_policy_focus": 0.5,
+          "research_orientation": 0.5,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.5,
+          "remote_work_fit": 0.5
+        },
+        "career_paths": [
+          "Film Critic",
+          "Screen Studies Researcher",
+          "Cultural Journalist",
+          "Script Development Researcher",
+          "Film Programmer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Interested in comparative analysis of film, text, and cultural narrative",
+          "Comfortable with close reading, criticism, and interpretive research"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for MA in Film & Literature focused on film criticism, visual narrative analysis, and literary interpretation.",
+        "program_family": "GENERAL_FAMILY",
+        "close_alternatives": [
+          "BA in Language & Translation",
+          "BA in Media",
+          "BA in Media - Radio & TV Production"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Language & Translation, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with BA in Media, the focus balance is similar with only slight emphasis shifts."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Alexandria",
+      "commute_friction_index": 0.48,
+      "relocation_friction_index": 0.58,
+      "industry_access_signal": 0.86,
+      "internship_density_signal": 0.73,
+      "campus_lifestyle_signal": 0.66,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": "College of Language and Communication  Miami\nWhat degree programs does CLC offer in Alexandria?\nBA in Language & Translation, paired with a minor in Communication.\nBA in Media, with a major and minors in either Radio & TV Production (minors: Dubbing & Subtitling or Radio & TV Announcing) or Digital Media (minors: Digital Journalism, Digital Advertising, or Integrated Marketing Communication).\nAre CLC's programs accredited?\nYes, CLC's programs are accredited by:\n\nThe Supreme Council of Egyptian Universities (Media and Language & Translation departments).\nUniversitat Autònoma de Barcelona, which grants graduating students a joint certificate from both institutions.\nHow can I apply for admission?\nApplications are submitted online through the AAST admissions portal or directly at the Alexandria headquarters. You will need to complete the application form, upload documents, and pay the application fee.\n\nWhat documents are required for admission?\nHigh school certificate (original + copy)\nBirth certificate\nCopy of national ID or passport\n6 recent passport-size photos\nMilitary service form (for Egyptian male students)\nProof of English proficiency (if required)\nAre there admission exams or interviews?\nStudents sit for an English placement test to determine language level.\n\nHow many years of study are required to complete a degree at the College of Language & Communication (CLC)?\nStudents at the College of Language & Communication can complete their bachelor's degree in as little as 3 academic years through the accelerated study plan. The standard duration is 4 years (8 semesters) of full-time study. In some cases, students may extend their studies if they take lighter course loads or join exchange/study abroad programs.\n\nHow are students assessed at the College of Language & Communication?\nCLC uses a variety of assessment methods to evaluate both knowledge and practical skills. Students are assessed through:\nContinuous assessment (class participation, assignments, quizzes, presentations).\nMidterm and final exams (theoretical and applied).\nPractical projects (media production, translation tasks, dubbing, etc.).\nGraduation project in the final year, showcasing students' professional and academic abilities.\nWhat do students study in the first year?\nHumanities courses that prepare them to join either the Language & Translation Department or the Media Department.\n\nIs there practical training?\nStudents must complete 60 hours of training to enhance their skills and prepare them for the job market. Also, academic curricula include essential practical assessments and projects.\n\nWhy is studying at CLC unique?\nInternal and international training opportunities.\nAccess to professional TV and radio studios, photography studios, and computer labs with advanced software.\nA"
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college_name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "location.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "location.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "location.branch"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "establishment.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "degrees_programs.undergraduate"
+      },
+      {
+        "field": "official_data.degrees_programs.postgraduate",
+        "source_path": "degrees_programs.postgraduate"
+      },
+      {
+        "field": "official_data.accreditation.national",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "official_data.accreditation.international",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "text_artifacts.cleaned_summary_text",
+        "source_path": "raw_text"
+      },
+      {
+        "field": "official_data.student_regulations.special_conditions",
+        "source_path": "student_regulations.special_conditions"
+      },
+      {
+        "field": "official_data.training_and_practice.mandatory_training",
+        "source_path": "training_and_practice.mandatory_training"
+      },
+      {
+        "field": "official_data.training_and_practice.industry_training",
+        "source_path": "training_and_practice.industry_training"
+      },
+      {
+        "field": "official_data.training_and_practice.field_or_sea_training",
+        "source_path": "training_and_practice.sea_or_field_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_practice"
+      },
+      {
+        "field": "official_data.international_mobility.available",
+        "source_path": "mobility_evidence"
+      },
+      {
+        "field": "official_data.research_and_innovation.research_focus",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.research_and_innovation.industry_projects",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.facilities_and_resources",
+        "source_path": "facilities/labs"
+      },
+      {
+        "field": "official_data.industry_and_external_relations",
+        "source_path": "partners/industry"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "vision_mission.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "vision_mission.mission"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[BA in Language & Translation]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Radio & TV Production]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Digital Media]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Diploma in Teaching Arabic for Non-Natives]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in English for Specific Purposes]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Applied Linguistics]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[PhD in Applied Linguistics]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Film & Literature]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Language & Translation].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Language & Translation].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Radio & TV Production].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Radio & TV Production].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Digital Media].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Digital Media].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Diploma in Teaching Arabic for Non-Natives].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Diploma in Teaching Arabic for Non-Natives].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in English for Specific Purposes].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in English for Specific Purposes].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Applied Linguistics].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Applied Linguistics].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[PhD in Applied Linguistics].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[PhD in Applied Linguistics].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Film & Literature].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Film & Literature].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Language & Translation].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Language & Translation].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Radio & TV Production].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Radio & TV Production].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Digital Media].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[BA in Media - Digital Media].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Diploma in Teaching Arabic for Non-Natives].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Diploma in Teaching Arabic for Non-Natives].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in English for Specific Purposes].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in English for Specific Purposes].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Applied Linguistics].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Applied Linguistics].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[PhD in Applied Linguistics].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[PhD in Applied Linguistics].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Film & Literature].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[MA in Film & Literature].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.establishment.year_established",
+      "official_data.overview.future_prospectus",
+      "official_data.degrees_programs.professional_certificates",
+      "official_data.admission_requirements.other_conditions",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.international_mobility.regions",
+      "official_data.leadership"
+    ],
+    "uncertain_items": [
+      "Low-confidence heuristic inference for program_family/focus fields: BA in Language & Translation, BA in Media, BA in Media - Digital Media, BA in Media - Radio & TV Production, Diploma in Teaching Arabic for Non-Natives, MA in Applied Linguistics, MA in English for Specific Purposes, MA in Film & Literature, PhD in Applied Linguistics."
+    ],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Low-confidence heuristic inference for program_family/focus fields: BA in Language & Translation, BA in Media, BA in Media - Digital Media, BA in Media - Radio & TV Production, Diploma in Teaching Arabic for Non-Natives, MA in Applied Linguistics, MA in English for Specific Purposes, MA in Film & Literature, PhD in Applied Linguistics.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded.",
+      "Batch-targeted repair applied for overview, admission, facilities, career paths, and decision-profile realism."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

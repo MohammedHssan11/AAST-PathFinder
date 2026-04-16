@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="name" for="node" attr.name="name"/>
+<key id="labels" for="node" attr.name="labels"/>
+<key id="label" for="edge" attr.name="label"/>
+<graph id="G" edgedefault="directed">
+<node id="n0" labels=":University"><data key="labels">:University</data><data key="name">Arab Academy for Science, Technology and Maritime Transport</data></node>
+<node id="n1" labels=":Campus"><data key="labels">:Campus</data><data key="name">Alexandria Campus</data></node>
+<node id="n2" labels=":Department"><data key="labels">:Department</data><data key="name">MRCC</data></node>
+<node id="n3" labels=":Department"><data key="labels">:Department</data><data key="name">مركز البحوث لقطاع النقل البحري</data></node>
+<node id="n4" labels=":Campus"><data key="labels">:Campus</data><data key="name">Latakia Campus</data></node>
+<node id="n5" labels=":Department"><data key="labels">:Department</data><data key="name">Department of Administrative Positions</data></node>
+<node id="n6" labels=":College"><data key="labels">:College</data><data key="name">City Unity College Greece</data></node>
+<node id="n7" labels=":University"><data key="labels">:University</data><data key="name">Arab Academy for Science, Technology and Maritime Transport (AAST)</data></node>
+<node id="n8" labels=":Program"><data key="labels">:Program</data><data key="name">Trade Management Program</data></node>
+<node id="n9" labels=":Program"><data key="labels">:Program</data><data key="name">Bachelor of Science in Economics</data></node>
+<node id="n10" labels=":Campus"><data key="labels">:Campus</data><data key="name">College of Technology</data></node>
+<node id="n11" labels=":City"><data key="labels">:City</data><data key="name">Alexandria</data></node>
+<node id="n12" labels=":Campus"><data key="labels">:Campus</data><data key="name">Electronics &amp; Communications Engineering</data></node>
+<node id="n13" labels=":Campus"><data key="labels">:Campus</data><data key="name">Industrial &amp; Management Engineering</data></node>
+<node id="n14" labels=":Campus"><data key="labels">:Campus</data><data key="name">College of Engineering Technology</data></node>
+<node id="n15" labels=":Campus"><data key="labels">:Campus</data><data key="name">Computer Engineering</data></node>
+<node id="n16" labels=":City"><data key="labels">:City</data><data key="name">Cairo</data></node>
+<node id="n17" labels=":Department"><data key="labels">:Department</data><data key="name">Student activities department</data></node>
+<node id="n18" labels=":Department"><data key="labels">:Department</data><data key="name">Department at Arab Academy Science (AAST)</data></node>
+<node id="n19" labels=":Program"><data key="labels">:Program</data><data key="name">Diploma or Master faculties</data></node>
+<node id="n20" labels=":Program"><data key="labels">:Program</data><data key="name">Bachelor of Science</data></node>
+<node id="n21" labels=":Campus"><data key="labels">:Campus</data><data key="name">Architectural Engineering and Environmental Design</data></node>
+<node id="n22" labels=":City"><data key="labels">:City</data><data key="name">South Valley</data></node>
+<node id="n23" labels=":Department"><data key="labels">:Department</data><data key="name">Department of Organizations Unions</data></node>
+<node id="n24" labels=":Program"><data key="labels">:Program</data><data key="name">executive programs</data></node>
+<node id="n25" labels=":Program"><data key="labels">:Program</data><data key="name">pathway recognised degree</data></node>
+<node id="n26" labels=":University"><data key="labels">:University</data><data key="name">College of International Transport and Logistics</data></node>
+<node id="n27" labels=":Program"><data key="labels">:Program</data><data key="name">Dokki Trade Management Program</data></node>
+<node id="n28" labels=":Program"><data key="labels">:Program</data><data key="name">Latakia Trade Management Program</data></node>
+<node id="n29" labels=":Program"><data key="labels">:Program</data><data key="name">Bachelor of Computer Engineering</data></node>
+<node id="n30" labels=":Program"><data key="labels">:Program</data><data key="name">Bachelor's degree in Cyber Security</data></node>
+<node id="n31" labels=":College"><data key="labels">:College</data><data key="name">Graduate School of Business</data></node>
+<node id="n32" labels=":Campus"><data key="labels">:Campus</data><data key="name">Aswan Campus</data></node>
+<node id="n33" labels=":Department"><data key="labels">:Department</data><data key="name">Deanery of Admission and Registration</data></node>
+<node id="n34" labels=":Program"><data key="labels">:Program</data><data key="name">PTI “Basic Studies for Seamen” Program</data></node>
+<node id="n35" labels=":Program"><data key="labels">:Program</data><data key="name">International Educational Programs</data></node>
+<node id="n36" labels=":Program"><data key="labels">:Program</data><data key="name">Master of Quality Management</data></node>
+<node id="n37" labels=":Program"><data key="labels">:Program</data><data key="name">American diplomas</data></node>
+<node id="n38" labels=":College"><data key="labels">:College</data><data key="name">Arab Institute for Leadership Development</data></node>
+<node id="n39" labels=":College"><data key="labels">:College</data><data key="name">colleges of Language and Communication</data></node>
+<node id="n40" labels=":Department"><data key="labels">:Department</data><data key="name">Arab Academy Motors</data></node>
+<node id="n41" labels=":Department"><data key="labels">:Department</data><data key="name">Deanery of Student Affairs</data></node>
+<node id="n42" labels=":Program"><data key="labels">:Program</data><data key="name">IGCSE and American Diploma programs</data></node>
+<node id="n43" labels=":Program"><data key="labels">:Program</data><data key="name">Leadership specialized program</data></node>
+<node id="n44" labels=":Campus"><data key="labels">:Campus</data><data key="name">Smart Village Campus</data></node>
+<node id="n45" labels=":University"><data key="labels">:University</data><data key="name">Cairo College of Engineering and Technology</data></node>
+<node id="n46" labels=":Program"><data key="labels">:Program</data><data key="name">PhD program</data></node>
+<node id="n47" labels=":Department"><data key="labels">:Department</data><data key="name">مركز المعلومات و التوثيق</data></node>
+<node id="n48" labels=":Department"><data key="labels">:Department</data><data key="name">Finance &amp; Accounting</data></node>
+<node id="n49" labels=":University"><data key="labels">:University</data><data key="name">International Educational Programs (IEP)</data></node>
+<node id="n50" labels=":Program"><data key="labels">:Program</data><data key="name">American Program</data></node>
+<node id="n51" labels=":Program"><data key="labels">:Program</data><data key="name">Master Degree</data></node>
+<node id="n52" labels=":Program"><data key="labels">:Program</data><data key="name">program under the direction of LSE</data></node>
+<node id="n53" labels=":Department"><data key="labels">:Department</data><data key="name">Marine Engineering</data></node>
+<node id="n54" labels=":College"><data key="labels">:College</data><data key="name">College (Medical Administration)</data></node>
+<edge id="e1152921504606846976" source="n0" target="n1" label="HAS_CAMPUS"><data key="label">HAS_CAMPUS</data></edge>
+<edge id="e6917529027641081860" source="n0" target="n4" label="HAS_CAMPUS"><data key="label">HAS_CAMPUS</data></edge>
+<edge id="e6917529027641081888" source="n0" target="n32" label="HAS_CAMPUS"><data key="label">HAS_CAMPUS</data></edge>
+<edge id="e6917529027641081900" source="n0" target="n44" label="HAS_CAMPUS"><data key="label">HAS_CAMPUS</data></edge>
+<edge id="e6917530127152709634" source="n0" target="n2" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709635" source="n0" target="n3" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709637" source="n0" target="n5" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709649" source="n0" target="n17" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709650" source="n0" target="n18" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709655" source="n0" target="n23" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709665" source="n0" target="n33" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709672" source="n0" target="n40" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709673" source="n0" target="n41" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709679" source="n0" target="n47" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709680" source="n0" target="n48" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917530127152709685" source="n0" target="n53" label="HAS_DEPARTMENT"><data key="label">HAS_DEPARTMENT</data></edge>
+<edge id="e6917531226664337414" source="n0" target="n6" label="HAS_COLLEGE"><data key="label">HAS_COLLEGE</data></edge>
+<edge id="e6917531226664337439" source="n0" target="n31" label="HAS_COLLEGE"><data key="label">HAS_COLLEGE</data></edge>
+<edge id="e6917531226664337446" source="n0" target="n38" label="HAS_COLLEGE"><data key="label">HAS_COLLEGE</data></edge>
+<edge id="e6917531226664337447" source="n0" target="n39" label="HAS_COLLEGE"><data key="label">HAS_COLLEGE</data></edge>
+<edge id="e6917531226664337462" source="n0" target="n54" label="HAS_COLLEGE"><data key="label">HAS_COLLEGE</data></edge>
+<edge id="e6917532326175965193" source="n0" target="n9" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965203" source="n0" target="n19" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965204" source="n0" target="n20" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965208" source="n0" target="n24" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965209" source="n0" target="n25" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965213" source="n0" target="n29" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965214" source="n0" target="n30" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965218" source="n0" target="n34" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965219" source="n0" target="n35" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965220" source="n0" target="n36" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965221" source="n0" target="n37" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965226" source="n0" target="n42" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965227" source="n0" target="n43" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965235" source="n0" target="n51" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965236" source="n0" target="n52" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e1152921504606846983" source="n7" target="n1" label="HAS_CAMPUS"><data key="label">HAS_CAMPUS</data></edge>
+<edge id="e1152924803141730311" source="n7" target="n8" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e1152925902653358090" source="n10" target="n11" label="LOCATED_IN"><data key="label">LOCATED_IN</data></edge>
+<edge id="e1152925902653358092" source="n12" target="n11" label="LOCATED_IN"><data key="label">LOCATED_IN</data></edge>
+<edge id="e1152925902653358093" source="n13" target="n11" label="LOCATED_IN"><data key="label">LOCATED_IN</data></edge>
+<edge id="e1152925902653358094" source="n14" target="n11" label="LOCATED_IN"><data key="label">LOCATED_IN</data></edge>
+<edge id="e1152925902653358095" source="n15" target="n16" label="LOCATED_IN"><data key="label">LOCATED_IN</data></edge>
+<edge id="e1152925902653358101" source="n21" target="n22" label="LOCATED_IN"><data key="label">LOCATED_IN</data></edge>
+<edge id="e1152924803141730330" source="n26" target="n27" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e6917532326175965212" source="n26" target="n28" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e1152924803141730349" source="n45" target="n46" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+<edge id="e1152924803141730353" source="n49" target="n50" label="OFFERS_PROGRAM"><data key="label">OFFERS_PROGRAM</data></edge>
+</graph>
+</graphml>

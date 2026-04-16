@@ -1,0 +1,63 @@
+{
+  "college_id": "CITL_DOKKI",
+  "college_name": "College of International Transport and Logistics",
+  "branch": "Dokki",
+  "parent_institution": "Arab Academy for Science, Technology and Maritime Transport (AASTMT)",
+
+  "overview": "The College of International Transport and Logistics at Dokki offers a world-class education in global trade and logistics, combining innovative teaching methods with strong practical and industry-oriented experience. The college prepares students to navigate the complexities of international transport and global supply chains and to make an impact on international markets.",
+
+  "welcome_message": "AASTMT College of International Transport and Logistics in Dokki provides students with state-of-the-art facilities, industry-leading faculty, and a vibrant academic community that connects cultures and economies on a global scale.",
+
+  "undergraduate_program": {
+    "program_name": "Trade Logistics and International Transport Management",
+    "program_description": "A comprehensive program designed to equip students with theoretical knowledge and practical skills required to succeed in the rapidly evolving fields of logistics and international trade.",
+    "majors": [
+      "Transport Logistics Management",
+      "Logistics and Supply Chain Management",
+      "International Trade Logistics Management",
+      "Energy and Petroleum Logistics Management"
+    ],
+    "learning_approach": [
+      "Coursework",
+      "Case studies",
+      "Hands-on practical experience",
+      "Industry-oriented training"
+    ],
+    "program_outcome": "Graduates are prepared to become innovative leaders capable of addressing global trade and logistics challenges."
+  },
+
+  "why_citl": [
+    "High global demand for logistics and supply chain professionals",
+    "Strong focus on international transport and trade",
+    "Integration of theory with real-world practice",
+    "Preparation for careers in a globalized business environment"
+  ],
+
+  "accreditation_and_degrees": {
+    "national_and_international_accreditation": true,
+    "dual_degree_options": [
+      "University of Hull - United Kingdom"
+    ]
+  },
+
+  "international_exposure": {
+    "international_programs": true,
+    "international_partnerships": "Partnerships with international universities",
+    "training_opportunities": [
+      "International training",
+      "Local training"
+    ]
+  },
+
+  "student_experience": {
+    "student_life": "Active student life with academic, professional, and extracurricular activities",
+    "professional_certificates": true,
+    "eu_collaboration": true
+  },
+
+  "partners": {
+    "industry_and_academic_partners": "Multiple local and international partners supporting education, training, and employment opportunities"
+  },
+
+  "copyright": "© 2025 Arab Academy for Science, Technology & Maritime Transport. All Rights Reserved."
+}

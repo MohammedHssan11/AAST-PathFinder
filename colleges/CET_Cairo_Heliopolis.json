@@ -1,0 +1,104 @@
+{
+  "college_id": "CET_CAIRO_HELIOPOLIS",
+  "college_name": "College of Engineering & Technology Cairo",
+
+  "raw_text": "College of Engineering and Technology (Cairo)\n\nCollege of Engineering & Technology  Heliopolis\nomplementing the support of our students in facing the fierce global market and in conjunction with the accreditation of our programs from the most prestigious international bodies. The College of Engineering in Heliopolis has been keen to strengthen cooperation and partnership with prestigious universities around the world through the signing of several memoranda of understanding, student exchange agreements, and dual-degree agreements.\n\n1. Memoranda of Understanding\n\nThe College of Engineering and Technology has several MoU including the following universities:\n\nStaffordshire, Aston, and Manchester in the United Kingdom\nRovira I Virgili in Spain\nVirginia Tech and Sheridan in North America\nXiamen in China\n\n2. Exchange Programs\n\nOur students can also study one semester as an \"Exchange student\". Activities include educational tours, courses attendance, summer training and/or research activities. Attained courses in the partner university will be chosen according to availability under the guidance of the academic advisor. The following universities are among of our exchange programs:\n\nUniversity of Technology in Malaysia (UTM) in Malaysia\nUniversity of Northampton in UK\nUniversity of Central Lancashire (UCLAN) in UK\n\n3. Dual Degrees\n\nThe College of Engineering and Technology offers its undergraduate students a dual degree for some of its programs with:\n\nUniversity of Northampton.\nUniversity of Central Lancashire (UCLAN).\nCardiff Metropolitan University\n\nFor more information, please contact the Vice Dean for Training and Community Services:\n\nAssoc. Prof. Sherif Khairy El-Diasty\n\nCellular: 01111125100\n\nRoom: Engineering A (308)\n\nEmail: sherifkh@aast.edu\n\nAll academic programs offered by the college of Engineering, Heliopolis, are accredited by the Supreme Council of Egyptian Universities, which guarantees that our graduates join the Egyptian Engineers Syndicate once graduated. In addition, all our academic programs are accredited by the most prestigious international bodies that ensure the international competitiveness of our graduates either in their postgraduate studies or in getting work opportunities in the local/international job market.\n\nThe Architecture and Environmental Design program (AR) has the Royal Institute of Britch Architects (RIBA) accreditation, part 1 and 2, and is the first and only program in Egypt that was able to obtain this accreditation. As for the rest of our engineering programs, represented in the Construction and Building Engineering (CB), the Computer Engineering (CE), the Electronic and Communication Engineering (EC), the Electrical Engineering (EE), and the Mechanical Engineering (ME), they are all accredited by ABET.\n\nIn 1998, AASTMT introduced educational programs leading to Bachelor of Engineering degrees in Cairo. The AASTMT established a campus in the eastern part of Cairo, located in Heliopolis district.\n\nIn 1999, the programs in Architecture Engineering and Environmental Design as well as Construction and Building Engineering were introduced.\n\nIn September 2004, the College of Engineering introduced Electrical Power and Computer Control Engineering and Mechanical Engineering (Mechatronics).\n\nCurrently the College offers Bachelor`s degrees in:\n\nElectronics and Communications Engineering\nComputer Engineering\nArchitectural Engineering and Environmental Design\nConstruction and Building Engineering\nElectrical Power and Computer Control Engineering\nMechatronics Engineering\n\nAs far as postgraduate studies are concerned, the Cairo campus has introduced M.Sc. degrees in Electronics and Communication Engineering, Computer Engineering, Construction and Building Engineering, Electrical Power and Computer Control Engineering, and Architecture Engineering and Environmental Design.\n\nThe College of Engineering in Cairo earned an outstanding reputation as one of the best Engineering programs in the region.\n\nWelcome to the College of Engineering and Technology, Heliopolis Branch.\n\nBest wishes,\n\nYasser Galal, Professor of Electrical Power and Control Engineering\nDean of Engineering, Cairo",
+
+  "location": {
+    "city": "Cairo",
+    "country": "Egypt",
+    "branch": "Heliopolis"
+  },
+
+  "establishment": {
+    "year_established": 1998,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "degrees_programs": {
+    "undergraduate": [
+      "Electronics and Communications Engineering",
+      "Computer Engineering",
+      "Architectural Engineering and Environmental Design",
+      "Construction and Building Engineering",
+      "Electrical Power and Computer Control Engineering",
+      "Mechatronics Engineering"
+    ],
+    "postgraduate": [
+      "Electronics and Communications Engineering",
+      "Computer Engineering",
+      "Construction and Building Engineering",
+      "Electrical Power and Computer Control Engineering",
+      "Architectural Engineering and Environmental Design"
+    ],
+    "professional_certificates": []
+  },
+
+  "accreditation": {
+    "national": [
+      "Supreme Council of Egyptian Universities"
+    ],
+    "international": [
+      "ABET",
+      "Royal Institute of British Architects (RIBA)"
+    ]
+  },
+
+  "training_and_practice": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "sea_or_field_training": null,
+    "description": "The college offers many opportunities for practical training and makes this training a requirement for graduation, ensuring exposure to academic material and practical experience."
+  },
+
+  "industry_and_international_relations": [
+    "Staffordshire University",
+    "Aston University",
+    "University of Manchester",
+    "Rovira i Virgili University",
+    "Virginia Tech",
+    "Sheridan College",
+    "Xiamen University",
+    "University of Technology Malaysia",
+    "University of Northampton",
+    "University of Central Lancashire",
+    "Cardiff Metropolitan University"
+  ],
+
+  "facilities_and_resources": [
+    "Specialized laboratories",
+    "Workshops",
+    "Computing facilities",
+    "Medical care facilities",
+    "Student dormitories",
+    "Campus transportation"
+  ],
+
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": null
+  },
+
+  "research_and_innovation": {
+    "research_focus": "World class research supported by industry, governmental organizations and the Arab Academy for Science, Technology and Maritime Transport.",
+    "industry_projects": true
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": null,
+    "qa_description": null
+  },
+
+  "vision_mission": {
+    "vision": "To excel as one of the best engineering colleges locally and regionally and to maintain internationally recognized programs with an advanced academic rank.",
+    "mission": "Meet the educational and research needs of the Arab region and Africa, graduate knowledgeable engineers, engage in lifelong learning, practice engineering ethically and compete with international counterparts."
+  },
+
+  "extra_sections": {
+    "Leadership": "Prof. Yasser Galal – Dean of Engineering, Cairo",
+    "Core Values": "Transparency, Respect, Diversity, Equity, Ambition, Excellence"
+  }
+}

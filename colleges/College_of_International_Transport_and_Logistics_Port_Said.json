@@ -1,0 +1,178 @@
+{
+  "campus": {
+    "campus_id": "PORT_SAID",
+    "name": "Port Said Campus",
+    "city": "Port Said",
+    "country": "Egypt",
+    "description": "Strategic coastal campus adjacent to the Suez Canal, focused on international transport, ports, logistics, and trade-related education."
+  },
+
+  "college": {
+    "college_id": "CITL_PORT_SAID",
+    "name": "College of International Transport and Logistics – Port Said",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Flagship logistics and transport education hub with strong alignment to maritime trade, ports, and national logistics mega-projects.",
+
+    "vision": "To strengthen higher education leadership in the Middle East and Africa as a center of expertise in international transportation and logistics.",
+
+    "mission": "To provide an integrated educational, training, and research environment aligned with international quality standards, emphasizing applied logistics, modern technologies, and industry-linked learning to produce graduates capable of supporting sustainable development.",
+
+    "accreditation": {
+      "national": [
+        "National Authority for Quality Assurance and Accreditation of Education (NAQAAE)",
+        "Supreme Council of Egyptian Universities (SCU)"
+      ],
+      "international": [
+        "Association to Advance Collegiate Schools of Business (AACSB)",
+        "Association of Arab Universities",
+        "International Federation of Universities"
+      ]
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Quality assurance aligned with NAQAAE standards and AACSB international benchmarks."
+    }
+  },
+
+  "degree": {
+    "degree_name": "B.Sc. in Trade Logistics and International Transport Management",
+    "level": "Undergraduate",
+    "study_duration_years": 4,
+    "total_semesters": 8,
+    "language_tracks": [
+      "Arabic",
+      "English"
+    ]
+  },
+
+  "departments_programs": [
+    {
+      "program_id": "LOGISTICS_INTL_TRADE",
+      "name": "Logistics and International Trade Management",
+      "focus": "International trade operations, customs, freight forwarding, trade logistics",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "TRANSPORT_LOGISTICS",
+      "name": "Transport Logistics Management",
+      "focus": "Ports, maritime transport, multimodal transport, transport economics",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "SUPPLY_CHAIN",
+      "name": "Logistics and Supply Chain Management",
+      "focus": "Supply chain integration, inventory, procurement, distribution systems",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "ENERGY_LOGISTICS",
+      "name": "Petroleum and Energy Logistics Management",
+      "focus": "Energy supply chains, petroleum logistics, hazardous cargo transport",
+      "industry_alignment": "high"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.6,
+    "practical_intensity": 0.75,
+    "project_dependency": "high",
+    "case_study_dependency": "high",
+    "exam_weight": "medium"
+  },
+
+  "pressure_profile": {
+    "workload_level": "medium_high",
+    "deadline_pressure": "medium",
+    "evaluation_style": "projects + applied exams",
+    "failure_risk": "medium"
+  },
+
+  "training_and_industry": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "training_methods": [
+      "Applied coursework",
+      "Industry-linked projects",
+      "Professional consulting exposure",
+      "Field-oriented learning"
+    ],
+    "geographic_advantage": "Direct exposure to ports, maritime trade routes, and Suez Canal logistics ecosystem"
+  },
+
+  "research_and_consulting": {
+    "research_focus": [
+      "International transport management",
+      "Logistics systems",
+      "Supply chain management",
+      "Trade-related economics and law"
+    ],
+    "industry_projects": true,
+    "regional_role": "Acts as a consulting and expertise hub for logistics and transport sectors in Egypt and the Arab region"
+  },
+
+  "core_values": [
+    "Alignment",
+    "Leadership",
+    "Excellence and Sustainability",
+    "Dignity",
+    "Respect",
+    "Accountability",
+    "Knowledge and Digital Transformation"
+  ],
+
+  "strategic_goals": {
+    "education": "Enhance student learning outcomes and labor market readiness",
+    "research": "Expand applied and collaborative research projects",
+    "internationalization": "Strengthen global partnerships and international exposure",
+    "social_responsibility": "Support sustainable development goals economically, socially, and environmentally"
+  },
+
+  "student_support": {
+    "academic_guidance": true,
+    "career_orientation": true,
+    "training_opportunities": true,
+    "student_affairs_unit": true
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Ports and port authorities",
+      "Shipping lines",
+      "Freight forwarding companies",
+      "Logistics service providers",
+      "Supply chain departments",
+      "Energy and petroleum companies",
+      "Trade and customs authorities"
+    ],
+    "entry_roles": [
+      "Transport Operations Officer",
+      "Logistics Analyst",
+      "Port Operations Coordinator",
+      "Supply Chain Coordinator",
+      "Trade Logistics Executive"
+    ],
+    "international_employability": "high",
+    "career_growth_potential": "high"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students interested in maritime and port-related logistics",
+      "Students seeking strong industry exposure",
+      "Students motivated by national mega-projects and global trade"
+    ],
+    "less_suitable_for": [
+      "Purely theoretical or research-only students",
+      "Students avoiding applied or field-oriented learning"
+    ]
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_branch_comparison": true,
+    "supports_personality_matching": true,
+    "supports_industry_alignment_scoring": true
+  }
+}

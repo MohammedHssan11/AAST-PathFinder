@@ -1,0 +1,145 @@
+{
+  "college_id": "PHARM_ABUKIR",
+  "college_name": "College of Pharmacy",
+  "branch": "Abu Qir",
+
+  "location": {
+    "city": "Alexandria",
+    "area": "Abu Qir",
+    "country": "Egypt",
+    "description": "Main headquarters of the College of Pharmacy at AASTMT, serving Alexandria and the northern region of Egypt."
+  },
+
+  "establishment": {
+    "year_established": null,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "academic_level": "undergraduate",
+
+  "degrees_programs": {
+    "undergraduate": [
+      {
+        "degree": "Bachelor of Pharmacy (B.Pharm)",
+        "study_duration_years": 5,
+        "training_structure": "Academic study integrated with experiential pharmaceutical training",
+        "degree_objective": "Preparation of competent pharmacists capable of national and international competition"
+      }
+    ],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+
+  "training_and_practice": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "experiential_learning": true,
+    "description": "Four experiential learning rotations placed in summer semesters, including applied pharmaceutical and professional practice training."
+  },
+
+  "curriculum_and_education": {
+    "education_model": "Outcome-based pharmacy education",
+    "focus_areas": [
+      "Pharmaceutical Sciences",
+      "Pharmacy Practice",
+      "Healthcare Quality",
+      "Pharmaceutical Supply Chain Management"
+    ],
+    "curriculum_development": "Continuously updated study plans aligned with international pharmacy education standards"
+  },
+
+  "facilities_and_resources": [
+    "Advanced pharmaceutical laboratories",
+    "Computing and digital learning facilities",
+    "Modern educational infrastructure supporting pharmacy education"
+  ],
+
+  "industry_and_international_relations": [
+    "Egyptian Pharmacy Syndicate",
+    "National pharmaceutical organizations",
+    "International pharmaceutical organizations",
+    "International universities"
+  ],
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Pharmaceutical sciences",
+      "Pharmacy practice",
+      "Healthcare quality improvement",
+      "Pharmaceutical logistics and supply chains"
+    ],
+    "industry_projects": true
+  },
+
+  "accreditation": {
+    "national": [],
+    "international": [
+      "International Pharmaceutical Federation (FIP)"
+    ],
+    "future_accreditation_direction": [
+      "Alignment with American Council for Pharmacy Education (ACPE) guidelines"
+    ]
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": true,
+    "qa_description": "Five-year strategic plan (2021–2026) emphasizing continuous improvement, international benchmarking, digital transformation, and quality assurance in pharmacy education."
+  },
+
+  "strategic_plan": {
+    "period": "2021–2026",
+    "strategic_pillars": [
+      "Education and Learning",
+      "Research and Development",
+      "International Status",
+      "Social Responsibility",
+      "Digital Transformation"
+    ],
+    "stakeholders_involved": [
+      "Students",
+      "Faculty Members",
+      "Administrators",
+      "Pharmacy Syndicate",
+      "Pharmaceutical Organizations",
+      "Local Community"
+    ]
+  },
+
+  "vision_mission": {
+    "vision": "To achieve excellence and international competitiveness in pharmacy education and research.",
+    "mission": "Achieving sustainable pharmacy education through quality education, applied research, international cooperation, and strong engagement with the pharmaceutical sector."
+  },
+
+  "leadership": {
+    "dean": {
+      "name": "Prof. Amira Mostafa Senbel",
+      "role": "Dean of the College of Pharmacy – Abu Qir Campus"
+    }
+  },
+
+  "core_values": [
+    "Alignment",
+    "Excellence",
+    "Respect",
+    "Accountability",
+    "Leadership",
+    "Dignity",
+    "Knowledge"
+  ],
+
+  "knowledge_graph": {
+    "nodes": [
+      { "id": "abu_qir", "type": "Campus" },
+      { "id": "college_pharmacy", "type": "College" },
+      { "id": "program_pharmacy", "type": "Program" },
+      { "id": "degree_bpharm", "type": "Degree" },
+      { "id": "lab_pharma", "type": "Lab" }
+    ],
+    "relationships": [
+      { "from": "abu_qir", "to": "college_pharmacy", "type": "HAS_COLLEGE" },
+      { "from": "college_pharmacy", "to": "program_pharmacy", "type": "OFFERS_PROGRAM" },
+      { "from": "program_pharmacy", "to": "degree_bpharm", "type": "HAS_DEGREE" },
+      { "from": "college_pharmacy", "to": "lab_pharma", "type": "HAS_LAB" }
+    ]
+  }
+}

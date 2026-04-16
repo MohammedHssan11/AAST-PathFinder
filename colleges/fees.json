@@ -1,0 +1,86 @@
+{
+  "academic_year": "2025/2026",
+  "currency": "USD",
+  "billing_cycle": "per_semester",
+
+  "tuition_fees": [
+    {
+      "college_id": "ENG",
+      "college_name": "College of Engineering",
+      "tiers": {
+        "A": 5210,
+        "B": 6110,
+        "C": 6830
+      },
+      "cost_profile": {
+        "relative_cost": "medium_high",
+        "lab_dependency": "high"
+      }
+    },
+    {
+      "college_id": "PHARM",
+      "college_name": "College of Pharmacy",
+      "tiers": {
+        "A": 5850,
+        "B": 6850,
+        "C": 7250
+      },
+      "cost_profile": {
+        "relative_cost": "high",
+        "lab_dependency": "very_high"
+      }
+    },
+    {
+      "college_id": "CCIT",
+      "college_name": "College of Computing and Information Technology",
+      "tiers": {
+        "A": 5060,
+        "B": 5960,
+        "C": 6320
+      },
+      "cost_profile": {
+        "relative_cost": "medium",
+        "lab_dependency": "medium_high"
+      }
+    },
+    {
+      "college_id": "MED",
+      "college_name": "College of Medicine",
+      "tiers": {
+        "A": 8750,
+        "B": 9020,
+        "C": 9470
+      },
+      "cost_profile": {
+        "relative_cost": "very_high",
+        "lab_dependency": "critical",
+        "clinical_dependency": "critical"
+      }
+    },
+    {
+      "college_id": "CAI",
+      "college_name": "College of Artificial Intelligence",
+      "tiers": {
+        "A": 5660,
+        "B": 6305
+      },
+      "cost_profile": {
+        "relative_cost": "medium_high",
+        "compute_dependency": "very_high"
+      }
+    }
+  ],
+
+  "tier_definition": {
+    "A": "Top academic tier (highest admission scores / competitive entry)",
+    "B": "Mid academic tier",
+    "C": "Base academic tier"
+  },
+
+  "system_flags": {
+    "supports_fee_based_filtering": true,
+    "supports_budget_matching": true,
+    "supports_cost_vs_outcome_analysis": true,
+    "decision_ready": true
+  }
+}

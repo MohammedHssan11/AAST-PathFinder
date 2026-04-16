@@ -1,0 +1,102 @@
+{
+  "college_id": "CLC_MIAMI",
+  "college_name": "College of Language and Communication - Miami",
+
+  "raw_text": "College of Language and Communication  Miami\nWhat degree programs does CLC offer in Alexandria?\nBA in Language & Translation, paired with a minor in Communication.\nBA in Media, with a major and minors in either Radio & TV Production (minors: Dubbing & Subtitling or Radio & TV Announcing) or Digital Media (minors: Digital Journalism, Digital Advertising, or Integrated Marketing Communication).\nAre CLC’s programs accredited?\nYes, CLC’s programs are accredited by:\n\nThe Supreme Council of Egyptian Universities (Media and Language & Translation departments).\nUniversitat Autònoma de Barcelona, which grants graduating students a joint certificate from both institutions.\nHow can I apply for admission?\nApplications are submitted online through the AAST admissions portal or directly at the Alexandria headquarters. You will need to complete the application form, upload documents, and pay the application fee.\n\nWhat documents are required for admission?\nHigh school certificate (original + copy)\nBirth certificate\nCopy of national ID or passport\n6 recent passport-size photos\nMilitary service form (for Egyptian male students)\nProof of English proficiency (if required)\nAre there admission exams or interviews?\nStudents sit for an English placement test to determine language level.\n\nHow many years of study are required to complete a degree at the College of Language & Communication (CLC)?\nStudents at the College of Language & Communication can complete their bachelor’s degree in as little as 3 academic years through the accelerated study plan. The standard duration is 4 years (8 semesters) of full-time study. In some cases, students may extend their studies if they take lighter course loads or join exchange/study abroad programs.\n\nHow are students assessed at the College of Language & Communication?\nCLC uses a variety of assessment methods to evaluate both knowledge and practical skills. Students are assessed through:\nContinuous assessment (class participation, assignments, quizzes, presentations).\nMidterm and final exams (theoretical and applied).\nPractical projects (media production, translation tasks, dubbing, etc.).\nGraduation project in the final year, showcasing students’ professional and academic abilities.\nWhat do students study in the first year?\nHumanities courses that prepare them to join either the Language & Translation Department or the Media Department.\n\nIs there practical training?\nStudents must complete 60 hours of training to enhance their skills and prepare them for the job market. Also, academic curricula include essential practical assessments and projects.\n\nWhy is studying at CLC unique?\nInternal and international training opportunities.\nAccess to professional TV and radio studios, photography studios, and computer labs with advanced software.\nA fully equipped theatre for performance training.\nCourses in Spanish as a second language.\nLanguage labs with advanced translation software, including simultaneous and consecutive interpretation tools.\nPostgraduate programs (e.g., Diploma in Teaching Arabic for Non-Natives, MA in English for Specific Purposes, MA/PhD in Applied Linguistics, MA in Film & Literature).\nHighly qualified faculty members and visiting industry experts.\nAre there any international opportunities available at CLC Alexandria?\nStudents can study abroad at the Autonomous University of Barcelona (Spain), and the University of Geneva (Switzerland). Also, they can join training programs at UCLan (UK), Sheridan University (Canada), media institutions in Arab countries (e.g., Pyramedia in Abu Dhabi), and Elaf Translation (UAE).\n\nWhat career paths are available for CLC graduates?\nGraduates enter diverse fields:\nLanguage & Translation grads can work as translators, interpreters, editors, dubbing experts, content writers, AI language developers, and more.\nMedia graduates find opportunities in advertising, PR, broadcasting corporations, journalism, production, scriptwriting, editing, and digital content creation.\nWhat are the available learning resources and facilities at CLC?\nAlexandria’s campus offers:\nModern language & translation labs with interpretation software.\nProfessional TV and radio studios, photography studio, and well-equipped computer labs for editing, design, dubbing, etc.\nAdditional amenities like cafeterias, a library, a clinic, and recreational areas.\n\nThe Autonomous University of Barcelona (UAB), Spain\nThe Autonomous University of Barcelona (UAB) was officially created by a legislative decree on June 6, 1968. The Arab Academy for Science, Technology and Maritime Transport (AASTMT), represented by the College of Language and Communication (CLC), signed a Memorandum of Understanding with Autonoma University in Barcelona (UAB) on June 19, 2013. According to the MoU, CLC students can study for a semester at AUB, in addition to summer courses. All students graduating from the CLC also receive a certificate from AUB in addition to that of the AASTMT. The CLC received its validation from AUB in March, 2016. Visiting professors from Autonoma University are also hosted by the CLC to benefit from their international state-of-the-art expertise in giving lecture to students.\n\nUniversity of Geneva, Switzerland\nBased in the city that hosts several international organizations, the University of Geneva was established in 1559. Students of both Media and Language and Translation Departments have the chance to study for one or two semesters at the Faculty of Translation and Interpreting, University of Geneva, Switzerland.\n\nUniversity of Leicester, UK\nIn 2016, the College of Language and Communication (CLC) signed an MOU with the University of Leicester, UK in order to offer professional training opportunities to graduates and non-graduates of the CLC, including the ELTTC, an intensive English language teacher training course accredited from the University of Leicester in England.\n\nSheridan University, Canada\nThe College of Language and Communication (CLC) offers its students summer training opportunities at Sheridan University in Canada. The training focuses on a variety of disciplines in the field of media in the branches of journalism, radio and television. It gives hands-on experience on fields such as sound, mixing, lighting and editing through using the latest software available in the field.\n\nUniversity of Central Lancashire (UCLan), UK\nThe CLC offers training opportunities at the University of Central Lancashire (UCLan) in the UK. The program aims to broaden participants’ knowledge of current and emerging technologies in Radio and TV Broadcasting through lectures, tutorials and projects. Students get hands-on experience in recording Vox Pops using audio recorders, making recordings in the radio studio, conducting radio interviews, editing, making a podcast and forming radio bulletins using radio studios.\n\nStrategies\nPromoting models of excellence in teaching through workshops, seminars and conferences.\nRecruiting efficient and distinguished staff members.\nOffering leading edge career-based education.\nEstablishing effective institutional partnerships.\nUndertaking high quality research and training services.\n\nVision and Mission\nVision\nThe CLC aspires to become a smart academic institution that has a positive impact in the field of language and communication studies through educational quality, research, innovation and entrepreneurship.\n\nMission\nAs a center of excellence, the CLC aspires to achieve sustainable development by equipping students with educational and training programs that meet international standards.\n\nProf.Abeer Refky Seddik\nDean,College of Language and Communication – Alexandria",
+
+  "location": {
+    "city": "Alexandria",
+    "country": "Egypt",
+    "branch": "Miami"
+  },
+
+  "establishment": {
+    "year_established": null,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "degrees_programs": {
+    "undergraduate": [
+      "BA in Language & Translation",
+      "BA in Media",
+      "BA in Media – Radio & TV Production",
+      "BA in Media – Digital Media"
+    ],
+    "postgraduate": [
+      "Diploma in Teaching Arabic for Non-Natives",
+      "MA in English for Specific Purposes",
+      "MA in Applied Linguistics",
+      "PhD in Applied Linguistics",
+      "MA in Film & Literature"
+    ],
+    "professional_certificates": []
+  },
+
+  "accreditation": {
+    "national": [
+      "Supreme Council of Egyptian Universities"
+    ],
+    "international": [
+      "Universitat Autònoma de Barcelona"
+    ]
+  },
+
+  "training_and_practice": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "sea_or_field_training": false,
+    "description": "Students must complete 60 hours of training. Academic curricula include essential practical assessments and projects, with internal and international training opportunities."
+  },
+
+  "industry_and_international_relations": [
+    "Universitat Autònoma de Barcelona",
+    "University of Geneva",
+    "University of Leicester",
+    "Sheridan University",
+    "University of Central Lancashire",
+    "Pyramedia Abu Dhabi",
+    "Elaf Translation UAE"
+  ],
+
+  "facilities_and_resources": [
+    "Professional TV studios",
+    "Radio studios",
+    "Photography studios",
+    "Computer labs with advanced software",
+    "Language and translation labs",
+    "Theatre for performance training",
+    "Library",
+    "Clinic",
+    "Cafeterias",
+    "Recreational areas"
+  ],
+
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": "English placement test is required to determine language level."
+  },
+
+  "research_and_innovation": {
+    "research_focus": "Language studies, communication, media, translation, applied linguistics",
+    "industry_projects": true
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": null,
+    "qa_description": "Programs follow international standards through accreditation and validation agreements."
+  },
+
+  "vision_mission": {
+    "vision": "The CLC aspires to become a smart academic institution that has a positive impact in the field of language and communication studies through educational quality, research, innovation and entrepreneurship.",
+    "mission": "As a center of excellence, the CLC aspires to achieve sustainable development by equipping students with educational and training programs that meet international standards."
+  },
+
+  "extra_sections": {
+    "Assessment Methods": "Continuous assessment, midterm and final exams, practical projects, graduation project.",
+    "Career Paths": "Translation, interpretation, media production, advertising, PR, journalism, digital content creation.",
+    "Dean Message": "Commitment to promoting academic and artistic abilities and opening new career horizons."
+  }
+}

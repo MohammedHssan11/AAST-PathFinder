@@ -1,0 +1,530 @@
+{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "CLC_SMART_VILLAGE.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "college",
+    "college_id": "CLC_SMART_VILLAGE",
+    "college_name": "College of Language and Communication - Smart Village"
+  },
+  "official_data": {
+    "location": {
+      "city": "Smart Village",
+      "country": "Egypt",
+      "branch": "Smart Village"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A specialized academic college within AASTMT focusing on language studies, media production, and communication sciences.",
+      "current_status": "Active undergraduate and postgraduate programs with practical media and communication training.",
+      "future_prospectus": null
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        "BA in Media",
+        "BA in Language and Translation",
+        "BA in Digital Media"
+      ],
+      "postgraduate": [],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [
+        "Ministry of Higher Education"
+      ],
+      "international": []
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Thanaweia Amma",
+        "IGCSE",
+        "American Diploma",
+        "IB",
+        "French Baccalaureate",
+        "German Abitur"
+      ],
+      "entry_exams_required": true,
+      "medical_fitness_required": true,
+      "age_limit": 22,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": null,
+      "withdraw_deadline_week": null,
+      "max_absence_percent": null,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": []
+    },
+    "training_and_practice": {
+      "mandatory_training": true,
+      "industry_training": true,
+      "field_or_sea_training": null,
+      "description": "Partnerships and MOUs with international universities allow students to complete part of their core courses or electives overseas to gain exposure and diverse experiences."
+    },
+    "international_mobility": {
+      "available": true,
+      "mobility_types": [
+        "student_exchange"
+      ],
+      "regions": [],
+      "partner_bodies": [
+        "International universities (unspecified partners through MOUs)"
+      ],
+      "evidence_based_notes": [
+        "raw_text: College of Language and Communication  Smart Village\nProvide students with the basic knowledge and skills in all the fields of mass communication.\nPrepare promi"
+      ]
+    },
+    "research_and_innovation": {
+      "research_focus": "Language studies, media, communication, translation, intercultural communication",
+      "industry_projects": null
+    },
+    "facilities_and_resources": [
+      "State of the art smart premises",
+      "Modern educational and academic environment",
+      "TV studios",
+      "Radio studios",
+      "Editing labs",
+      "Language labs",
+      "Computer labs"
+    ],
+    "industry_and_external_relations": [
+      "International universities (unspecified partners through MOUs)"
+    ],
+    "vision_mission": {
+      "vision": "College of Language and Communication - Smart Village aims to be a leading academic hub in language and communication studies, fostering innovation, research excellence, and global engagement. We strive to shape future professionals who drive positive change in the fields of media, translation, and intercultural communication.",
+      "mission": "CLC aspires to achieve sustainable development by equipping students with educational and training programs that meet international standards. Through the application of the highest quality standards and governance, the college seeks to qualify outstanding graduates who can contribute to a constantly changing workplace."
+    },
+    "leadership": [
+      {
+        "name": "Prof. Yasser El-Shamy",
+        "title": "Dean of College of Language & Communication – Smart Village",
+        "period": null
+      }
+    ]
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.5,
+      "math_intensity": 0.3,
+      "practical_intensity": 0.55,
+      "field_work_intensity": 0.42,
+      "research_orientation": 0.62,
+      "career_flexibility": 0.55,
+      "egypt_employability": {
+        "level": 2,
+        "score": 0.55
+      },
+      "international_employability": {
+        "level": 2,
+        "score": 0.5
+      },
+      "international_mobility_strength": {
+        "level": 3,
+        "label": "strong",
+        "score": 0.7
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "BA in Media",
+        "decision_profile": {
+          "theoretical_depth": 0.57,
+          "math_intensity": 0.17,
+          "physics_intensity": 0.1,
+          "programming_intensity": 0.28,
+          "design_creativity": 0.8,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.5,
+          "management_exposure": 0.46,
+          "workload_difficulty": 0.58,
+          "career_flexibility": 0.72,
+          "ai_focus": 0.25,
+          "data_focus": 0.4,
+          "software_focus": 0.38,
+          "security_focus": 0.12,
+          "hardware_focus": 0.05,
+          "business_focus": 0.48,
+          "finance_focus": 0.22,
+          "logistics_focus": 0.15,
+          "maritime_focus": 0.05,
+          "healthcare_focus": 0.08,
+          "creativity_design_focus": 0.74,
+          "language_communication_focus": 0.9,
+          "law_policy_focus": 0.3,
+          "research_orientation": 0.5,
+          "entrepreneurship_focus": 0.62,
+          "international_work_readiness": 0.58,
+          "remote_work_fit": 0.56
+        },
+        "career_paths": [
+          "Journalist",
+          "Media Producer",
+          "Broadcast Specialist",
+          "Communication Consultant",
+          "Content Creator"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.53
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys storytelling, audience analysis, and communication strategy",
+          "Prefers project-based media production and editorial teamwork"
+        ],
+        "avoid_if": [
+          "You want mathematically intensive or highly technical coursework"
+        ],
+        "summary": "Heuristic profile for BA in Media derived from available program indicators and communication-focused study patterns.",
+        "program_family": "COMMUNICATION_FAMILY",
+        "close_alternatives": [
+          "BA in Digital Media",
+          "BA in Language and Translation"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Digital Media, this profile leans less software and more traditional media communication.",
+          "Compared with BA in Language and Translation, this profile leans more field media production and creative content work."
+        ]
+      },
+      {
+        "program_name": "BA in Language and Translation",
+        "decision_profile": {
+          "theoretical_depth": 0.63,
+          "math_intensity": 0.13,
+          "physics_intensity": 0.05,
+          "programming_intensity": 0.15,
+          "design_creativity": 0.55,
+          "lab_intensity": 0.3,
+          "field_work_intensity": 0.28,
+          "management_exposure": 0.4,
+          "workload_difficulty": 0.6,
+          "career_flexibility": 0.6,
+          "ai_focus": 0.18,
+          "data_focus": 0.25,
+          "software_focus": 0.2,
+          "security_focus": 0.08,
+          "hardware_focus": 0.03,
+          "business_focus": 0.38,
+          "finance_focus": 0.16,
+          "logistics_focus": 0.12,
+          "maritime_focus": 0.05,
+          "healthcare_focus": 0.08,
+          "creativity_design_focus": 0.62,
+          "language_communication_focus": 0.96,
+          "law_policy_focus": 0.34,
+          "research_orientation": 0.65,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.72,
+          "remote_work_fit": 0.81
+        },
+        "career_paths": [
+          "Translator",
+          "Interpreter",
+          "Localization Specialist",
+          "Content Editor",
+          "Language Specialist"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.56
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.57
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys language structure, writing quality, and cross-cultural communication",
+          "Comfortable with reading-intensive and detail-oriented coursework"
+        ],
+        "avoid_if": [
+          "You prefer hands-on technical labs over language-centered study"
+        ],
+        "summary": "Heuristic profile for BA in Language and Translation derived from available program indicators and language-specialization patterns.",
+        "program_family": "LANGUAGE_FAMILY",
+        "close_alternatives": [
+          "BA in Media",
+          "BA in Digital Media"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Media, this profile leans more theoretical language mastery and less field production.",
+          "Compared with BA in Digital Media, this profile leans much less software and more linguistic specialization."
+        ]
+      },
+      {
+        "program_name": "BA in Digital Media",
+        "decision_profile": {
+          "theoretical_depth": 0.55,
+          "math_intensity": 0.23,
+          "physics_intensity": 0.12,
+          "programming_intensity": 0.44,
+          "design_creativity": 0.84,
+          "lab_intensity": 0.58,
+          "field_work_intensity": 0.44,
+          "management_exposure": 0.44,
+          "workload_difficulty": 0.6,
+          "career_flexibility": 0.66,
+          "ai_focus": 0.36,
+          "data_focus": 0.66,
+          "software_focus": 0.84,
+          "security_focus": 0.16,
+          "hardware_focus": 0.08,
+          "business_focus": 0.46,
+          "finance_focus": 0.25,
+          "logistics_focus": 0.16,
+          "maritime_focus": 0.05,
+          "healthcare_focus": 0.08,
+          "creativity_design_focus": 0.84,
+          "language_communication_focus": 0.76,
+          "law_policy_focus": 0.24,
+          "research_orientation": 0.48,
+          "entrepreneurship_focus": 0.64,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.92
+        },
+        "career_paths": [
+          "Digital Media Specialist",
+          "Content Creator",
+          "Social Media Strategist",
+          "Multimedia Producer",
+          "Digital Content Editor"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.6
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys creative digital production with platform-oriented publishing",
+          "Comfortable combining communication skills with digital tools"
+        ],
+        "avoid_if": [
+          "You prefer purely theoretical study with minimal practical production work"
+        ],
+        "summary": "Heuristic profile for BA in Digital Media derived from available program indicators and digital-content specialization patterns.",
+        "program_family": "COMMUNICATION_FAMILY",
+        "close_alternatives": [
+          "BA in Media",
+          "BA in Language and Translation"
+        ],
+        "differentiation_notes": [
+          "Compared with BA in Media, this profile leans more software/digital production and higher remote-work suitability.",
+          "Compared with BA in Language and Translation, this profile leans more creativity-design and digital content execution."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Cairo",
+      "commute_friction_index": 0.5,
+      "relocation_friction_index": 0.6,
+      "industry_access_signal": 0.68,
+      "internship_density_signal": 0.68,
+      "campus_lifestyle_signal": 0.53,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": "College of Language and Communication  Smart Village\nProvide students with the basic knowledge and skills in all the fields of mass communication.\nPrepare prominent media professionals of high level of knowledge and innovation and who apply the code of ethics of the media work.\nDevelop the communication skills to understand the international views and cultural pluralism.\nHold effective partnership with the stakeholders to reinforce the program.\nProvide opportunities of creativity and innovation for all the teaching staff members and students.\nPromote cooperation and care about getting the graduates' opinions.Vision \nCollege of Language and Communication - Smart Village aims to be a leading academic hub in language and communication studies, fostering innovation, research excellence, and global engagement. We strive to shape future professionals who drive positive change in the fields of media, translation, and intercultural communication.\n\nMission\nCLC aspires to achieve sustainable development by equipping students with educational and training programs that meet international standards. Through the application of the highest quality standards and governance, the college seeks to qualify outstanding graduates who can contribute to a constantly changing workplacProf. Yasser El-Shamy\nDean of College of Language & Communication (CLC) - Smart Village\nWelcome to the College of Language and Communication (CLC), Smart Village Campus!I am very happy to welcome you all to our College Website. It gives me great pleasure to lead the College of Language and Communication as I work hand in hand with faculty, staff, and students to bring the College to the forefront in the region. CLC has a well-established environment and state of the art smart premises. In this multinational, educational, and academic environment, students are educated to be exemplary leaders. The College and programs offered are accredited by the Ministry of Higher Education. The rigorous four-year undergraduate programs and high-quality education we offer equip students with the knowledge and skills to compete in a rapidly changing world. Our vision is to build the most active academic environment in the region and be a center of excellence in teaching, research, and training. We are here to bridge the gap between diverse viewpoints and critically examine both theory and practice, while seeking innovative ways to approach language, media, and communication locally, regionally, and internationally. Our students are well-acquainted with the global environment and emerge as future leaders through constant knowledge exchange, evaluation, and establishment of critical thinking. We aim to graduate professionals who are competitive, innovative, knowledgeable, and passionate. Graduates of our College"
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college_name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "location.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "location.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "location.branch"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "establishment.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "programs/departments/nodes"
+      },
+      {
+        "field": "official_data.accreditation.national",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "text_artifacts.cleaned_summary_text",
+        "source_path": "raw_text"
+      },
+      {
+        "field": "official_data.training_and_practice.industry_training",
+        "source_path": "training_and_practice.industry_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_practice"
+      },
+      {
+        "field": "official_data.international_mobility.available",
+        "source_path": "mobility_evidence"
+      },
+      {
+        "field": "official_data.research_and_innovation.research_focus",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.facilities_and_resources",
+        "source_path": "facilities/labs"
+      },
+      {
+        "field": "official_data.industry_and_external_relations",
+        "source_path": "partners/industry"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "vision_mission.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "vision_mission.mission"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[College of Language and Communication - Smart Village]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[College of Language and Communication - Smart Village].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[College of Language and Communication - Smart Village].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[College of Language and Communication - Smart Village].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[College of Language and Communication - Smart Village].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.establishment.year_established",
+      "official_data.overview.future_prospectus",
+      "official_data.degrees_programs.postgraduate",
+      "official_data.degrees_programs.professional_certificates",
+      "official_data.accreditation.international",
+      "official_data.admission_requirements.other_conditions",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.student_regulations.special_conditions",
+      "official_data.training_and_practice.mandatory_training",
+      "official_data.training_and_practice.field_or_sea_training",
+      "official_data.international_mobility.regions",
+      "official_data.research_and_innovation.industry_projects",
+      "official_data.leadership"
+    ],
+    "uncertain_items": [],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded.",
+      "Batch-targeted repair applied for overview, admission, facilities, career paths, and decision-profile realism."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

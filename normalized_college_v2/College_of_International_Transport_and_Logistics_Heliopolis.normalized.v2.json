@@ -1,0 +1,662 @@
+﻿{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "College_of_International_Transport_and_Logistics_Heliopolis.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "branch",
+    "college_id": "CITL_HELIOPOLIS",
+    "college_name": "College of International Transport and Logistics – Heliopolis"
+  },
+  "official_data": {
+    "location": {
+      "city": "Cairo",
+      "country": "Egypt",
+      "branch": "Heliopolis Campus"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A specialized logistics college branch offering applied education in supply chain management, transport planning, and international trade operations.",
+      "current_status": "Active logistics programs with case-based learning, analytics tools, and practical industry-oriented training.",
+      "future_prospectus": "Expanding industry-linked logistics education through stronger analytics, transport optimization, and international trade competencies."
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        "Logistics and Supply Chain Management",
+        "International Trade Logistics Management",
+        "Transport Logistics Management",
+        "Energy and Petroleum Logistics Management"
+      ],
+      "postgraduate": [],
+      "professional_certificates": [
+        {
+          "certificate_id": "CERTIFIED_INDUSTRIAL_ENGINEER",
+          "name": "Certified Industrial Engineer (CIE)",
+          "focus": [
+            "Process management",
+            "Production systems",
+            "Quality management",
+            "Supply chain management"
+          ],
+          "delivery_style": [
+            "Training",
+            "Case studies",
+            "Simulation",
+            "Testing"
+          ],
+          "target_audience": "Students and professionals seeking industrial and operational excellence",
+          "industry_relevance": "high"
+        }
+      ]
+    },
+    "accreditation": {
+      "national": [],
+      "international": []
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Thanaweia Amma",
+        "IGCSE",
+        "American Diploma",
+        "IB",
+        "French Baccalaureate",
+        "German Abitur"
+      ],
+      "entry_exams_required": true,
+      "medical_fitness_required": true,
+      "age_limit": 22,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": 2,
+      "withdraw_deadline_week": 14,
+      "max_absence_percent": 15,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": []
+    },
+    "training_and_practice": {
+      "mandatory_training": true,
+      "industry_training": true,
+      "field_or_sea_training": null,
+      "description": "mandatory_training: True; industry_training: True; training_style: Applied coursework; Case studies; Industry-based projects; Practical simulations; industry_alignment: high"
+    },
+    "international_mobility": {
+      "available": null,
+      "mobility_types": [],
+      "regions": [],
+      "partner_bodies": [],
+      "evidence_based_notes": []
+    },
+    "research_and_innovation": {
+      "research_focus": "Applied research in supply chain optimization, transport logistics systems, international trade operations, and logistics analytics.",
+      "industry_projects": true
+    },
+    "facilities_and_resources": [
+      "Supply Chain Simulation Lab",
+      "Logistics Analytics Lab",
+      "Transport Planning Lab",
+      "Computer Labs",
+      "Industry Training Facilities"
+    ],
+    "industry_and_external_relations": [],
+    "vision_mission": {
+      "vision": "To deliver distinctive, high-impact education in logistics and international transport that equips graduates to compete in regional and global markets.",
+      "mission": "To prepare competent, adaptable, and industry-ready professionals in logistics and transport through modern teaching methods, practical exposure, and continuous skills development."
+    },
+    "leadership": []
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.65,
+      "math_intensity": 0.6,
+      "practical_intensity": 0.55,
+      "field_work_intensity": 0.41,
+      "research_orientation": 0.5,
+      "career_flexibility": 0.71,
+      "egypt_employability": {
+        "level": 2,
+        "score": 0.66
+      },
+      "international_employability": {
+        "level": 2,
+        "score": 0.6
+      },
+      "international_mobility_strength": {
+        "level": 1,
+        "label": "weak",
+        "score": 0.42
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "Logistics and Supply Chain Management",
+        "decision_profile": {
+          "theoretical_depth": 0.72,
+          "math_intensity": 0.55,
+          "physics_intensity": 0.45,
+          "programming_intensity": 0.35,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.72,
+          "field_work_intensity": 0.45,
+          "management_exposure": 0.68,
+          "workload_difficulty": 0.72,
+          "career_flexibility": 0.72,
+          "ai_focus": 0.38,
+          "data_focus": 0.7,
+          "software_focus": 0.48,
+          "security_focus": 0.3,
+          "hardware_focus": 0.2,
+          "business_focus": 0.84,
+          "finance_focus": 0.64,
+          "logistics_focus": 0.97,
+          "maritime_focus": 0.24,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.44,
+          "language_communication_focus": 0.68,
+          "law_policy_focus": 0.45,
+          "research_orientation": 0.57,
+          "entrepreneurship_focus": 0.74,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.74
+        },
+        "career_paths": [
+          "Supply Chain Analyst",
+          "Procurement Specialist",
+          "Warehouse Operations Manager",
+          "Demand Planning Analyst",
+          "Logistics Planner"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.72
+          },
+          "international_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          }
+        },
+        "best_fit_traits": [
+          "Interested in end-to-end operations, sourcing, and process efficiency",
+          "Comfortable coordinating inventory flows and supplier-facing decisions"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer non-technical daily work"
+        ],
+        "summary": "Heuristic profile for Logistics and Supply Chain Management focused on end-to-end supply planning, procurement coordination, and warehouse network performance.",
+        "program_family": "LOGISTICS_FAMILY",
+        "close_alternatives": [
+          "International Trade Logistics Management",
+          "Transport Logistics Management",
+          "Energy and Petroleum Logistics Management"
+        ],
+        "differentiation_notes": [
+          "Compared with International Trade Logistics Management, this profile leans more research.",
+          "Compared with Transport Logistics Management, this profile leans more research."
+        ]
+      },
+      {
+        "program_name": "International Trade Logistics Management",
+        "decision_profile": {
+          "theoretical_depth": 0.62,
+          "math_intensity": 0.51,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.28,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.45,
+          "management_exposure": 0.82,
+          "workload_difficulty": 0.62,
+          "career_flexibility": 0.7,
+          "ai_focus": 0.38,
+          "data_focus": 0.52,
+          "software_focus": 0.4,
+          "security_focus": 0.3,
+          "hardware_focus": 0.2,
+          "business_focus": 0.9,
+          "finance_focus": 0.64,
+          "logistics_focus": 0.88,
+          "maritime_focus": 0.24,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.44,
+          "language_communication_focus": 0.8,
+          "law_policy_focus": 0.78,
+          "research_orientation": 0.52,
+          "entrepreneurship_focus": 0.79,
+          "international_work_readiness": 0.88,
+          "remote_work_fit": 0.76
+        },
+        "career_paths": [
+          "Trade Compliance Analyst",
+          "Customs Compliance Specialist",
+          "Freight Forwarding Specialist",
+          "Import/Export Coordinator",
+          "Trade Documentation Specialist"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.64
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          }
+        },
+        "best_fit_traits": [
+          "Interested in cross-border movement, customs rules, and trade documentation",
+          "Comfortable with regulatory detail and coordination across ports and agencies"
+        ],
+        "avoid_if": [
+          "You dislike case-driven or business-oriented projects"
+        ],
+        "summary": "Heuristic profile for International Trade Logistics Management focused on customs processes, trade documentation, and cross-border logistics compliance.",
+        "program_family": "LOGISTICS_FAMILY",
+        "close_alternatives": [
+          "Logistics and Supply Chain Management",
+          "Transport Logistics Management",
+          "Energy and Petroleum Logistics Management"
+        ],
+        "differentiation_notes": [
+          "Compared with Logistics and Supply Chain Management, this profile leans less research.",
+          "Compared with Transport Logistics Management, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "Transport Logistics Management",
+        "decision_profile": {
+          "theoretical_depth": 0.62,
+          "math_intensity": 0.53,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.28,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.65,
+          "management_exposure": 0.84,
+          "workload_difficulty": 0.62,
+          "career_flexibility": 0.7,
+          "ai_focus": 0.38,
+          "data_focus": 0.52,
+          "software_focus": 0.4,
+          "security_focus": 0.3,
+          "hardware_focus": 0.2,
+          "business_focus": 0.82,
+          "finance_focus": 0.64,
+          "logistics_focus": 0.9,
+          "maritime_focus": 0.24,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.44,
+          "language_communication_focus": 0.64,
+          "law_policy_focus": 0.45,
+          "research_orientation": 0.52,
+          "entrepreneurship_focus": 0.79,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.46
+        },
+        "career_paths": [
+          "Transport Operations Manager",
+          "Fleet Operations Coordinator",
+          "Route Planning Analyst",
+          "Freight Forwarding Specialist",
+          "Logistics Planner"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.64
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          }
+        },
+        "best_fit_traits": [
+          "Interested in routing, fleet utilization, and day-to-day transport execution",
+          "Prefers fast-moving operational environments with scheduling decisions"
+        ],
+        "avoid_if": [
+          "You dislike case-driven or business-oriented projects"
+        ],
+        "summary": "Heuristic profile for Transport Logistics Management focused on fleet planning, route execution, and transport operations control.",
+        "program_family": "LOGISTICS_FAMILY",
+        "close_alternatives": [
+          "Logistics and Supply Chain Management",
+          "International Trade Logistics Management",
+          "Energy and Petroleum Logistics Management"
+        ],
+        "differentiation_notes": [
+          "Compared with Logistics and Supply Chain Management, this profile leans less research.",
+          "Compared with International Trade Logistics Management, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "Energy and Petroleum Logistics Management",
+        "decision_profile": {
+          "theoretical_depth": 0.62,
+          "math_intensity": 0.59,
+          "physics_intensity": 0.62,
+          "programming_intensity": 0.28,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.65,
+          "management_exposure": 0.58,
+          "workload_difficulty": 0.62,
+          "career_flexibility": 0.69,
+          "ai_focus": 0.38,
+          "data_focus": 0.52,
+          "software_focus": 0.4,
+          "security_focus": 0.3,
+          "hardware_focus": 0.2,
+          "business_focus": 0.78,
+          "finance_focus": 0.64,
+          "logistics_focus": 0.84,
+          "maritime_focus": 0.24,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.44,
+          "language_communication_focus": 0.68,
+          "law_policy_focus": 0.45,
+          "research_orientation": 0.52,
+          "entrepreneurship_focus": 0.79,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.42
+        },
+        "career_paths": [
+          "Energy Logistics Analyst",
+          "Petroleum Supply Chain Coordinator",
+          "Terminal Operations Coordinator",
+          "Procurement Specialist",
+          "Transport Operations Manager"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.64
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          }
+        },
+        "best_fit_traits": [
+          "Interested in energy-sector logistics, terminal operations, and regulated supply movement",
+          "Comfortable coordinating high-dependency operations with safety and continuity requirements"
+        ],
+        "avoid_if": [
+          "You dislike case-driven or business-oriented projects"
+        ],
+        "summary": "Heuristic profile for Energy and Petroleum Logistics Management focused on energy supply movement, terminal coordination, and petroleum distribution planning.",
+        "program_family": "LOGISTICS_FAMILY",
+        "close_alternatives": [
+          "Logistics and Supply Chain Management",
+          "International Trade Logistics Management",
+          "Transport Logistics Management"
+        ],
+        "differentiation_notes": [
+          "Compared with Logistics and Supply Chain Management, this profile leans less research.",
+          "Compared with International Trade Logistics Management, the focus balance is similar with only slight emphasis shifts."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Cairo",
+      "commute_friction_index": 0.45,
+      "relocation_friction_index": 0.55,
+      "industry_access_signal": 0.53,
+      "internship_density_signal": 0.53,
+      "campus_lifestyle_signal": 0.45,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": null
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college.college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college.name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "campus.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "campus.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "campus.name"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "college.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "programs/departments/nodes"
+      },
+      {
+        "field": "official_data.degrees_programs.professional_certificates",
+        "source_path": "professional_certificates"
+      },
+      {
+        "field": "official_data.training_and_practice.mandatory_training",
+        "source_path": "training_and_industry.mandatory_training"
+      },
+      {
+        "field": "official_data.training_and_practice.industry_training",
+        "source_path": "training_and_industry.industry_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_industry"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "college.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "college.mission"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[Logistics and Supply Chain Management]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[International Trade Logistics Management]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Transport Logistics Management]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Energy and Petroleum Logistics Management]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[Logistics and Supply Chain Management].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Logistics and Supply Chain Management].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[International Trade Logistics Management].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[International Trade Logistics Management].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Transport Logistics Management].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Transport Logistics Management].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Energy and Petroleum Logistics Management].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Energy and Petroleum Logistics Management].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Logistics and Supply Chain Management].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Logistics and Supply Chain Management].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[International Trade Logistics Management].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[International Trade Logistics Management].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Transport Logistics Management].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Transport Logistics Management].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Energy and Petroleum Logistics Management].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Energy and Petroleum Logistics Management].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.establishment.year_established",
+      "official_data.overview.short_description",
+      "official_data.overview.current_status",
+      "official_data.overview.future_prospectus",
+      "official_data.admission_requirements.entry_exams_required",
+      "official_data.admission_requirements.medical_fitness_required",
+      "official_data.admission_requirements.age_limit",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.training_and_practice.field_or_sea_training",
+      "official_data.international_mobility.available",
+      "official_data.research_and_innovation.research_focus",
+      "official_data.research_and_innovation.industry_projects",
+      "official_data.degrees_programs.postgraduate",
+      "official_data.accreditation.national",
+      "official_data.accreditation.international",
+      "official_data.admission_requirements.accepted_certificates",
+      "official_data.admission_requirements.other_conditions",
+      "official_data.student_regulations.special_conditions",
+      "official_data.international_mobility.mobility_types",
+      "official_data.international_mobility.regions",
+      "official_data.international_mobility.partner_bodies",
+      "official_data.international_mobility.evidence_based_notes",
+      "official_data.facilities_and_resources",
+      "official_data.industry_and_external_relations",
+      "official_data.leadership"
+    ],
+    "uncertain_items": [
+      "International mobility remained null due to no explicit partner/exchange/training-abroad evidence in file."
+    ],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

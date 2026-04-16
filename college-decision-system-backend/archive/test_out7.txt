@@ -1,0 +1,1050 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.10, pytest-9.0.2, pluggy-1.6.0
+rootdir: C:\Users\mh978\Downloads\college-decision - Copy (3)\college-decision-system
+configfile: pyproject.toml
+plugins: anyio-4.12.1
+collected 11 items
+
+tests\test_recommendation_endpoint.py ..F..                              [ 45%]
+tests\test_fee_system_hardening.py ...F..                                [100%]
+
+================================== FAILURES ===================================
+________ test_recommend_engineering_case_returns_engineering_programs _________
+
+    def test_recommend_engineering_case_returns_engineering_programs() -> None:
+        client = TestClient(app)
+        response = client.post(
+            "/api/v1/decisions/recommend",
+            json=_build_payload(interest="engineering", budget=7000),
+        )
+    
+        assert response.status_code == 200, response.text
+        recommendations = response.json()["recommendations"]
+    
+        assert recommendations
+        import json
+        print("RECOMMENDATIONS:\n", json.dumps(recommendations, indent=2))
+>       assert any(
+            "engineering" in item["program_name"].lower()
+            or "engineering" in item["college_name"].lower()
+            for item in recommendations
+        )
+E       assert False
+E        +  where False = any(<generator object test_recommend_engineering_case_returns_engineering_programs.<locals>.<genexpr> at 0x0000017FDE87C820>)
+
+tests\test_recommendation_endpoint.py:103: AssertionError
+---------------------------- Captured stdout call -----------------------------
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CMT_ALAMEIN
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: ALAMEIN_GENERAL_SECONDARY_MT_CITL_SINGLE_CUTOFF
+  Matched Category: A
+  [DEBUG] Additional Fee: partner_university_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CMT_HELIOPOLIS
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CMT_SOUTH_VALLEY
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CET_ALAMEIN
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: ALAMEIN_GENERAL_SECONDARY_ENGINEERING_UCLAN
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: ARCH_CULTURAL_HERITAGE_SOUTH_VALLEY
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: NONE
+  [DEBUG] Missing Data Penalty Base: 0.15, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CET_ABUKIR
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_ENGINEERING
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CET_CAIRO_HELIOPOLIS
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_ENGINEERING
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CET_LATAKIA
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_ENGINEERING
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CET_SOUTH_VALLEY
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_ENGINEERING
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CCIT_ABUKIR
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CCIT_SMART_VILLAGE
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CLC_MIAMI
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CLC_SMART_VILLAGE
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Additional Fee: partner_university_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Additional Fee: partner_university_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: DENT_ELALAMEIN
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: ALAMEIN_GENERAL_SECONDARY_DENTISTRY
+  Matched Category: B
+  [DEBUG] Additional Fee: partner_university_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CFAT_ABUKIR
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_FISHERIES_LAW_ARCHAEOLOGY
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: LAW_SMART_VILLAGE
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_FISHERIES_LAW_ARCHAEOLOGY
+  Matched Category: A
+  [DEBUG] Additional Fee: partner_university_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: MED_ELALAMEIN
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: ALAMEIN_GENERAL_SECONDARY_MEDICINE_OTHER_STATES
+  Matched Category: B
+  [DEBUG] Missing Data Penalty Base: 0.15, Unavailable: False, Incomplete: True
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: PHARM_ABUKIR
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_PHARMACY
+  Matched Category: B
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Additional Fee: partner_university_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Additional Fee: partner_university_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CMT_MIAMI
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CMT_DOKKI
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CCIT_HELIOPOLIS
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CCIT_SOUTH_VALLEY
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CAI_EL_ALAMEIN
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: ALAMEIN_GENERAL_SECONDARY_AI
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: GSB_MIAMI
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: NONE
+  [DEBUG] Missing Data Penalty Base: 0.15, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: PHARM_ELALAMEIN
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: ALAMEIN_GENERAL_SECONDARY_PHARMACY
+  Matched Category: B
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CITL_DOKKI
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CITL_EL_ALAMEIN
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: ALAMEIN_GENERAL_SECONDARY_MT_CITL_SINGLE_CUTOFF
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.15000000000000002, Unavailable: False, Incomplete: True
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CITL_HELIOPOLIS
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CAD_SMART_VILLAGE
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.15000000000000002, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CITL_PORT_SAID
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CITL_ABUKIR
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.15000000000000002, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: CITL_SMART_VILLAGE
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.15, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.15000000000000002, Unavailable: False, Incomplete: True
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+RECOMMENDATIONS:
+ [
+  {
+    "program_id": "CCIT_HELIOPOLIS__COMPUTER_SCIENCE",
+    "program_name": "Computer Science",
+    "college_id": "CCIT_HELIOPOLIS",
+    "college_name": "College of Computing and Information Technology",
+    "confidence_level": "High",
+    "score": 87.13,
+    "recommendation_score": 87.13,
+    "match_type": "Exact",
+    "fee_category": "A",
+    "fee_category_confidence": "medium",
+    "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00.",
+    "matched_fee_category": "A",
+    "estimated_semester_fee": 5165.0,
+    "additional_recurring_fees": 0.0,
+    "additional_one_time_fees": 0.0,
+    "additional_one_time_fees_total": 0.0,
+    "additional_one_time_fees_breakdown": [],
+    "one_time_fees": 0.0,
+    "currency": "USD",
+    "academic_year": "2025/2026",
+    "fee_mode": "per_semester",
+    "fee_match_level": "program",
+    "fee_match_source": "program_inferred",
+    "fee_match_confidence": "high",
+    "tuition_unavailable": false,
+    "fee_data_incomplete": false,
+    "used_college_fallback": false,
+    "warnings": [
+      "Engineering interest scoring used neutral defaults for missing profile dimensions.",
+      "Training intensity was derived from partial data and blended with neutral defaults.",
+      "Requested certificate type was not found in the college's accepted certificate list.",
+      "Recommendation confidence was reduced because decision data was incomplete."
+    ],
+    "affordability_label": "affordable",
+    "training_intensity": "high",
+    "derived_training_intensity_label": "high",
+    "score_breakdown": {
+      "interest_alignment": 89.92,
+      "interest_alignment_contribution": 28.77,
+      "affordability": 100.0,
+      "affordability_contribution": 28.0,
+      "employment_outlook": 75.0,
+      "employment_outlook_contribution": 15.0,
+      "location_preference": 55.0,
+      "location_preference_contribution": 5.5,
+      "career_flexibility": 82.0,
+      "career_flexibility_contribution": 4.1,
+      "certificate_compatibility": 35.0,
+      "certificate_compatibility_contribution": 1.75,
+      "training_intensity_signal": 71.0,
+      "decision_data_completeness": 90.0,
+      "missing_data_penalty": 0.0,
+      "total": 87.13,
+      "fee_status": "Verified"
+    },
+    "explanation_summary": "Matched interests: engineering. Estimated semester tuition fits the stated budget. Employment outlook is strong relative to other options. Derived training intensity is high.",
+    "matched_interests": [
+      "engineering"
+    ],
+    "fee_resolution_note": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00. Used a confident program-level fee mapping inferred from the fee dataset. Fee item CCIT__REGULAR inferred program match score 1.00 for program Computer Science.",
+    "fee_details": {
+      "fee_category": "A",
+      "fee_category_confidence": "medium",
+      "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00.",
+      "fee_match_level": "program",
+      "fee_match_source": "program_inferred",
+      "fee_match_confidence": "high",
+      "estimated_semester_fee": 5165.0,
+      "recurring_total": 5165.0,
+      "additional_recurring_fees_total": 0.0,
+      "additional_recurring_fees_breakdown": [],
+      "additional_one_time_fees_total": 0.0,
+      "additional_one_time_fees_breakdown": [],
+      "unknown_frequency_fees_total": 0.0,
+      "unknown_frequency_fees_breakdown": [],
+      "currency": "USD",
+      "academic_year": "2025/2026",
+      "fee_mode": "per_semester",
+      "tuition_unavailable": false,
+      "fee_data_incomplete": false,
+      "used_college_fallback": false,
+      "warnings": []
+    },
+    "decision_data_completeness": {
+      "has_profile": true,
+      "has_training_data": true,
+      "has_employment_data": true,
+      "has_admission_data": true,
+      "completeness_score": 90.0,
+      "missing_fields": [
+        "decision_program_decision_profiles.energy_sector_focus",
+        "decision_training_and_practice.field_or_sea_training"
+      ],
+      "warnings": [
+        "Engineering interest scoring used neutral defaults for missing profile dimensions.",
+        "Training intensity was derived from partial data and blended with neutral defaults.",
+        "Requested certificate type was not found in the college's accepted certificate list.",
+        "Recommendation confidence was reduced because decision data was incomplete."
+      ]
+    },
+    "location_note": null
+  },
+  {
+    "program_id": "CCIT_SMART_VILLAGE__COMPUTER_SCIENCE",
+    "program_name": "Computer Science",
+    "college_id": "CCIT_SMART_VILLAGE",
+    "college_name": "College of Computing and Information Technology",
+    "confidence_level": "High",
+    "score": 87.13,
+    "recommendation_score": 87.13,
+    "match_type": "Exact",
+    "fee_category": "A",
+    "fee_category_confidence": "medium",
+    "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00.",
+    "matched_fee_category": "A",
+    "estimated_semester_fee": 5165.0,
+    "additional_recurring_fees": 0.0,
+    "additional_one_time_fees": 0.0,
+    "additional_one_time_fees_total": 0.0,
+    "additional_one_time_fees_breakdown": [],
+    "one_time_fees": 0.0,
+    "currency": "USD",
+    "academic_year": "2025/2026",
+    "fee_mode": "per_semester",
+    "fee_match_level": "program",
+    "fee_match_source": "program_inferred",
+    "fee_match_confidence": "high",
+    "tuition_unavailable": false,
+    "fee_data_incomplete": false,
+    "used_college_fallback": false,
+    "warnings": [
+      "Engineering interest scoring used neutral defaults for missing profile dimensions.",
+      "Training intensity was derived from partial data and blended with neutral defaults.",
+      "Requested certificate type was not found in the college's accepted certificate list.",
+      "Recommendation confidence was reduced because decision data was incomplete."
+    ],
+    "affordability_label": "affordable",
+    "training_intensity": "medium",
+    "derived_training_intensity_label": "medium",
+    "score_breakdown": {
+      "interest_alignment": 89.92,
+      "interest_alignment_contribution": 28.77,
+      "affordability": 100.0,
+      "affordability_contribution": 28.0,
+      "employment_outlook": 75.0,
+      "employment_outlook_contribution": 15.0,
+      "location_preference": 55.0,
+      "location_preference_contribution": 5.5,
+      "career_flexibility": 82.0,
+      "career_flexibility_contribution": 4.1,
+      "certificate_compatibility": 35.0,
+      "certificate_compatibility_contribution": 1.75,
+      "training_intensity_signal": 61.0,
+      "decision_data_completeness": 85.0,
+      "missing_data_penalty": 0.0,
+      "total": 87.13,
+      "fee_status": "Verified"
+    },
+    "explanation_summary": "Matched interests: engineering. Estimated semester tuition fits the stated budget. Employment outlook is strong relative to other options. Derived training intensity is medium.",
+    "matched_interests": [
+      "engineering"
+    ],
+    "fee_resolution_note": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00. Used a confident program-level fee mapping inferred from the fee dataset. Fee item CCIT__REGULAR inferred program match score 1.00 for program Computer Science.",
+    "fee_details": {
+      "fee_category": "A",
+      "fee_category_confidence": "medium",
+      "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00.",
+      "fee_match_level": "program",
+      "fee_match_source": "program_inferred",
+      "fee_match_confidence": "high",
+      "estimated_semester_fee": 5165.0,
+      "recurring_total": 5165.0,
+      "additional_recurring_fees_total": 0.0,
+      "additional_recurring_fees_breakdown": [],
+      "additional_one_time_fees_total": 0.0,
+      "additional_one_time_fees_breakdown": [],
+      "unknown_frequency_fees_total": 0.0,
+      "unknown_frequency_fees_breakdown": [],
+      "currency": "USD",
+      "academic_year": "2025/2026",
+      "fee_mode": "per_semester",
+      "tuition_unavailable": false,
+      "fee_data_incomplete": false,
+      "used_college_fallback": false,
+      "warnings": []
+    },
+    "decision_data_completeness": {
+      "has_profile": true,
+      "has_training_data": true,
+      "has_employment_data": true,
+      "has_admission_data": true,
+      "completeness_score": 85.0,
+      "missing_fields": [
+        "decision_program_decision_profiles.energy_sector_focus",
+        "decision_training_and_practice.industry_training",
+        "decision_training_and_practice.field_or_sea_training"
+      ],
+      "warnings": [
+        "Engineering interest scoring used neutral defaults for missing profile dimensions.",
+        "Training intensity was derived from partial data and blended with neutral defaults.",
+        "Requested certificate type was not found in the college's accepted certificate list.",
+        "Recommendation confidence was reduced because decision data was incomplete."
+      ]
+    },
+    "location_note": null
+  },
+  {
+    "program_id": "CITL_PORT_SAID__PETROLEUM_AND_ENERGY_LOGISTICS_MANAGEMENT",
+    "program_name": "Petroleum and Energy Logistics Management",
+    "college_id": "CITL_PORT_SAID",
+    "college_name": "College of International Transport and Logistics \u2013 Port Said",
+    "confidence_level": "High",
+    "score": 86.93,
+    "recommendation_score": 86.93,
+    "match_type": "Exact",
+    "fee_category": "A",
+    "fee_category_confidence": "medium",
+    "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART matched via college alias match, student-group default student-group fallback, and threshold min 65.00.",
+    "matched_fee_category": "A",
+    "estimated_semester_fee": 4985.0,
+    "additional_recurring_fees": 0.0,
+    "additional_one_time_fees": 0.0,
+    "additional_one_time_fees_total": 0.0,
+    "additional_one_time_fees_breakdown": [],
+    "one_time_fees": 0.0,
+    "currency": "USD",
+    "academic_year": "2025/2026",
+    "fee_mode": "per_semester",
+    "fee_match_level": "program",
+    "fee_match_source": "program_inferred",
+    "fee_match_confidence": "medium",
+    "tuition_unavailable": false,
+    "fee_data_incomplete": false,
+    "used_college_fallback": false,
+    "warnings": [
+      "Training intensity was derived from partial data and blended with neutral defaults.",
+      "Recommendation confidence was reduced because decision data was incomplete."
+    ],
+    "affordability_label": "affordable",
+    "training_intensity": "high",
+    "derived_training_intensity_label": "high",
+    "score_breakdown": {
+      "interest_alignment": 89.8,
+      "interest_alignment_contribution": 28.74,
+      "affordability": 100.0,
+      "affordability_contribution": 28.0,
+      "employment_outlook": 61.0,
+      "employment_outlook_contribution": 12.2,
+      "location_preference": 55.0,
+      "location_preference_contribution": 5.5,
+      "career_flexibility": 68.0,
+      "career_flexibility_contribution": 3.4,
+      "certificate_compatibility": 100.0,
+      "certificate_compatibility_contribution": 5.0,
+      "training_intensity_signal": 73.0,
+      "decision_data_completeness": 95.0,
+      "missing_data_penalty": 0.0,
+      "total": 86.93,
+      "fee_status": "Verified"
+    },
+    "explanation_summary": "Matched interests: engineering. Estimated semester tuition fits the stated budget. Employment outlook is moderate. Derived training intensity is high.",
+    "matched_interests": [
+      "engineering"
+    ],
+    "fee_resolution_note": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART matched via college alias match, student-group default student-group fallback, and threshold min 65.00. Used a confident program-level fee mapping inferred from the fee dataset. Fee item CITL_ENGLISH__REGULAR inferred program match score 0.92 for program Petroleum and Energy Logistics Management.",
+    "fee_details": {
+      "fee_category": "A",
+      "fee_category_confidence": "medium",
+      "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART matched via college alias match, student-group default student-group fallback, and threshold min 65.00.",
+      "fee_match_level": "program",
+      "fee_match_source": "program_inferred",
+      "fee_match_confidence": "medium",
+      "estimated_semester_fee": 4985.0,
+      "recurring_total": 4985.0,
+      "additional_recurring_fees_total": 0.0,
+      "additional_recurring_fees_breakdown": [],
+      "additional_one_time_fees_total": 0.0,
+      "additional_one_time_fees_breakdown": [],
+      "unknown_frequency_fees_total": 0.0,
+      "unknown_frequency_fees_breakdown": [],
+      "currency": "USD",
+      "academic_year": "2025/2026",
+      "fee_mode": "per_semester",
+      "tuition_unavailable": false,
+      "fee_data_incomplete": false,
+      "used_college_fallback": false,
+      "warnings": []
+    },
+    "decision_data_completeness": {
+      "has_profile": true,
+      "has_training_data": true,
+      "has_employment_data": true,
+      "has_admission_data": true,
+      "completeness_score": 95.0,
+      "missing_fields": [
+        "decision_training_and_practice.field_or_sea_training"
+      ],
+      "warnings": [
+        "Training intensity was derived from partial data and blended with neutral defaults.",
+        "Recommendation confidence was reduced because decision data was incomplete."
+      ]
+    },
+    "location_note": null
+  },
+  {
+    "program_id": "CCIT_HELIOPOLIS__CYBERSECURITY",
+    "program_name": "Cybersecurity",
+    "college_id": "CCIT_HELIOPOLIS",
+    "college_name": "College of Computing and Information Technology",
+    "confidence_level": "High",
+    "score": 86.73,
+    "recommendation_score": 86.73,
+    "match_type": "Exact",
+    "fee_category": "A",
+    "fee_category_confidence": "medium",
+    "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00.",
+    "matched_fee_category": "A",
+    "estimated_semester_fee": 5165.0,
+    "additional_recurring_fees": 0.0,
+    "additional_one_time_fees": 0.0,
+    "additional_one_time_fees_total": 0.0,
+    "additional_one_time_fees_breakdown": [],
+    "one_time_fees": 0.0,
+    "currency": "USD",
+    "academic_year": "2025/2026",
+    "fee_mode": "per_semester",
+    "fee_match_level": "program",
+    "fee_match_source": "program_inferred",
+    "fee_match_confidence": "high",
+    "tuition_unavailable": false,
+    "fee_data_incomplete": false,
+    "used_college_fallback": false,
+    "warnings": [
+      "Engineering interest scoring used neutral defaults for missing profile dimensions.",
+      "Training intensity was derived from partial data and blended with neutral defaults.",
+      "Requested certificate type was not found in the college's accepted certificate list.",
+      "Recommendation confidence was reduced because decision data was incomplete."
+    ],
+    "affordability_label": "affordable",
+    "training_intensity": "high",
+    "derived_training_intensity_label": "high",
+    "score_breakdown": {
+      "interest_alignment": 87.76,
+      "interest_alignment_contribution": 28.08,
+      "affordability": 100.0,
+      "affordability_contribution": 28.0,
+      "employment_outlook": 85.0,
+      "employment_outlook_contribution": 17.0,
+      "location_preference": 55.0,
+      "location_preference_contribution": 5.5,
+      "career_flexibility": 78.0,
+      "career_flexibility_contribution": 3.9,
+      "certificate_compatibility": 35.0,
+      "certificate_compatibility_contribution": 1.75,
+      "training_intensity_signal": 73.0,
+      "decision_data_completeness": 90.0,
+      "missing_data_penalty": 0.0,
+      "total": 86.73,
+      "fee_status": "Verified"
+    },
+    "explanation_summary": "Matched interests: engineering. Estimated semester tuition fits the stated budget. Employment outlook is strong relative to other options. Derived training intensity is high.",
+    "matched_interests": [
+      "engineering"
+    ],
+    "fee_resolution_note": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00. Used a confident program-level fee mapping inferred from the fee dataset. Fee item CCIT__REGULAR inferred program match score 1.00 for program Cybersecurity.",
+    "fee_details": {
+      "fee_category": "A",
+      "fee_category_confidence": "medium",
+      "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00.",
+      "fee_match_level": "program",
+      "fee_match_source": "program_inferred",
+      "fee_match_confidence": "high",
+      "estimated_semester_fee": 5165.0,
+      "recurring_total": 5165.0,
+      "additional_recurring_fees_total": 0.0,
+      "additional_recurring_fees_breakdown": [],
+      "additional_one_time_fees_total": 0.0,
+      "additional_one_time_fees_breakdown": [],
+      "unknown_frequency_fees_total": 0.0,
+      "unknown_frequency_fees_breakdown": [],
+      "currency": "USD",
+      "academic_year": "2025/2026",
+      "fee_mode": "per_semester",
+      "tuition_unavailable": false,
+      "fee_data_incomplete": false,
+      "used_college_fallback": false,
+      "warnings": []
+    },
+    "decision_data_completeness": {
+      "has_profile": true,
+      "has_training_data": true,
+      "has_employment_data": true,
+      "has_admission_data": true,
+      "completeness_score": 90.0,
+      "missing_fields": [
+        "decision_program_decision_profiles.energy_sector_focus",
+        "decision_training_and_practice.field_or_sea_training"
+      ],
+      "warnings": [
+        "Engineering interest scoring used neutral defaults for missing profile dimensions.",
+        "Training intensity was derived from partial data and blended with neutral defaults.",
+        "Requested certificate type was not found in the college's accepted certificate list.",
+        "Recommendation confidence was reduced because decision data was incomplete."
+      ]
+    },
+    "location_note": null
+  },
+  {
+    "program_id": "CCIT_SMART_VILLAGE__CYBERSECURITY",
+    "program_name": "Cybersecurity",
+    "college_id": "CCIT_SMART_VILLAGE",
+    "college_name": "College of Computing and Information Technology",
+    "confidence_level": "High",
+    "score": 86.73,
+    "recommendation_score": 86.73,
+    "match_type": "Exact",
+    "fee_category": "A",
+    "fee_category_confidence": "medium",
+    "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00.",
+    "matched_fee_category": "A",
+    "estimated_semester_fee": 5165.0,
+    "additional_recurring_fees": 0.0,
+    "additional_one_time_fees": 0.0,
+    "additional_one_time_fees_total": 0.0,
+    "additional_one_time_fees_breakdown": [],
+    "one_time_fees": 0.0,
+    "currency": "USD",
+    "academic_year": "2025/2026",
+    "fee_mode": "per_semester",
+    "fee_match_level": "program",
+    "fee_match_source": "program_inferred",
+    "fee_match_confidence": "high",
+    "tuition_unavailable": false,
+    "fee_data_incomplete": false,
+    "used_college_fallback": false,
+    "warnings": [
+      "Engineering interest scoring used neutral defaults for missing profile dimensions.",
+      "Training intensity was derived from partial data and blended with neutral defaults.",
+      "Requested certificate type was not found in the college's accepted certificate list.",
+      "Recommendation confidence was reduced because decision data was incomplete."
+    ],
+    "affordability_label": "affordable",
+    "training_intensity": "medium",
+    "derived_training_intensity_label": "medium",
+    "score_breakdown": {
+      "interest_alignment": 87.76,
+      "interest_alignment_contribution": 28.08,
+      "affordability": 100.0,
+      "affordability_contribution": 28.0,
+      "employment_outlook": 85.0,
+      "employment_outlook_contribution": 17.0,
+      "location_preference": 55.0,
+      "location_preference_contribution": 5.5,
+      "career_flexibility": 78.0,
+      "career_flexibility_contribution": 3.9,
+      "certificate_compatibility": 35.0,
+      "certificate_compatibility_contribution": 1.75,
+      "training_intensity_signal": 63.0,
+      "decision_data_completeness": 85.0,
+      "missing_data_penalty": 0.0,
+      "total": 86.73,
+      "fee_status": "Verified"
+    },
+    "explanation_summary": "Matched interests: engineering. Estimated semester tuition fits the stated budget. Employment outlook is strong relative to other options. Derived training intensity is medium.",
+    "matched_interests": [
+      "engineering"
+    ],
+    "fee_resolution_note": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00. Used a confident program-level fee mapping inferred from the fee dataset. Fee item CCIT__REGULAR inferred program match score 1.00 for program Cybersecurity.",
+    "fee_details": {
+      "fee_category": "A",
+      "fee_category_confidence": "medium",
+      "fee_resolution_reason": "Normalized certificate type 'Egyptian Thanaweya Amma (Science)' to 'egyptian_secondary_or_nile_or_stem_or_azhar'. Rule GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT matched via college alias match, student-group default student-group fallback, and threshold min 70.00.",
+      "fee_match_level": "program",
+      "fee_match_source": "program_inferred",
+      "fee_match_confidence": "high",
+      "estimated_semester_fee": 5165.0,
+      "recurring_total": 5165.0,
+      "additional_recurring_fees_total": 0.0,
+      "additional_recurring_fees_breakdown": [],
+      "additional_one_time_fees_total": 0.0,
+      "additional_one_time_fees_breakdown": [],
+      "unknown_frequency_fees_total": 0.0,
+      "unknown_frequency_fees_breakdown": [],
+      "currency": "USD",
+      "academic_year": "2025/2026",
+      "fee_mode": "per_semester",
+      "tuition_unavailable": false,
+      "fee_data_incomplete": false,
+      "used_college_fallback": false,
+      "warnings": []
+    },
+    "decision_data_completeness": {
+      "has_profile": true,
+      "has_training_data": true,
+      "has_employment_data": true,
+      "has_admission_data": true,
+      "completeness_score": 85.0,
+      "missing_fields": [
+        "decision_program_decision_profiles.energy_sector_focus",
+        "decision_training_and_practice.industry_training",
+        "decision_training_and_practice.field_or_sea_training"
+      ],
+      "warnings": [
+        "Engineering interest scoring used neutral defaults for missing profile dimensions.",
+        "Training intensity was derived from partial data and blended with neutral defaults.",
+        "Requested certificate type was not found in the college's accepted certificate list.",
+        "Recommendation confidence was reduced because decision data was incomplete."
+      ]
+    },
+    "location_note": null
+  }
+]
+_________________ test_no_fee_match_keeps_recommendation_safe _________________
+
+fee_test_client = <starlette.testclient.TestClient object at 0x0000017FDEA47730>
+
+    def test_no_fee_match_keeps_recommendation_safe(fee_test_client: TestClient) -> None:
+        response = fee_test_client.post(
+            "/api/v1/decisions/recommend",
+            json=_payload(interest="Unknown Fees", budget=3000),
+        )
+    
+        assert response.status_code == 200, response.text
+        recommendations = response.json()["recommendations"]
+        unknown_fee_entry = next(
+            item for item in recommendations if item["program_id"] == "TEST_COLLEGE_B__UNKNOWN_FEES"
+        )
+    
+>       assert unknown_fee_entry["fee_match_level"] == "none"
+E       AssertionError: assert 'branch_fallback' == 'none'
+E         
+E         - none
+E         + branch_fallback
+
+..\..\college-decision\college-decision-system\tests\test_fee_system_hardening.py:470: AssertionError
+---------------------------- Captured stdout call -----------------------------
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: TEST_COLLEGE_A
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: TEST_RULE_A
+  Matched Category: A
+  [DEBUG] Additional Fee: services_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Additional Fee: services_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Missing Data Penalty Base: 0.05, Unavailable: False, Incomplete: False
+  [DEBUG] Additional Fee: lab_fee, freq='per_semester', norm='per_semester'
+  [DEBUG] Additional Fee: registration_fee, freq='one_time', norm='one_time'
+  [DEBUG] Missing Data Penalty Base: 0.0, Unavailable: False, Incomplete: False
+
+[DEBUG] FeeCategoryResolver.resolve START
+  Input Cert: Egyptian Thanaweya Amma (Science)
+  Input Group: other_states
+  Input Score: 85.0
+  College ID: TEST_COLLEGE_B
+  Normalized Cert: egyptian_secondary_or_nile_or_stem_or_azhar
+  Resolution Match: TEST_RULE_B
+  Matched Category: A
+  [DEBUG] Missing Data Penalty Base: 0.15, Unavailable: False, Incomplete: False
+============================== warnings summary ===============================
+..\..\..\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\_python_version_support.py:275
+  C:\Users\mh978\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.10) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+    warnings.warn(message, FutureWarning)
+
+app\application\services\agent_service.py:4
+  C:\Users\mh978\Downloads\college-decision - Copy (3)\college-decision-system\app\application\services\agent_service.py:4: FutureWarning: 
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving 
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_recommendation_endpoint.py::test_recommend_engineering_case_returns_engineering_programs
+FAILED tests/test_fee_system_hardening.py::test_no_fee_match_keeps_recommendation_safe
+================== 2 failed, 9 passed, 2 warnings in 24.54s ===================

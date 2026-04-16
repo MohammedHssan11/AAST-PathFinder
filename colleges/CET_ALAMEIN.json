@@ -1,0 +1,95 @@
+{
+  "college_id": "CET_ALAMEIN",
+  "college_name": "College of Engineering & Technology Alamein",
+
+  "raw_text": "cet alamein\nVision\n\nTo emerge as a regional leader in education of Science, Technology, Engineering, Arts, Mathematics and Medicine “STEAMM”.\n\nMission\n\nThe mission of the College of Engineering and Technology – Alamein Branch is to efficiently integrate all of its facilities, and resources to prepare young generations for the requirements of the knowledge-based societies and to proactively provide competitive, intellectual, and market-driven academic programs, research, and community services and pledges strong collaboration between CoET College, staff members, students, researchers, alumni, and industrial and business leaders. Further to maintain and develop long term and lasting partnerships with Arab institutions, and internationally acknowledged bodies. For that goal also, the Arab Academy for Science, Technology and Maritime Transport AASTMT, presented by the College of Engineering and Technology – Alamein Branch, made an agreement with the University of Central Lancashire UCLan in Preston-UK, to launch a special international program as a Dual Degree through mutual courses programs which already started.\n\nSince its creation in 2019, the newly introduced College of Engineering & Technology at the Alamein Smart Campus is committed to educate the next generation of engineering leaders and to serve society through its newly erected smart campus and state of the art facilities through special educational courses programs to students and the local/regional labor markets.\n\nThe College of Engineering and Technology (Alamein) made an agreement with the University of Central Lancashire UCLan, in Preston-UK, to establish a Dual Degree through mutual courses programs, which will be increased in the near future to help students to earn two credentials in distinct fields.\n\nThe College of Engineering and Technology, at AASTMT - Alamein Branch, was created to increase the UptoDate in learning, practicing and training in many fields of engineering. Since the first day, the colleg gave all its attention to present a Dual Degree programs with remarkable and finest Universities in the world. The University of Central Lancashire UCLan in UK collaborates with CoET to award students by a Bachelor of Engineering degree through two certificates; the first from the Arab Academy for Science and Technology AASTMT and the second from the College of Engineering, UCLan University, England - UK, Both options can help bachelors to access a wider array of career opportunities with excellence basics. CoET presents 10 programs of Engineering:\n\nArchitectural and Environmental Design\nMechanical / Mechatronics Engineering\nEnergy Engineering\nConstruction and Building Engineering\nChemical and Petrochemical Engineering\nIndustrial and Management Engineering\nElectronics and Communications Engineering\nComputer Engineering\nAerospace Engineering\nBiomedical Engineering\n\nThe Colleage of Engineering and Technology at Alamein Branch serves many facilities which we resume in brief:\n\nStudent Dorms\nMedical Care\nCDC (Career Development Center)\nTransportation\nState of the art modern laboratories in all specializations\nBanks and Online payment\nLibrary and e-Library\nRestaurants and cafeterias\nSports fields and gyms\nStudents clubs and activities / excursion\nProfessional Institutes Branches as: IEEE / ASME / ASHREA, etc.\n\nThe primary goal of the college is to achieve excellence in all educational services provided, through the effective implementation of the concept of continuous improvement, as well as success in obtaining and renewing all local and international educational services.\n\nIn 1990, the college of engineering was first established at AASTMT’s Abou Qir campus and about 30 years later, we are witnessing the dawn of our newest campus in new Alamein city since 2020.\n\nThe new Alamein campus is built on approximately 62 acres of land and has a student capacity of 10,000. It encompasses 8 buildings- 4 of which belong to the College of Engineering and Technology. The smart campus makes use of IoT and other technological advances. Moreover, an Innovation Hub will serve students, guests and industries and specializes in research and development of social problems.\n\nThe faculty of engineering at the new Alamein campus offers 10 bespoke international programs through dual degrees with the University of Central Lancashire UCLan of UK and multiple concentrations including Architectural Engineering and Environmental Design, Construction Engineering, Chemical and Petrochemical Engineering, Mechanical-Mechatronics-Automotive Engineering, Electronics Engineering, Industrial Management Engineering, Electrical Energy Engineering, Mechanical Engineering, Biomedical Engineering, Aerospace Engineering and Computer Engineering.\n\nNumerous minors are offered including entrepreneurship, mathematics, environmental science and artificial intelligence.\n\nAASTMT's vision is to emerge as a regional leader in STEAM education.\n\nProf. Ahmed F. Elsafty\nDean of College of Engineering & Technology",
+
+  "location": {
+    "city": "New Alamein",
+    "country": "Egypt",
+    "branch": "Alamein"
+  },
+
+  "establishment": {
+    "year_established": 2019,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "degrees_programs": {
+    "undergraduate": [
+      "Architectural Engineering and Environmental Design",
+      "Mechanical / Mechatronics Engineering",
+      "Energy Engineering",
+      "Construction and Building Engineering",
+      "Chemical and Petrochemical Engineering",
+      "Industrial and Management Engineering",
+      "Electronics and Communications Engineering",
+      "Computer Engineering",
+      "Aerospace Engineering",
+      "Biomedical Engineering"
+    ],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+
+  "accreditation": {
+    "national": [],
+    "international": []
+  },
+
+  "training_and_practice": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "sea_or_field_training": null,
+    "description": "The college emphasizes learning, practicing and training in engineering fields through state of the art laboratories, dual degree programs, and practical exposure aligned with labor market needs."
+  },
+
+  "industry_and_international_relations": [
+    "University of Central Lancashire (UCLan)",
+    "IEEE",
+    "ASME",
+    "ASHRAE"
+  ],
+
+  "facilities_and_resources": [
+    "Student Dormitories",
+    "Medical Care Facilities",
+    "Career Development Center (CDC)",
+    "Transportation Services",
+    "Modern Engineering Laboratories",
+    "Banks and Online Payment Facilities",
+    "Library and e-Library",
+    "Restaurants and Cafeterias",
+    "Sports Fields and Gyms",
+    "Student Clubs and Activities",
+    "Innovation Hub"
+  ],
+
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": null
+  },
+
+  "research_and_innovation": {
+    "research_focus": "Research and development addressing social problems through the Innovation Hub and collaboration with industry and international partners.",
+    "industry_projects": true
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": null,
+    "qa_description": null
+  },
+
+  "vision_mission": {
+    "vision": "To emerge as a regional leader in education of Science, Technology, Engineering, Arts, Mathematics and Medicine “STEAMM”.",
+    "mission": "The mission of the College of Engineering and Technology – Alamein Branch is to efficiently integrate all of its facilities and resources to prepare young generations for the requirements of the knowledge-based societies and to proactively provide competitive, intellectual, and market-driven academic programs, research, and community services while maintaining strong collaboration with industry and international partners."
+  },
+
+  "extra_sections": {
+    "Campus Capacity and Infrastructure": "The Alamein campus is built on approximately 62 acres with a student capacity of 10,000 and includes 8 buildings, 4 of which belong to the College of Engineering and Technology.",
+    "Leadership": "Prof. Ahmed F. Elsafty – Dean of College of Engineering & Technology"
+  }
+}

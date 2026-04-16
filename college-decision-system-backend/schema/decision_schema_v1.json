@@ -1,0 +1,80 @@
+{
+  "version": "decision_schema_v1",
+  "source": {
+    "file_name": "",
+    "data_source_type": "official",
+    "last_updated": ""
+  },
+  "campus": {
+    "campus_id": "",
+    "name": "",
+    "city": "",
+    "country": "Egypt"
+  },
+  "college": {
+    "college_id": "",
+    "name": "",
+    "parent_institution": "",
+    "branch": "",
+    "overview": ""
+  },
+  "programs": [
+    {
+      "program_id": "",
+      "college_id": "",
+      "name": "",
+      "level": "Unknown",
+      "discipline": "unknown",
+      "duration_years": null,
+      "teaching_language": "Unknown",
+
+      "admission_rules": {
+        "min_score": null,
+        "certificate_types": [],
+        "mandatory_subjects": []
+      },
+
+      "decision_profile": {
+        "theoretical_intensity": null,
+        "practical_intensity": null,
+        "technology_dependency": null,
+        "project_dependency": null,
+        "group_work_dependency": null,
+        "research_orientation": null,
+
+        "creative_intensity": null,
+        "portfolio_dependency": null,
+
+        "workload_level": null,
+        "deadline_pressure": null,
+        "evaluation_style": "unknown",
+        "failure_risk": null,
+
+        "training": {
+          "mandatory_training": null,
+          "industry_training": null,
+          "training_style": "unknown",
+          "industry_alignment": null
+        },
+
+        "career_outcomes": {
+          "common_roles": [],
+          "employment_sectors": [],
+          "employability_level": null,
+          "international_mobility": null
+        },
+
+        "student_fit_model": {
+          "best_for": [],
+          "less_suitable_for": []
+        }
+      },
+
+      "system_flags": {
+        "decision_ready": false,
+        "data_completeness": "low",
+        "supports_cross_college_comparison": false
+      }
+    }
+  ]
+}

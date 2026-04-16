@@ -1,0 +1,25 @@
+services:
+  # Backend Service
+  backend:
+    build:
+      context: ./college-decision-system-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./college-decision-system-backend:/app
+      - /app/node_modules # Prevents local overwriting
+    env_file:
+      - ./college-decision-system-backend/.env
+    environment:
+      - DATABASE_URL=sqlite:///./dev.db
+    restart: always
+
+  # Frontend Service
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always

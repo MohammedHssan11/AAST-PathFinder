@@ -1,0 +1,168 @@
+{
+  "campus": {
+    "campus_id": "SMART_VILLAGE",
+    "name": "Smart Village Campus",
+    "city": "Giza",
+    "country": "Egypt",
+    "description": "Technology-focused campus located within Egypt’s Smart Village, integrating logistics education with digital infrastructure and modern business environments."
+  },
+
+  "college": {
+    "college_id": "CITL_SMART_VILLAGE",
+    "name": "College of International Transport and Logistics – Smart Village",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Digitally oriented logistics and transport college emphasizing modern supply chains, international standards, and technology-enabled education.",
+
+    "vision": "To promote excellence in transport, logistics, and supply chain education across Egypt, the Arab region, and Africa through innovation, quality, and international integration.",
+
+    "mission": "To deliver high-quality undergraduate and graduate education in transport, supply chain management, and international trade logistics, supported by applied research, industry partnerships, and consultancy that serve society and the global logistics sector.",
+
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities (SCU)"
+      ],
+      "international": [
+        "Foundation for International Business Administration Accreditation (FIBAA)"
+      ],
+      "quality_standards": [
+        "ISO 9001",
+        "ISO 22301 Business Continuity Management System"
+      ]
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "International quality framework aligned with FIBAA accreditation, ISO standards, and European Bologna and ECTS systems."
+    }
+  },
+
+  "degree": {
+    "degree_name": "B.Sc. in Trade Logistics and International Transport Management",
+    "level": "Undergraduate",
+    "study_duration_years": 4,
+    "total_semesters": 8,
+    "language_tracks": [
+      "Arabic",
+      "English"
+    ]
+  },
+
+  "departments_programs": [
+    {
+      "program_id": "SUPPLY_CHAIN",
+      "name": "Logistics and Supply Chain Management",
+      "focus": "End-to-end supply chain integration, inventory control, procurement, and global logistics systems",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "INTL_TRADE_LOGISTICS",
+      "name": "Logistics of International Trade",
+      "focus": "Trade operations, customs, freight forwarding, global trade compliance",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "TRANSPORT_LOGISTICS",
+      "name": "Transport Logistics Management",
+      "focus": "Transport systems, multimodal logistics, air and land transport operations",
+      "industry_alignment": "high"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.6,
+    "practical_intensity": 0.75,
+    "digital_dependency": "high",
+    "project_dependency": "high",
+    "case_study_dependency": "high"
+  },
+
+  "pressure_profile": {
+    "workload_level": "medium_high",
+    "deadline_pressure": "medium",
+    "evaluation_style": "projects + applied exams",
+    "failure_risk": "medium"
+  },
+
+  "training_and_industry": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "training_methods": [
+      "Applied coursework",
+      "Industry-linked projects",
+      "Field visits",
+      "Professional consultancy exposure"
+    ],
+    "industry_partnership_strength": "high"
+  },
+
+  "research_and_consulting": {
+    "research_focus": [
+      "Transport management systems",
+      "Supply chain optimization",
+      "International trade logistics",
+      "Digital logistics transformation"
+    ],
+    "industry_projects": true,
+    "consultancy_role": true
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Logistics service providers",
+      "Transportation companies",
+      "Warehousing and distribution centers",
+      "Import and export firms",
+      "Supply chain departments",
+      "Air transport operations",
+      "Freight forwarding companies",
+      "Shipping lines",
+      "FMCG companies"
+    ],
+    "entry_roles": [
+      "Logistics Analyst",
+      "Supply Chain Coordinator",
+      "Transport Operations Officer",
+      "Warehouse Supervisor",
+      "Import–Export Executive"
+    ],
+    "international_employability": "high",
+    "career_growth_potential": "high"
+  },
+
+  "student_support": {
+    "health_insurance": true,
+    "financial_aid": true,
+    "merit_incentives": true,
+    "language_support": "English enhancement for Arabic track students"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students interested in modern and digital logistics",
+      "Students seeking international accreditation and equivalency",
+      "Students targeting corporate and multinational careers"
+    ],
+    "less_suitable_for": [
+      "Students seeking purely maritime or port-focused education",
+      "Students preferring purely theoretical study"
+    ]
+  },
+
+  "strategic_distinctions": {
+    "experience_years": 20,
+    "unique_strengths": [
+      "First logistics college in Egypt with German FIBAA accreditation",
+      "Alignment with European Bologna and ECTS systems",
+      "Strong digital and quality-management orientation",
+      "Coverage across multiple AASTMT branches"
+    ]
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_cross_branch_comparison": true,
+    "supports_personality_matching": true,
+    "supports_industry_alignment_scoring": true
+  }
+}

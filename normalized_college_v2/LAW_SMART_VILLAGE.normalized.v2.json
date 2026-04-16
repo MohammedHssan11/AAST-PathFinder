@@ -1,0 +1,421 @@
+{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "LAW_SMART_VILLAGE.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "branch",
+    "college_id": "LAW_SMART_VILLAGE",
+    "college_name": "College of Law"
+  },
+  "official_data": {
+    "location": {
+      "city": "Giza",
+      "country": "Egypt",
+      "branch": "Smart Village"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A specialized law college branch delivering legal education with emphasis on legal reasoning, professional ethics, and practical training exposure.",
+      "current_status": "Active law programs with blended academic and applied legal training through workshops and institutional cooperation.",
+      "future_prospectus": "Advancing legal education quality and regional legal impact through stronger research, practice integration, and international legal exposure."
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        {
+          "degree": "Bachelor of Law",
+          "track": "National Program",
+          "certification": "Supreme Council of Egyptian Universities"
+        },
+        {
+          "degree": "Bachelor of Law",
+          "track": "Dual Degree Program",
+          "partner_university": "Universitat Autònoma de Barcelona (UAB)",
+          "certification": [
+            "AASTMT",
+            "Universitat Autònoma de Barcelona"
+          ],
+          "program_start_year": 2020
+        }
+      ],
+      "postgraduate": [],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities"
+      ],
+      "international": []
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Egyptian Thanaweya Amma",
+        "IGCSE",
+        "American Diploma",
+        "Arab High School Certificates"
+      ],
+      "entry_exams_required": false,
+      "medical_fitness_required": false,
+      "age_limit": null,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": null,
+      "withdraw_deadline_week": null,
+      "max_absence_percent": null,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": [
+        "Class size limited to a maximum of 25 students to ensure high-quality education."
+      ]
+    },
+    "training_and_practice": {
+      "mandatory_training": false,
+      "industry_training": true,
+      "field_or_sea_training": null,
+      "description": "Practical training through summer programs, legal workshops, professional clubs, and cooperation agreements with judicial and prosecution authorities."
+    },
+    "international_mobility": {
+      "available": true,
+      "mobility_types": [
+        "dual_degree",
+        "partner_universities"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "partner_bodies": [
+        "Universitat Autònoma de Barcelona (Spain)"
+      ],
+      "evidence_based_notes": [
+        "degrees_programs.undergraduate[1].track: Dual Degree Program"
+      ]
+    },
+    "research_and_innovation": {
+      "research_focus": [
+        "Comparative legal systems",
+        "Legal education development",
+        "Scientific and legal culture dissemination",
+        "Judicial and legislative studies"
+      ],
+      "industry_projects": false
+    },
+    "facilities_and_resources": [
+      "Modern classrooms equipped with advanced teaching technologies",
+      "Credit hour education system",
+      "Student organizations and legal clubs",
+      "Healthcare and student support services"
+    ],
+    "industry_and_external_relations": [
+      "Universitat Autònoma de Barcelona (Spain)",
+      "State Lawsuit Authority (Egypt)",
+      "Administrative Prosecution (Egypt)"
+    ],
+    "vision_mission": {
+      "vision": "To become the leading College of Law in Egypt and the Middle East by complying with international standards in education, scientific research, innovation, and training while fulfilling social responsibility and serving as a distinguished Arab legal expertise house.",
+      "mission": "To graduate highly qualified legal professionals capable of shaping the future of law nationally and internationally, while contributing to the social and economic development of the Arab region through comprehensive academic programs, distinguished faculty, and excellence in research, training, and consultancy."
+    },
+    "leadership": [
+      {
+        "name": "Prof. Rasha Abo Elgheit",
+        "title": "Dean",
+        "period": null
+      }
+    ]
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.8,
+      "math_intensity": 0.28,
+      "practical_intensity": 0.25,
+      "field_work_intensity": 0.45,
+      "research_orientation": 0.62,
+      "career_flexibility": 0.5,
+      "egypt_employability": {
+        "level": 2,
+        "score": 0.58
+      },
+      "international_employability": {
+        "level": 1,
+        "score": 0.47
+      },
+      "international_mobility_strength": {
+        "level": 3,
+        "label": "strong",
+        "score": 0.74
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "Bachelor of Law",
+        "decision_profile": {
+          "theoretical_depth": 0.82,
+          "math_intensity": 0.22,
+          "physics_intensity": 0.1,
+          "programming_intensity": 0.1,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.25,
+          "field_work_intensity": 0.45,
+          "management_exposure": 0.55,
+          "workload_difficulty": 0.68,
+          "career_flexibility": 0.5,
+          "ai_focus": 0.28,
+          "data_focus": 0.4,
+          "software_focus": 0.22,
+          "security_focus": 0.3,
+          "hardware_focus": 0.1,
+          "business_focus": 0.46,
+          "finance_focus": 0.42,
+          "logistics_focus": 0.22,
+          "maritime_focus": 0.12,
+          "healthcare_focus": 0.12,
+          "creativity_design_focus": 0.24,
+          "language_communication_focus": 0.86,
+          "law_policy_focus": 0.96,
+          "research_orientation": 0.74,
+          "entrepreneurship_focus": 0.52,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.56
+        },
+        "career_paths": [
+          "Lawyer",
+          "Legal Consultant",
+          "Corporate Legal Advisor",
+          "Compliance Officer",
+          "Legal Researcher",
+          "Public Policy Advisor"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          },
+          "international_market": {
+            "level": 1,
+            "label": "weak",
+            "score": 0.47
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for Bachelor of Law derived from available program indicators in the source file.",
+        "program_family": "LAW_POLICY_FAMILY",
+        "close_alternatives": [],
+        "differentiation_notes": [
+          "Focus pattern is distinct relative to other available options in this file."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Cairo",
+      "commute_friction_index": 0.5,
+      "relocation_friction_index": 0.6,
+      "industry_access_signal": 0.8,
+      "internship_density_signal": 0.78,
+      "campus_lifestyle_signal": 0.59,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": null
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college_name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "location.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "location.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "branch"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "establishment.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "degrees_programs.undergraduate"
+      },
+      {
+        "field": "official_data.accreditation.national",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "official_data.student_regulations.special_conditions",
+        "source_path": "student_regulations.special_conditions"
+      },
+      {
+        "field": "official_data.training_and_practice.mandatory_training",
+        "source_path": "training_and_practice.mandatory_training"
+      },
+      {
+        "field": "official_data.training_and_practice.industry_training",
+        "source_path": "training_and_practice.industry_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_practice"
+      },
+      {
+        "field": "official_data.international_mobility.available",
+        "source_path": "mobility_evidence"
+      },
+      {
+        "field": "official_data.research_and_innovation.research_focus",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.research_and_innovation.industry_projects",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.facilities_and_resources",
+        "source_path": "facilities/labs"
+      },
+      {
+        "field": "official_data.industry_and_external_relations",
+        "source_path": "partners/industry"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "vision_mission.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "vision_mission.mission"
+      },
+      {
+        "field": "official_data.leadership",
+        "source_path": "leadership sources"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[Bachelor of Law]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Law].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Law].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Law].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Law].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.establishment.year_established",
+      "official_data.overview.short_description",
+      "official_data.overview.current_status",
+      "official_data.overview.future_prospectus",
+      "official_data.admission_requirements.entry_exams_required",
+      "official_data.admission_requirements.medical_fitness_required",
+      "official_data.admission_requirements.age_limit",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.training_and_practice.field_or_sea_training",
+      "official_data.degrees_programs.postgraduate",
+      "official_data.degrees_programs.professional_certificates",
+      "official_data.accreditation.international",
+      "official_data.admission_requirements.accepted_certificates",
+      "official_data.admission_requirements.other_conditions"
+    ],
+    "uncertain_items": [],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

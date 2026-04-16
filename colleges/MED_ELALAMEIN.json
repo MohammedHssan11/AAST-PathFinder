@@ -1,0 +1,172 @@
+{
+  "college_id": "MED_ELALAMEIN",
+  "college_name": "College of Medicine",
+  "branch": "El Alamein",
+
+  "location": {
+    "city": "New El Alamein City",
+    "governorate": "Matrouh",
+    "country": "Egypt",
+    "sea": "Mediterranean Sea",
+    "distance_from_alexandria_km": 106,
+    "distance_from_cairo_km": 240,
+    "description": "A modern open city designed as a hub for education, tourism, culture and government, hosting universities, hospitals, high-rise towers and cultural institutions."
+  },
+
+  "establishment": {
+    "year_established": null,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "academic_level": "undergraduate",
+
+  "degrees_programs": {
+    "undergraduate": [
+      {
+        "degree": "Bachelor of Medicine and Surgery (MBChB)",
+        "duration_academic_years": 5,
+        "clinical_training_years": 2,
+        "total_structure": "5 academic years + clerkship & internship",
+        "assessment": "Workplace-based and competency-based assessment"
+      }
+    ],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+
+  "curriculum": {
+    "model": "Competency-Based Integrated Curriculum",
+    "teaching_strategy": [
+      "Problem-Based Learning (PBL)",
+      "System-Based Approach",
+      "Lectures",
+      "Tutorials",
+      "Practical Sessions",
+      "Anatomy Sessions",
+      "Clinical Skills Training"
+    ],
+    "technology_enhanced_learning": [
+      "Virtual Learning Environment (VLE)",
+      "Mobile learning",
+      "Simulation-based education",
+      "Personal learning portfolios"
+    ]
+  },
+
+  "training_and_practice": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "clinical_training": true,
+    "description": "Clinical placements in secondary and tertiary hospitals, clerkship phase, primary health care training at Ministry of Health family health units, 5-week primary care foundation course, and 8-week clinical attachment & career tester."
+  },
+
+  "facilities_and_resources": [
+    {
+      "name": "Human Anatomy Resource Center",
+      "features": [
+        "Anatomical models",
+        "Plastinated human specimens",
+        "Technology-enhanced learning facilities"
+      ]
+    },
+    {
+      "name": "Clinical Skills Center",
+      "features": [
+        "Sequential clinical procedures training",
+        "Clinical assessment preparation"
+      ]
+    },
+    {
+      "name": "Simulation Center",
+      "features": [
+        "High-fidelity manikins",
+        "Team dynamics training",
+        "Immediate patient assessment scenarios"
+      ]
+    }
+  ],
+
+  "student_support": {
+    "academic_advising": true,
+    "transition_support": true,
+    "learning_support": true,
+    "description": "Dedicated academic advisers support students academically and personally throughout the program."
+  },
+
+  "industry_and_international_relations": [
+    "Ministry of Health – Egypt",
+    "University of Southampton (UK)",
+    "University of Central Lancashire (UCLan)",
+    "Modern University for Business & Science (Lebanon)"
+  ],
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Medical sciences",
+      "Clinical practice",
+      "Healthcare systems",
+      "Medical education innovation"
+    ],
+    "industry_projects": false
+  },
+
+  "accreditation": {
+    "national": [],
+    "international": [],
+    "notes": "Program designed to meet national and international medical education standards."
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": true,
+    "qa_description": "Continuous curriculum development, competency-based assessment, and technology-enhanced medical education."
+  },
+
+  "vision_mission": {
+    "vision": "Achievement of international eminence in graduating highly qualified, competent physicians with excellence in innovative research and learning abilities.",
+    "mission": [
+      "Offer nationally, regionally and internationally recognized undergraduate medical education",
+      "Promote compassionate, high-quality, patient-centered care",
+      "Graduate competent physicians capable of providing safe healthcare services",
+      "Promote lifelong learning and medical research skills"
+    ]
+  },
+
+  "administration": {
+    "dean": {
+      "name": "Mohamed Hesham Abd Elmoneim Ali Hassan",
+      "role": "Dean"
+    },
+    "vice_deans": [
+      {
+        "name": "Hoda Mahmoud Ahmed Khalifa",
+        "role": "Vice Dean for Student Affairs"
+      },
+      {
+        "name": "Mona Hamdy Hassan Mahmoud Ashry",
+        "role": "Vice Dean for Education"
+      }
+    ]
+  },
+
+  "knowledge_graph": {
+    "nodes": [
+      { "id": "el_alamein", "type": "Campus" },
+      { "id": "college_med", "type": "College" },
+      { "id": "program_mbchb", "type": "Program" },
+      { "id": "degree_mbchb", "type": "Degree" },
+      { "id": "curriculum_medicine", "type": "Curriculum" },
+      { "id": "lab_anatomy", "type": "Lab" },
+      { "id": "lab_clinical_skills", "type": "Lab" },
+      { "id": "lab_simulation", "type": "Lab" }
+    ],
+    "relationships": [
+      { "from": "el_alamein", "to": "college_med", "type": "HAS_COLLEGE" },
+      { "from": "college_med", "to": "program_mbchb", "type": "OFFERS_PROGRAM" },
+      { "from": "program_mbchb", "to": "degree_mbchb", "type": "HAS_DEGREE" },
+      { "from": "program_mbchb", "to": "curriculum_medicine", "type": "HAS_CURRICULUM" },
+      { "from": "college_med", "to": "lab_anatomy", "type": "HAS_LAB" },
+      { "from": "college_med", "to": "lab_clinical_skills", "type": "HAS_LAB" },
+      { "from": "college_med", "to": "lab_simulation", "type": "HAS_LAB" }
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "campus": {
+    "campus_id": "ABU_QIR",
+    "name": "Abu Qir Campus",
+    "city": "Alexandria",
+    "country": "Egypt",
+    "description": "Main AASTMT campus in Alexandria; large, self-contained campus with full student facilities."
+  },
+
+  "college": {
+    "college_id": "CCIT_ABUKIR",
+    "name": "College of Computing and Information Technology",
+    "abbreviation": "CCIT",
+    "established_year": 2003,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "vision": "To be a leading educational and training hub and a pioneer in state-of-the-art scientific research in computing fields, with strong sustainable ties to industry.",
+    "mission": "To graduate calibers with strong theoretical foundations and practical skills, enabling innovation, research contribution, professional excellence, ethical values, and community service.",
+
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities"
+      ],
+      "international": [
+        {
+          "body": "ABET – Computing Accreditation Commission (CAC)",
+          "programs": [
+            "Computer Science",
+            "Information Systems"
+          ]
+        },
+        {
+          "body": "ABET – Engineering Accreditation Commission (EAC)",
+          "programs": [
+            "Software Engineering"
+          ]
+        }
+      ]
+    },
+
+    "international_partners": [
+      "Autònoma University of Barcelona",
+      "Japanese University of Science and Technology",
+      "University of Technology in Borg El Arab"
+    ],
+
+    "industry_partners": [
+      "AiTB",
+      "eSpace",
+      "Digital Hub",
+      "Mega Trust",
+      "Olive Recycling Solutions",
+      "Egyptian Environmental Affairs Agency"
+    ],
+
+    "administration": {
+      "dean": "Ayman Adel Abdelhamid Ibrahim",
+      "vice_deans": {
+        "training_and_community_service": "Mohamed Abdelazim Shaheen Mohamed Elgamel",
+        "education_and_student_affairs": "Mohamed Hamed Kholif",
+        "postgraduate_and_research": "Walid Mohamed Rabae Abdel Moaz"
+      }
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "QA unit oversees academic standards, continuous improvement, feedback cycles, and alignment with AASTMT strategic plans."
+    }
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Science",
+    "level": "Undergraduate"
+  },
+
+  "programs": [
+    {
+      "program_id": "COMPUTER_SCIENCE",
+      "name": "Computer Science",
+      "degree": "BSc",
+      "discipline": "Computing",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.85,
+        "practical_intensity": 0.75,
+        "math_intensity": 0.8,
+        "programming_intensity": 0.9,
+        "self_learning_dependency": "high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "high",
+        "failure_risk": "medium_high"
+      },
+
+      "focus_areas": [
+        "Strong theoretical foundations",
+        "Problem solving",
+        "Adaptation to emerging technologies",
+        "Teamwork",
+        "Project management",
+        "Communication skills"
+      ],
+
+      "career_outcomes": {
+        "common_roles": [
+          "Software Developer",
+          "Backend Engineer",
+          "Systems Engineer",
+          "Research Assistant"
+        ],
+        "market_demand": "high",
+        "international_mobility": 0.7
+      }
+    },
+
+    {
+      "program_id": "INFORMATION_SYSTEMS",
+      "name": "Information Systems",
+      "degree": "BSc",
+      "discipline": "Information Systems",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.65,
+        "practical_intensity": 0.85,
+        "math_intensity": 0.6,
+        "programming_intensity": 0.7,
+        "self_learning_dependency": "medium"
+      },
+
+      "pressure_profile": {
+        "workload_level": "medium",
+        "failure_risk": "medium"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "Business Analyst",
+          "Systems Analyst",
+          "IT Consultant",
+          "ERP Specialist"
+        ],
+        "market_demand": "high",
+        "international_mobility": 0.6
+      }
+    },
+
+    {
+      "program_id": "SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "degree": "BSc",
+      "discipline": "Software Engineering",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.7,
+        "practical_intensity": 0.9,
+        "math_intensity": 0.65,
+        "programming_intensity": 0.9,
+        "self_learning_dependency": "medium_high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "high",
+        "failure_risk": "medium_high"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "Software Engineer",
+          "DevOps Engineer",
+          "Full Stack Developer",
+          "QA Engineer"
+        ],
+        "market_demand": "very_high",
+        "international_mobility": 0.75
+      }
+    },
+
+    {
+      "program_id": "CYBERSECURITY",
+      "name": "Cybersecurity",
+      "degree": "BSc",
+      "discipline": "Cybersecurity",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.75,
+        "practical_intensity": 0.85,
+        "math_intensity": 0.6,
+        "programming_intensity": 0.75,
+        "self_learning_dependency": "high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "high",
+        "failure_risk": "medium"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "Cybersecurity Analyst",
+          "SOC Engineer",
+          "Penetration Tester",
+          "Security Consultant"
+        ],
+        "market_demand": "very_high",
+        "international_mobility": 0.8
+      }
+    },
+
+    {
+      "program_id": "ARTIFICIAL_INTELLIGENCE",
+      "name": "Artificial Intelligence",
+      "degree": "BSc",
+      "discipline": "Artificial Intelligence",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.9,
+        "practical_intensity": 0.8,
+        "math_intensity": 0.9,
+        "programming_intensity": 0.9,
+        "self_learning_dependency": "very_high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "very_high",
+        "failure_risk": "high"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "AI Engineer",
+          "Machine Learning Engineer",
+          "Data Scientist",
+          "Research Engineer"
+        ],
+        "market_demand": "high",
+        "international_mobility": 0.85
+      }
+    },
+
+    {
+      "program_id": "MULTIMEDIA_GRAPHICS",
+      "name": "Multimedia and Computer Graphics",
+      "degree": "BSc",
+      "discipline": "Multimedia & Graphics",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.5,
+        "practical_intensity": 0.9,
+        "math_intensity": 0.4,
+        "programming_intensity": 0.6,
+        "self_learning_dependency": "medium"
+      },
+
+      "pressure_profile": {
+        "workload_level": "medium",
+        "failure_risk": "low_medium"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "UI/UX Designer",
+          "Game Artist",
+          "Multimedia Developer",
+          "3D Artist"
+        ],
+        "market_demand": "medium",
+        "international_mobility": 0.6
+      }
+    }
+  ],
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_scoring": true,
+    "supports_constraints": true,
+    "supports_explainability": true
+  }
+}

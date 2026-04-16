@@ -1,0 +1,400 @@
+{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "College_of_Fisheries_and_Aquaculture_Technology_AbuKir.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "college",
+    "college_id": "CFAT_ABUKIR",
+    "college_name": "College of Fisheries and Aquaculture Technology - AbuKir"
+  },
+  "official_data": {
+    "location": {
+      "city": "Alexandria",
+      "country": "Egypt",
+      "branch": "Abu Qir"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A specialized academic college focused on fisheries science, aquaculture technology, and marine resource management.",
+      "current_status": "Active fisheries and aquaculture programs with laboratory and field-based practical training.",
+      "future_prospectus": null
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        "Bachelor of Fisheries and Aquaculture Technology"
+      ],
+      "postgraduate": [],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities",
+        "Egyptian Authority for Maritime Safety"
+      ],
+      "international": [
+        "ZEvA Central Agency for Evaluation and Accreditation, Germany"
+      ]
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Thanaweia Amma",
+        "IGCSE",
+        "American Diploma",
+        "IB",
+        "French Baccalaureate",
+        "German Abitur"
+      ],
+      "entry_exams_required": true,
+      "medical_fitness_required": true,
+      "age_limit": 22,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": 16,
+      "withdraw_deadline_week": null,
+      "max_absence_percent": null,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": [
+        "The study duration is 4 years divided into 8 essential semesters with an optional annual summer semester. The basic semester is 16 weeks and the summer semester is 6 weeks as per AAST rules."
+      ]
+    },
+    "training_and_practice": {
+      "mandatory_training": true,
+      "industry_training": true,
+      "field_or_sea_training": true,
+      "description": "Student training, staff exchange, personnel exchange programs, and joint research through multiple MOUs and cooperation agreements with national and international institutions."
+    },
+    "international_mobility": {
+      "available": true,
+      "mobility_types": [
+        "student_exchange"
+      ],
+      "regions": [],
+      "partner_bodies": [
+        "Euromed International Company",
+        "Kaliningrad State Technical University (KSTU), Russia",
+        "Faculty of Science – Alexandria University"
+      ],
+      "evidence_based_notes": [
+        "raw_text: College of Fisheries and Aquaculture Technology  AbuKir\n(1) Memorandum of Understanding (MOU) [Student Training]: World Fish Center. 26/05/2022\n\n(2) Training Ag",
+        "training_and_practice.description: Student training, staff exchange, personnel exchange programs, and joint research through multiple MOUs and cooperation agreements with national and internation"
+      ]
+    },
+    "research_and_innovation": {
+      "research_focus": [
+        "Fisheries management",
+        "Aquaculture",
+        "Fishery statistics",
+        "Fish stock assessment",
+        "Fish processing",
+        "Sustainable fisheries development"
+      ],
+      "industry_projects": true
+    },
+    "facilities_and_resources": [
+      "Aquaculture laboratories",
+      "Marine biology labs",
+      "Water quality labs",
+      "Fish processing labs"
+    ],
+    "industry_and_external_relations": [
+      "World Fish Center",
+      "Euromed International Company",
+      "Summermoon company for fish production",
+      "Third Institute of Oceanography (TIO), China",
+      "Kaliningrad State Technical University (KSTU), Russia",
+      "Central Laboratory for Aquaculture Research – Agricultural Research Center",
+      "Faculty of Science – Alexandria University"
+    ],
+    "vision_mission": {
+      "vision": null,
+      "mission": "The College aims to produce qualified graduates to manage and develop the fish resources in the Arabian countries through preparing cadres capable of fisheries management, aquaculture, fish processing, compliance with fisheries and IMO laws, and supporting sustainable development through education, research, outreach, and technical consultation."
+    },
+    "leadership": []
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.55,
+      "math_intensity": 0.5,
+          "practical_intensity": 0.65,
+      "field_work_intensity": 0.4,
+      "research_orientation": 0.62,
+      "career_flexibility": 0.55,
+      "egypt_employability": {
+        "level": 2,
+        "score": 0.52
+      },
+      "international_employability": {
+        "level": 1,
+        "score": 0.45
+      },
+      "international_mobility_strength": {
+        "level": 3,
+        "label": "strong",
+        "score": 0.82
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "Bachelor of Fisheries and Aquaculture Technology",
+        "decision_profile": {
+          "theoretical_depth": 0.55,
+          "math_intensity": 0.5,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.2,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.76,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.55,
+          "career_flexibility": 0.55,
+          "ai_focus": 0.26,
+          "data_focus": 0.42,
+          "software_focus": 0.24,
+          "security_focus": 0.2,
+          "hardware_focus": 0.4,
+          "business_focus": 0.46,
+          "finance_focus": 0.36,
+          "logistics_focus": 0.56,
+          "maritime_focus": 0.78,
+          "healthcare_focus": 0.42,
+          "creativity_design_focus": 0.2,
+          "language_communication_focus": 0.5,
+          "law_policy_focus": 0.36,
+          "research_orientation": 0.58,
+          "entrepreneurship_focus": 0.46,
+          "international_work_readiness": 0.52,
+          "remote_work_fit": 0.32,
+          "biology_focus": 0.74
+        },
+        "career_paths": [
+          "Aquaculture Specialist",
+          "Fish Farm Manager",
+          "Marine Resource Analyst",
+          "Fish Processing Engineer",
+          "Fisheries Policy Advisor",
+          "Marine Biologist",
+          "Fisheries Researcher",
+          "Aquaculture Production Manager"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.52
+          },
+          "international_market": {
+            "level": 2,
+            "label": "weak",
+            "score": 0.45
+          }
+        },
+        "best_fit_traits": [
+          "Open to mixed theory-practice learning environments"
+        ],
+        "avoid_if": [
+          "You want a very narrow, single-discipline curriculum"
+        ],
+        "summary": "Heuristic profile for Bachelor of Fisheries and Aquaculture Technology derived from available program indicators in the source file.",
+        "program_family": "AQUACULTURE_FAMILY",
+        "close_alternatives": [],
+        "differentiation_notes": [
+          "Focus pattern is distinct relative to other available options in this file."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Alexandria",
+      "commute_friction_index": 0.48,
+      "relocation_friction_index": 0.58,
+      "industry_access_signal": 0.86,
+      "internship_density_signal": 0.73,
+      "campus_lifestyle_signal": 0.45,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": "College of Fisheries and Aquaculture Technology  AbuKir\n(1) Memorandum of Understanding (MOU) [Student Training]: World Fish Center. 26/05/2022\n\n(2) Training Agreement [Student training]: Euromed International Company. 1/4/2020\n\n(3) Cooperation Protocol [Student training]: Summermoon company for fish production. 16/12/2019\n\n(4) Letter of Intent [Student training, Personnel exchange program]: Third Institute of Oceanography (TIO), China. 26/11/2019\n\n(5) Memorandum of Understanding (MOU) [Student Training, Staff Exchange]: Kaliningrad State Technical University (KSTU), Russia. 01/08/2019\n\n(6) Cooperation Agreement [Student Training, Staff Exchange, Joint Research]: Central Laboratory for Aquaculture Research – Agricultural Research Center &Faculty of Science – Alexandria University, Egypt. 04/07/2018The Marketing Major requires finishing 11 basic courses, 23 core courses, 16 major courses and 7 elective courses\n\nAcademic departments:\n- Fisheries Technology department.\n- Aquaculture department. College of Fisheries and Aquaculture Technology Core purpose\nCore purpose:\nThe College aims to produce qualified graduates to manage and develop the fish resources in the Arabian countries through the following:\n- Prepare cadres capable of fisheries management, fishery statistics and assessment of fish stocks and create new policies to achieve sustainable development of fisheries.\n- Preparation of familiar cadres by fisheries laws and IMO laws.\n- Prepare cadres capable of designing and operating the modern fishing nets with the ability to command and maintenance of fishing vessels and deal with navigation equipment.\n- Prepare cadres capable of fish cultivating and breeding and managing fish farms.\n- Prepare cadres capable of fish handling and processing for marketing in global markets.\n- High quality education, combined with effective research and outreach programs to support the scientific researches in fisheries and aquaculture sectors.\n- Provide technical consultations and scientific support in fisheries and aquaculture and working in the feasibility studies for investment in these sectors.Duration of the study:\nThe college scheduled to take place at Alexandria branch of the Academy (Abu Qir) for 4 years, divided into 8 essential semesters, in addition to optional annual summer semester. The basic semester is 16 weeks, including registration, study and exams, while the duration of the summer semester is 6 weeks and its registration apply as per AAST rules.To qualify cadres with scientific and applied capabilities to match modern technologies and laws regulating the development of fish resources as well as community service. This would be done by spreading awareness of the importance of fisheries and aquaculture in cooperation with national, Arab and"
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college_name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "location.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "location.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "location.branch"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "establishment.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "degrees_programs.undergraduate"
+      },
+      {
+        "field": "official_data.accreditation.national",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "official_data.accreditation.international",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "text_artifacts.cleaned_summary_text",
+        "source_path": "raw_text"
+      },
+      {
+        "field": "official_data.student_regulations.special_conditions",
+        "source_path": "student_regulations.special_conditions"
+      },
+      {
+        "field": "official_data.student_regulations.add_course_deadline_week",
+        "source_path": "raw_text"
+      },
+      {
+        "field": "official_data.training_and_practice.mandatory_training",
+        "source_path": "training_and_practice.mandatory_training"
+      },
+      {
+        "field": "official_data.training_and_practice.industry_training",
+        "source_path": "training_and_practice.industry_training"
+      },
+      {
+        "field": "official_data.training_and_practice.field_or_sea_training",
+        "source_path": "training_and_practice.sea_or_field_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_practice"
+      },
+      {
+        "field": "official_data.international_mobility.available",
+        "source_path": "mobility_evidence"
+      },
+      {
+        "field": "official_data.research_and_innovation.research_focus",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.research_and_innovation.industry_projects",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.industry_and_external_relations",
+        "source_path": "partners/industry"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "vision_mission.mission"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[Bachelor of Fisheries and Aquaculture Technology]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Fisheries and Aquaculture Technology].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Fisheries and Aquaculture Technology].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Fisheries and Aquaculture Technology].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Fisheries and Aquaculture Technology].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  
+  
+    
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [],
+    "uncertain_items": [],
+    "notes": [
+      "quality_check restored to match dataset schema; no additional official facts added."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

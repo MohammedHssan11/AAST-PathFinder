@@ -1,0 +1,850 @@
+{
+  "schema_version": "fees_normalized_v1",
+  "source_note": "Normalized from official tuition tables dated 2025-05-22. OCR/source has ambiguity in a few Alamein and international rows; these entries are flagged explicitly.",
+  "academic_years": ["2025/2026"],
+  "currency": "USD",
+  "fee_mode_default": "per_semester",
+  "tuition_fees": {
+    "definitions": {
+      "supportive_states": ["Egypt", "Sudan"],
+      "student_groups": {
+        "supportive_states": "Students from supportive states (Egypt, Sudan)",
+        "other_states": "Students from all other countries"
+      },
+      "categories": ["A", "B", "C"]
+    },
+    "global_fee_policies": [
+      {
+        "policy_id": "egyptian_payment_in_egp",
+        "title": "Egyptian certificate holders may pay in EGP",
+        "applies_to": "Egyptian students holding Egyptian Thanaweya Amma or equivalent foreign certificates issued from Egypt",
+        "details": {
+          "allowed_payment_currency": "EGP",
+          "academy_usd_rate_for_this_semester": 18.75
+        }
+      },
+      {
+        "policy_id": "annual_fee_increase",
+        "title": "Annual increase",
+        "details": {
+          "annual_increase_usd": 150,
+          "max_total_usd_rate_increase_percent": 15,
+          "academy_may_split_increase_across_two_semesters": true
+        }
+      },
+      {
+        "policy_id": "first_semester_lab_fee",
+        "title": "First semester lab fee",
+        "details": {
+          "applies_to": "All specializations",
+          "first_semester_only": true,
+          "amount_usd": 450,
+          "medical_sector_amount_usd": 800,
+          "refundable": false
+        }
+      },
+      {
+        "policy_id": "international_rankings_fees",
+        "title": "International rankings fees",
+        "details": {
+          "second_period_usd": 200,
+          "fourth_period_usd": 120,
+          "payment_currency": "USD"
+        }
+      }
+    ],
+    "items": [
+      {
+        "fee_id": "MARITIME_TRANSPORT_TECH__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "MARITIME_TRANSPORT_AND_TECHNOLOGY",
+        "college_name": "College of Maritime Transport and Technology",
+        "program_name": "Maritime Transport Technology",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4770, "B": 5530, "C": 6290 },
+          "other_states": { "A": 5645, "B": 6120, "C": 6880 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "MARINE_ENGINEERING_TECH__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "MARITIME_TRANSPORT_AND_TECHNOLOGY",
+        "college_name": "College of Maritime Transport and Technology",
+        "program_name": "Marine Engineering Technology",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4770, "B": 5530, "C": 6290 },
+          "other_states": { "A": 5645, "B": 6120, "C": 6880 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "ENGINEERING__REGULAR",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "ENGINEERING_AND_TECHNOLOGY",
+        "college_name": "College of Engineering and Technology",
+        "program_name": "Computer Engineering / Electronics and Communications / Mechanical / Electrical and Control / Construction / Industrial and Management / Architecture / Petroleum and Gas / Chemical and Petrochemical / Marine Engineering / Electric Power",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 5210, "B": 6110, "C": 6830 },
+          "other_states": { "A": 5315, "B": 6305, "C": 7025 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "PHARM_DPHARM__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "PHARMACY",
+        "college_name": "College of Pharmacy",
+        "program_name": "Pharm D",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 5850, "B": 6850, "C": 7250 },
+          "other_states": { "A": 6050, "B": 7150, "C": 7550 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "PHARM_CLINICAL_DPHARM__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "PHARMACY",
+        "college_name": "College of Pharmacy",
+        "program_name": "Clinical Pharm D",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 6100, "B": 7100, "C": 7500 },
+          "other_states": { "A": 6300, "B": 7400, "C": 7800 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "DENTISTRY_ALAMEIN__REGULAR",
+        "branch_scope": "alamein_only",
+        "college_id": "DENTISTRY_ALAMEIN",
+        "college_name": "College of Dentistry (Alamein)",
+        "program_name": "Bachelor of Dentistry",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 6580, "B": 7480, "C": 7840 },
+          "other_states": { "A": 6760, "B": 7750, "C": 8110 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 150,
+            "frequency": "per_semester",
+            "note": "Genoa University fee"
+          }
+        ]
+      },
+      {
+        "fee_id": "CCIT__REGULAR",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "CCIT",
+        "college_name": "College of Computing and Information Technology",
+        "program_name": "Computer Science / Information Systems / Software Engineering / Multimedia and Computer Graphics / Cybersecurity / Artificial Intelligence",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 5060, "B": 5960, "C": 6320 },
+          "other_states": { "A": 5165, "B": 6155, "C": 6515 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "MT_ARABIC__REGULAR",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY",
+        "college_name": "College of Management and Technology",
+        "program_name": "Marketing / Finance / Accounting / Business Information Systems (Arabic)",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4587, "B": 4987, "C": 5387 },
+          "other_states": { "A": 4737, "B": 5137, "C": 5637 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "MT_ENGLISH__REGULAR",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY",
+        "college_name": "College of Management and Technology",
+        "program_name": "Marketing / Finance / Accounting / Business Information Systems / Media Management / Political Science / Digital and Sustainable Business (English)",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 5065, "B": 6065, "C": 6465 },
+          "other_states": { "A": 5215, "B": 6315, "C": 6715 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "MT_FRENCH__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY",
+        "college_name": "College of Management and Technology",
+        "program_name": "French Business Administration",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 5065, "B": 6065, "C": 6465 },
+          "other_states": { "A": 5215, "B": 6315, "C": 6715 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "MT_ALAMEIN_ENGLISH__REGULAR",
+        "branch_scope": "alamein_only",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY_ALAMEIN",
+        "college_name": "College of Management and Technology (Alamein)",
+        "program_name": "English programs",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 5565, "B": 5565, "C": 5565 },
+          "other_states": { "A": 5215, "B": 6315, "C": 6715 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 200,
+            "frequency": "per_semester",
+            "note": "Paris College fee"
+          }
+        ],
+        "data_quality": {
+          "status": "ocr_ambiguous",
+          "note": "Source row appears corrupted. Values preserved as extracted where possible."
+        }
+      },
+      {
+        "fee_id": "TOURISM_HOTEL__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "TOURISM_AND_HOTEL",
+        "college_name": "Tourism and Hotel programs",
+        "program_name": "Tourism and Hotel",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4501, "B": 4881, "C": 5261 },
+          "other_states": { "A": 4641, "B": 5021, "C": 5496 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "CITL_ARABIC__REGULAR",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "CITL",
+        "college_name": "College of International Transport and Logistics",
+        "program_name": "Transport Logistics Management (Arabic)",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4415, "B": 4775, "C": 5135 },
+          "other_states": { "A": 4545, "B": 4905, "C": 5355 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "CITL_ENGLISH__REGULAR",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "CITL",
+        "college_name": "College of International Transport and Logistics",
+        "program_name": "Supply Chain and Logistics Management / International Trade Logistics Management / Transport Logistics Management / Energy and Petroleum Logistics (English)",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4855, "B": 5755, "C": 6115 },
+          "other_states": { "A": 4985, "B": 5975, "C": 6335 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "CITL_ALAMEIN_ENGLISH__REGULAR",
+        "branch_scope": "alamein_only",
+        "college_id": "CITL_ALAMEIN",
+        "college_name": "College of International Transport and Logistics (Alamein)",
+        "program_name": "English programs",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 5305, "B": 5305, "C": 5305 },
+          "other_states": { "A": 4985, "B": 5975, "C": 6335 }
+        }
+        
+        
+      },
+      {
+        "fee_id": "LANGUAGE_MEDIA__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "LANGUAGE_AND_MEDIA",
+        "college_name": "College of Language and Media",
+        "program_name": "Language and Translation / Media (Autonoma University program)",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4855, "B": 5755, "C": 6115 },
+          "other_states": { "A": 4985, "B": 5975, "C": 6335 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 100,
+            "frequency": "per_semester",
+            "note": "Universitat Autonoma de Barcelona fee"
+          }
+        ]
+      },
+      {
+        "fee_id": "FISHERIES__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "FISHERIES_AND_AQUACULTURE",
+        "college_name": "College of Fisheries Technology and Aquaculture",
+        "program_name": "Fisheries Technology",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 3505, "B": 3695, "C": 3885 },
+          "other_states": { "A": 3790, "B": 3980, "C": 4170 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "LAW__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "LAW",
+        "college_name": "College of Law",
+        "program_name": "Bachelor of Law (Autonoma University program)",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4855, "B": 5755, "C": 6115 },
+          "other_states": { "A": 4985, "B": 5975, "C": 6335 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 150,
+            "frequency": "per_semester",
+            "note": "Universitat Autonoma de Barcelona fee"
+          }
+        ]
+      },
+      {
+        "fee_id": "MEDICINE_ALAMEIN__REGULAR",
+        "branch_scope": "alamein_only",
+        "college_id": "MEDICINE_ALAMEIN",
+        "college_name": "College of Medicine (Alamein)",
+        "program_name": "Bachelor of Medicine",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 8750, "B": 9020, "C": 9470 }
+          
+        },
+        "additional_fees": [],
+        "data_quality": {
+          "status": "partially_missing_in_source",
+          "note": "Other-states tuition values were not present in the extracted row."
+        }
+      },
+      {
+        "fee_id": "ART_AND_DESIGN__REGULAR",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "ART_AND_DESIGN",
+        "college_name": "College of Art and Design",
+        "program_name": "College of Art and Design programs",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 4855, "B": 5755, "C": 6115 },
+          "other_states": { "A": 4985, "B": 5975, "C": 6335 }
+        },
+        "additional_fees": []
+      },
+      {
+        "fee_id": "AI_ALAMEIN__REGULAR",
+        "branch_scope": "alamein_only",
+        "college_id": "AI_ALAMEIN",
+        "college_name": "College of Artificial Intelligence (Alamein)",
+        "program_name": "Artificial Intelligence (Autonoma University program)",
+        "track_type": "regular",
+        "student_group_fees": {
+          "supportive_states": { "A": 5660, "B": 5660, "C": 5660 },
+          "other_states": { "A": 6405, "B": 6405, "C": 6405 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 100,
+            "frequency": "per_semester",
+            "note": "Universitat Autonoma de Barcelona fee"
+          }
+        ],
+        "data_quality": {
+          "status": "ocr_ambiguous",
+          "note": "Only two values were clearly extractable from the source row."
+        }
+      },
+
+      {
+        "fee_id": "MARITIME_TRANSPORT_TECH__INTERNATIONAL_PLYMOUTH",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "MARITIME_TRANSPORT_AND_TECHNOLOGY",
+        "college_name": "College of Maritime Transport and Technology",
+        "program_name": "Maritime Transport Technology",
+        "track_type": "international",
+        "partner_university": "University of Plymouth",
+        "student_group_fees": {
+          "supportive_states": { "A": 4770, "B": 5530, "C": 6290 },
+          "other_states": { "A": 5645, "B": 6120, "C": 6880 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 500,
+            "frequency": "per_semester"
+          }
+        ]
+      },
+      {
+        "fee_id": "ENGINEERING_COMPUTER_ECE_POWER_MECH__INTERNATIONAL_NORTHAMPTON",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "ENGINEERING_AND_TECHNOLOGY",
+        "college_name": "College of Engineering and Technology",
+        "program_name": "Computer / Electronics and Communications / Electrical and Control / Mechanical / Energy Engineering",
+        "track_type": "international",
+        "partner_university": "Northampton",
+        "student_group_fees": {
+          "supportive_states": { "A": 5210, "B": 6110, "C": 6830 },
+          "other_states": { "A": 5315, "B": 6305, "C": 7025 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 500,
+            "frequency": "per_semester"
+          }
+        ]
+      },
+      {
+        "fee_id": "ENGINEERING_ARCHITECTURE__INTERNATIONAL_CARDIFF",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "ENGINEERING_AND_TECHNOLOGY",
+        "college_name": "College of Engineering and Technology",
+        "program_name": "Architecture",
+        "track_type": "international",
+        "partner_university": "Cardiff Metropolitan",
+        "student_group_fees": {
+          "supportive_states": { "A": 5210, "B": 6110, "C": 6830 },
+          "other_states": { "A": 5315, "B": 6305, "C": 7025 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 500,
+            "frequency": "per_semester"
+          }
+        ]
+      },
+      {
+        "fee_id": "ENGINEERING_ALAMEIN__INTERNATIONAL_UCLAN",
+        "branch_scope": "alamein_only",
+        "college_id": "ENGINEERING_AND_TECHNOLOGY_ALAMEIN",
+        "college_name": "College of Engineering and Technology (Alamein)",
+        "program_name": "Computer / Electronics and Communications / Mechanical / Electric Power / Construction / Industrial and Management / Chemical and Petrochemical / Biomedical / Aerospace / Architecture",
+        "track_type": "international",
+        "partner_university": "UCLan",
+        "student_group_fees": {
+          "supportive_states": { "A": 5660, "B": 5660, "C": 5660 },
+          "other_states": { "A": 6305, "B": 6305, "C": 6305 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 500,
+            "frequency": "per_semester"
+          }
+        ],
+        "data_quality": {
+          "status": "ocr_ambiguous",
+          "note": "Only two clearly extractable tuition values in source row."
+        }
+      },
+      {
+        "fee_id": "CCIT__INTERNATIONAL_NORTHAMPTON",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "CCIT",
+        "college_name": "College of Computing and Information Technology",
+        "program_name": "Computer Science / Information Systems / Software Engineering / Multimedia and Computer Graphics",
+        "track_type": "international",
+        "partner_university": "Northampton",
+        "student_group_fees": {
+          "supportive_states": { "A": 5060, "B": 5960, "C": 6320 },
+          "other_states": { "A": 5165, "B": 6155, "C": 6515 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 500,
+            "frequency": "per_semester"
+          }
+        ]
+      },
+      {
+        "fee_id": "MT_MARKETING_FINANCE_ACCOUNTING__INTERNATIONAL_COVENTRY",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY",
+        "college_name": "College of Management and Technology",
+        "program_name": "Marketing / Finance / Accounting",
+        "track_type": "international",
+        "partner_university": "Coventry",
+        "student_group_fees": {
+          "supportive_states": { "A": 5065, "B": 6065, "C": 6465 },
+          "other_states": { "A": 5215, "B": 6315, "C": 6715 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 500,
+            "frequency": "per_semester"
+          }
+        ]
+      },
+      {
+        "fee_id": "MT_BIS__INTERNATIONAL_NORTHAMPTON",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY",
+        "college_name": "College of Management and Technology",
+        "program_name": "Business Information Systems",
+        "track_type": "international",
+        "partner_university": "Northampton",
+        "student_group_fees": {
+          "supportive_states": { "A": 5065, "B": 6065, "C": 6465 },
+          "other_states": { "A": 5215, "B": 6315, "C": 6715 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 500,
+            "frequency": "per_semester"
+          }
+        ]
+      },
+      {
+        "fee_id": "MT_MEDIA_POLITICAL_MARKETING_FINANCE_ACCOUNTING__INTERNATIONAL_HULL",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY",
+        "college_name": "College of Management and Technology",
+        "program_name": "Marketing / Finance / Accounting / Media Management / Political Science",
+        "track_type": "international",
+        "partner_university": "Hull",
+        "student_group_fees": {
+          "supportive_states": { "A": 5065, "B": 6065, "C": 6465 },
+          "other_states": { "A": 5215, "B": 6315, "C": 6715 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 1000,
+            "frequency": "per_semester"
+          }
+        ]
+      },
+      {
+        "fee_id": "MT_ALAMEIN__INTERNATIONAL_HULL",
+        "branch_scope": "alamein_only",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY_ALAMEIN",
+        "college_name": "College of Management and Technology (Alamein)",
+        "program_name": "Marketing / Finance / Accounting",
+        "track_type": "international",
+        "partner_university": "Hull",
+        "student_group_fees": {
+          "supportive_states": { "A": 5565, "B": 5565, "C": 5565 },
+          "other_states": { "A": 5215, "B": 6315, "C": 6715 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 550,
+            "frequency": "per_semester"
+          }
+        ],
+        "data_quality": {
+          "status": "ocr_ambiguous",
+          "note": "Source row appears corrupted."
+        }
+      },
+      {
+        "fee_id": "MT_LSE_PROGRAM__INTERNATIONAL_LONDON",
+        "branch_scope": "all_branches_where_program_exists",
+        "college_id": "MANAGEMENT_AND_TECHNOLOGY",
+        "college_name": "College of Management and Technology",
+        "program_name": "London School of Economics program",
+        "track_type": "international",
+        "partner_university": "University of London",
+        "student_group_fees": {
+          "supportive_states": { "A": 5065, "B": 6065, "C": 6465 },
+          "other_states": { "A": 5215, "B": 6315, "C": 6715 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 500,
+            "frequency": "per_semester"
+          }
+        ]
+      },
+      {
+        "fee_id": "CITL_ALAMEIN__INTERNATIONAL_HULL",
+        "branch_scope": "alamein_only",
+        "college_id": "CITL_ALAMEIN",
+        "college_name": "College of International Transport and Logistics (Alamein)",
+        "program_name": "International Transport",
+        "track_type": "international",
+        "partner_university": "Hull",
+        "student_group_fees": {
+          "supportive_states": { "A": 5305, "B": 5305, "C": 5305 },
+          "other_states": { "A": 4985, "B": 5975, "C": 6335 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 550,
+            "frequency": "per_semester"
+          }
+        ],
+        "data_quality": {
+          "status": "ocr_ambiguous",
+          "note": "Source row appears corrupted."
+        }
+      },
+      {
+        "fee_id": "CITL__INTERNATIONAL_HULL",
+        "branch_scope": "all_branches_except_alamein",
+        "college_id": "CITL",
+        "college_name": "College of International Transport and Logistics",
+        "program_name": "International Transport",
+        "track_type": "international",
+        "partner_university": "Hull",
+        "student_group_fees": {
+          "supportive_states": { "A": 4855, "B": 5755, "C": 6115 },
+          "other_states": { "A": 4985, "B": 5975, "C": 6335 }
+        },
+        "additional_fees": [
+          {
+            "type": "partner_university_fee",
+            "amount_usd": 800,
+            "frequency": "per_semester"
+          }
+        ]
+      }
+    ]
+  },
+  "fee_category_rules": [
+    {
+      "rule_id": "GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MARITIME",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": ["MARITIME_TRANSPORT_AND_TECHNOLOGY"],
+      "thresholds": {
+        "A": { "min_percent": 70 },
+        "B": { "min_percent": 65, "max_percent_exclusive": 70 },
+        "C": { "max_percent_exclusive": 65 }
+      }
+    },
+    {
+      "rule_id": "GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_ENGINEERING",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": ["ENGINEERING_AND_TECHNOLOGY"],
+      "thresholds": {
+        "A": { "min_percent": 80 },
+        "B": { "min_percent": 72, "max_percent_exclusive": 80 },
+        "C": { "max_percent_exclusive": 72 }
+      }
+    },
+    {
+      "rule_id": "GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_PHARMACY",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": ["PHARMACY"],
+      "thresholds": {
+        "A": { "min_percent": 88 },
+        "B": { "min_percent": 84, "max_percent_exclusive": 88 },
+        "C": { "max_percent_exclusive": 84 }
+      }
+    },
+    {
+      "rule_id": "GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_CCIT",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": ["CCIT"],
+      "thresholds": {
+        "A": { "min_percent": 70 },
+        "B": { "min_percent": 65, "max_percent_exclusive": 70 },
+        "C": { "max_percent_exclusive": 65 }
+      }
+    },
+    {
+      "rule_id": "GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": [
+        "MANAGEMENT_AND_TECHNOLOGY",
+        "LANGUAGE_AND_MEDIA",
+        "CITL",
+        "ART_AND_DESIGN"
+      ],
+      "thresholds": {
+        "A": { "min_percent": 65 },
+        "B": { "min_percent": 60, "max_percent_exclusive": 65 },
+        "C": { "max_percent_exclusive": 60 }
+      }
+    },
+    {
+      "rule_id": "GENERAL_SECONDARY_ALL_EXCEPT_ALAMEIN_FISHERIES_LAW_ARCHAEOLOGY",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": [
+        "FISHERIES_AND_AQUACULTURE",
+        "LAW",
+        "ARCHAEOLOGY_AND_CULTURAL_HERITAGE"
+      ],
+      "thresholds": {
+        "A": { "min_percent": 60 },
+        "B": { "min_percent": 55, "max_percent_exclusive": 60 },
+        "C": { "max_percent_exclusive": 55 }
+      }
+    },
+
+    {
+      "rule_id": "ALAMEIN_GENERAL_SECONDARY_ENGINEERING_UCLAN",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "alamein_only",
+      "college_ids": ["ENGINEERING_AND_TECHNOLOGY_ALAMEIN"],
+      "thresholds": {
+        "A": { "min_percent": 70 }
+      
+      },
+      "data_quality": {
+        "status": "source_indicates_single_cutoff_only"
+      }
+    },
+    {
+      "rule_id": "ALAMEIN_GENERAL_SECONDARY_PHARMACY",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "alamein_only",
+      "college_ids": ["PHARMACY_ALAMEIN", "PHARMACY"],
+      "thresholds": {
+        "A": { "min_percent": 86 },
+        "B": { "min_percent": 83, "max_percent_exclusive": 86 },
+        "C": { "max_percent_exclusive": 83 }
+      }
+    },
+    {
+      "rule_id": "ALAMEIN_GENERAL_SECONDARY_MT_CITL_SINGLE_CUTOFF",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "alamein_only",
+      "college_ids": ["MANAGEMENT_AND_TECHNOLOGY_ALAMEIN", "CITL_ALAMEIN"],
+      "thresholds": {
+        "A": { "min_percent": 55 }
+        
+      },
+      "data_quality": {
+        "status": "source_indicates_single_cutoff_only"
+      }
+    },
+    {
+      "rule_id": "ALAMEIN_GENERAL_SECONDARY_AI",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "alamein_only",
+      "college_ids": ["AI_ALAMEIN"],
+      "thresholds": {
+        "A": { "min_percent": 68 },
+        "B": { "min_percent": 63, "max_percent_exclusive": 68 },
+        "C": { "max_percent_exclusive": 63 }
+      }
+    },
+    {
+      "rule_id": "ALAMEIN_GENERAL_SECONDARY_DENTISTRY",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "alamein_only",
+      "college_ids": ["DENTISTRY_ALAMEIN"],
+      "thresholds": {
+        "A": { "min_percent": 88 },
+        "B": { "min_percent": 84, "max_percent_exclusive": 88 },
+        "C": { "max_percent_exclusive": 84 }
+      }
+    },
+    {
+      "rule_id": "ALAMEIN_GENERAL_SECONDARY_MEDICINE_SUPPORTIVE",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "alamein_only",
+      "student_group": "supportive_states",
+      "college_ids": ["MEDICINE_ALAMEIN"],
+      "thresholds": {
+        "A": { "min_percent": 85 }
+      },
+      "data_quality": {
+        "status": "source_indicates_single_cutoff_only"
+      }
+    },
+    {
+      "rule_id": "ALAMEIN_GENERAL_SECONDARY_MEDICINE_OTHER_STATES",
+      "certificate_type": "egyptian_secondary_or_nile_or_stem_or_azhar",
+      "branch_scope": "alamein_only",
+      "student_group": "other_states",
+      "college_ids": ["MEDICINE_ALAMEIN"],
+      "thresholds": {
+        "A": { "min_percent": 96 },
+        "B": { "min_percent": 80, "max_percent_exclusive": 96 }
+        
+      },
+      "data_quality": {
+        "status": "source_missing_explicit_C_band"
+      }
+    },
+
+    {
+      "rule_id": "EQUIVALENT_ALL_EXCEPT_ALAMEIN_MARITIME",
+      "certificate_type": "equivalent_certificates",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": ["MARITIME_TRANSPORT_AND_TECHNOLOGY"],
+      "thresholds": {
+        "A": { "min_percent": 80 },
+        "B": { "min_percent": 70, "max_percent_exclusive": 80 },
+        "C": { "max_percent_exclusive": 70 }
+      }
+    },
+    {
+      "rule_id": "EQUIVALENT_ALL_EXCEPT_ALAMEIN_ENGINEERING",
+      "certificate_type": "equivalent_certificates",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": ["ENGINEERING_AND_TECHNOLOGY"],
+      "thresholds": {
+        "A": { "min_percent": 90 },
+        "B": { "min_percent": 80, "max_percent_exclusive": 90 },
+        "C": { "max_percent_exclusive": 80 }
+      }
+    },
+    {
+      "rule_id": "EQUIVALENT_ALL_EXCEPT_ALAMEIN_CCIT",
+      "certificate_type": "equivalent_certificates",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": ["CCIT"],
+      "thresholds": {
+        "A": { "min_percent": 80 },
+        "B": { "min_percent": 70, "max_percent_exclusive": 80 },
+        "C": { "max_percent_exclusive": 70 }
+      }
+    },
+    {
+      "rule_id": "EQUIVALENT_ALL_EXCEPT_ALAMEIN_MT_LM_CITL_ART_LAW",
+      "certificate_type": "equivalent_certificates",
+      "branch_scope": "all_branches_except_alamein",
+      "college_ids": [
+        "MANAGEMENT_AND_TECHNOLOGY",
+        "LANGUAGE_AND_MEDIA",
+        "CITL",
+        "ART_AND_DESIGN",
+        "LAW"
+      ],
+      "thresholds": {
+        "A": { "min_percent": 75 },
+        "B": { "min_percent": 65, "max_percent_exclusive": 75 },
+        "C": { "max_percent_exclusive": 65 }
+      }
+    }
+  ]
+  
+}

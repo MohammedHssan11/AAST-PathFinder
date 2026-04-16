@@ -1,0 +1,223 @@
+{
+  "campus": {
+    "campus_id": "SMART_VILLAGE",
+    "name": "Smart Village Campus",
+    "city": "6 October City",
+    "country": "Egypt",
+    "address": "Smart Village - B 2401 - 6 October - Egypt",
+    "po_box": "12577 - Smart Village",
+    "description": "Modern AASTMT campus located in Smart Village, Egypt’s leading ICT and technology hub."
+  },
+
+  "college": {
+    "college_id": "CCIT_SMART_VILLAGE",
+    "name": "College of Computing and Information Technology",
+    "abbreviation": "CCIT",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "vision": "To be a leading educational and training hub and a pioneer in state-of-the-art scientific research in computing, forging strong ties with the computing industry at national, regional, and international levels.",
+    "mission": "To graduate calibers with solid theoretical background and practical skills, promote innovation and scientific research, and deliver high-quality training and consultation services aligned with professional and ethical standards.",
+
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities (SCU)"
+      ]
+    },
+
+    "industry_alignment_strength": "very_high",
+
+    "international_mobility": {
+      "exchange_programs": true,
+      "erasmus_plus": true,
+      "partner_universities": [
+        "Universitat Autònoma de Barcelona",
+        "University of Valladolid",
+        "University of Salamanca",
+        "University of Northampton"
+      ]
+    },
+
+    "faculty_profile": {
+      "industry_experts": true,
+      "international_exposure": true,
+      "policy_contributors": true
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Quality assurance aligned with AASTMT standards and continuous program evaluation."
+    }
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Science",
+    "level": "Undergraduate"
+  },
+
+  "programs": [
+    {
+      "program_id": "COMPUTER_SCIENCE",
+      "name": "Computer Science",
+      "degree": "BSc",
+      "discipline": "Computing",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.85,
+        "practical_intensity": 0.75,
+        "math_intensity": 0.8,
+        "programming_intensity": 0.9,
+        "self_learning_dependency": "high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "high",
+        "failure_risk": "medium_high"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "Software Developer",
+          "Backend Engineer",
+          "Systems Engineer",
+          "Research Assistant"
+        ],
+        "market_demand": "high",
+        "international_mobility": 0.75
+      }
+    },
+
+    {
+      "program_id": "SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "degree": "BSc",
+      "discipline": "Software Engineering",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.7,
+        "practical_intensity": 0.9,
+        "math_intensity": 0.65,
+        "programming_intensity": 0.9,
+        "self_learning_dependency": "medium_high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "high",
+        "failure_risk": "medium_high"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "Software Engineer",
+          "Full Stack Developer",
+          "DevOps Engineer",
+          "QA Engineer"
+        ],
+        "market_demand": "very_high",
+        "international_mobility": 0.8
+      }
+    },
+
+    {
+      "program_id": "ARTIFICIAL_INTELLIGENCE",
+      "name": "Artificial Intelligence",
+      "degree": "BSc",
+      "discipline": "Artificial Intelligence",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.9,
+        "practical_intensity": 0.8,
+        "math_intensity": 0.9,
+        "programming_intensity": 0.9,
+        "self_learning_dependency": "very_high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "very_high",
+        "failure_risk": "high"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "AI Engineer",
+          "Machine Learning Engineer",
+          "Data Scientist",
+          "Research Engineer"
+        ],
+        "market_demand": "high",
+        "international_mobility": 0.85
+      }
+    },
+
+    {
+      "program_id": "CYBERSECURITY",
+      "name": "Cybersecurity",
+      "degree": "BSc",
+      "discipline": "Cybersecurity",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.75,
+        "practical_intensity": 0.85,
+        "math_intensity": 0.6,
+        "programming_intensity": 0.75,
+        "self_learning_dependency": "high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "high",
+        "failure_risk": "medium"
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "Cybersecurity Analyst",
+          "SOC Engineer",
+          "Penetration Tester",
+          "Security Consultant"
+        ],
+        "market_demand": "very_high",
+        "international_mobility": 0.85
+      }
+    }
+  ],
+
+  "training_and_industry_exposure": {
+    "mandatory_training": true,
+    "industry_internships": true,
+    "international_training": true,
+    "typical_partners": [
+      "IBM",
+      "Microsoft",
+      "Huawei",
+      "Dell Technologies",
+      "Orange",
+      "Vodafone",
+      "ITI",
+      "EG-CERT",
+      "NTRA",
+      "BARQ Systems",
+      "Valeo",
+      "Ejada Systems"
+    ],
+    "skills_covered": [
+      "AI & Machine Learning",
+      "Cybersecurity & SOC Operations",
+      "DevOps & Cloud",
+      "Data Science & Analytics",
+      "Software Engineering",
+      "Automation & RPA",
+      "Networking & Infrastructure",
+      "Soft Skills & Professional Development"
+    ]
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_scoring": true,
+    "supports_constraints": true,
+    "supports_explainability": true
+  }
+}

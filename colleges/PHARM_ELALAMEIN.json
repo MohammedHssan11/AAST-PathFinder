@@ -1,0 +1,140 @@
+{
+  "college_id": "PHARM_ELALAMEIN",
+  "college_name": "College of Pharmacy",
+  "branch": "El Alamein",
+
+  "location": {
+    "city": "New El Alamein City",
+    "governorate": "Matrouh",
+    "country": "Egypt",
+    "description": "Located at AASTMT El Alamein Campus within Egypt’s new smart educational and medical hub."
+  },
+
+  "establishment": {
+    "year_established": null,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "academic_level": "undergraduate",
+
+  "degrees_programs": {
+    "undergraduate": [
+      {
+        "degree": "Doctor of Pharmacy (PharmD)",
+        "study_duration_years": 5,
+        "focus": "Pharmaceutical sciences and pharmacy practice",
+        "objective": "Prepare competent pharmacists capable of delivering high-quality pharmaceutical care"
+      },
+      {
+        "degree": "Doctor of Pharmacy (PharmD – Clinical Pharmacy)",
+        "study_duration_years": 5,
+        "focus": "Clinical pharmacy and patient-centered care",
+        "objective": "Prepare clinical pharmacists with advanced patient care and therapeutic decision-making skills"
+      }
+    ],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+
+  "training_and_practice": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "clinical_training": true,
+    "description": "Integrated practical and clinical training aligned with pharmacy practice, patient care, and healthcare system needs."
+  },
+
+  "curriculum_and_education": {
+    "education_model": "Smart and outcome-based pharmacy education",
+    "core_balance": [
+      "Solid foundation in pharmaceutical sciences",
+      "Advanced pharmacy practice and patient care",
+      "Clinical decision making"
+    ],
+    "interdisciplinary_courses": [
+      "Business and Quality Management",
+      "Health Informatics",
+      "Logistics and Supply Chain Management"
+    ],
+    "curriculum_development": "Continuously updated to reflect recent advances in pharmacy practice and healthcare"
+  },
+
+  "facilities_and_resources": [
+    "Advanced pharmaceutical laboratories",
+    "Educational and digital learning resources",
+    "Modern infrastructure supporting smart pharmacy education"
+  ],
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Pharmacy education",
+      "Clinical pharmacy practice",
+      "Healthcare quality improvement"
+    ],
+    "industry_projects": true
+  },
+
+  "industry_and_international_relations": [
+    "Healthcare sector partners",
+    "Pharmaceutical organizations",
+    "AASTMT interdisciplinary colleges"
+  ],
+
+  "accreditation": {
+    "national": [],
+    "international": [],
+    "future_direction": [
+      "Alignment with international pharmacy education standards"
+    ]
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": true,
+    "qa_description": "Adoption of continuous improvement culture through seminars, scientific conferences, and systematic development of academic and administrative staff."
+  },
+
+  "strategic_identity": {
+    "core_values": {
+      "RACE": [
+        "Responsibility to Learners",
+        "Accountability",
+        "Continuous Improvement",
+        "Excellence"
+      ]
+    },
+    "objectives": [
+      "Excellence in providing high-quality pharmacy education",
+      "Supporting scientific research and innovation",
+      "Enhancing student services and academic support",
+      "Fulfilling social responsibility toward the community",
+      "Graduating pharmacists highly competitive in the labor market"
+    ]
+  },
+
+  "vision_mission": {
+    "vision": "Achieve international leadership in smart pharmacy education and research, with a positive impact on the quality of life.",
+    "mission": "Provide world-class and intelligent pharmacy education, research, and sustainable professional development that enhances healthcare quality."
+  },
+
+  "leadership": {
+    "dean": {
+      "name": null,
+      "role": "Dean of the College of Pharmacy – El Alamein Campus"
+    }
+  },
+
+  "knowledge_graph": {
+    "nodes": [
+      { "id": "el_alamein", "type": "Campus" },
+      { "id": "college_pharmacy_elalamein", "type": "College" },
+      { "id": "program_pharmd", "type": "Program" },
+      { "id": "program_pharmd_clinical", "type": "Program" },
+      { "id": "lab_pharmacy", "type": "Lab" }
+    ],
+    "relationships": [
+      { "from": "el_alamein", "to": "college_pharmacy_elalamein", "type": "HAS_COLLEGE" },
+      { "from": "college_pharmacy_elalamein", "to": "program_pharmd", "type": "OFFERS_PROGRAM" },
+      { "from": "college_pharmacy_elalamein", "to": "program_pharmd_clinical", "type": "OFFERS_PROGRAM" },
+      { "from": "college_pharmacy_elalamein", "to": "lab_pharmacy", "type": "HAS_LAB" }
+    ]
+  }
+}

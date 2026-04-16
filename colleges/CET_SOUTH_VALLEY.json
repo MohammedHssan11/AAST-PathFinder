@@ -1,0 +1,76 @@
+{
+  "college_id": "CET_SOUTH_VALLEY",
+  "college_name": "College of Engineering & Technology South Valley",
+
+  "raw_text": "College Of Engineering & Technology  South Valley\nThe Industrial Advisory Committee (IAC) is a sub-committee of the Board of Studies in College of Engineering and Technology. The members of (IAC) were from chairmen of varieties of industries and engineering authorities. The (IAC) holds two meetings per year.\n\nThe role of (IAC) is:\n\nTo identify and promote new initiatives relating to the external interaction of the staff, students of the College of Engineering and Technology with the world of Industry and Commerce identify \"industrial and social relevance\" where possible.\nTo promote best practice for joint University-Industry projects by being aware of national schemes and resources and successful activities elsewhere which might complement our Industrial Portfolio, and suggest how letters of support might be best used.\nTo advise the Board of Studies on any matter related to Industrial collaboration and respond to questions and matters referred to the (IAC) to assist the Board strategic planning.\nTo monitor the College''s activity with Industry and track any National Developments which may introduce an assessment of the quality and quantity of the College''s performance in the matters High caliber faculty, assistants, and graduates\n\n. Strong ties with community and industry\n\n. Faculty Dedication and Commitment. Ethical Engineering Profession and integrity\n\n. Arab Cooperation\n\n. International Cooperate Agreements\n\n. Quality Teaching and Learning Environment\n\n. Multidisciplinary Research and Innovation\n\n. Decentralization and Authority Delegation\n\n. Student Activities and ParticipationVision\n\nOur Vision is to excel as one of the best engineering colleges locally and regionally and to maintain internationally recognized programs with an advanced academic rank. We also envision to provide the highest quality educational programs, research, and community services and to play a leading role in, all our engineering activities, as a foremost engineering school in the Arab world.\n\nMission\n\nOur mission is to efficiently integrate all of our facilities, and resources to prepare young generations for the requirements of the knowledge based societies and to proactively provide competitive, intellectual, and market-driven academic programs, research, and community services and pledges strong collaboration between our faculty, staff members, students, researchers, alumni, and industrial and business leaders. Further to maintain and develop long term and lasting partnerships with Arab institutions, and internationally acknowledged bodies.AASTMT has realized the importance of educational innovation and development, since the early days of its establishment in 1972.\n\nWithin the framework of the commitment of the Arab Academy for Science, Technology and Maritime Transport to its vision, mission and societal duties towards the development of the South Valley region, it has opened a branch in the South Valley (Aswan) with a 50% discount for the people of the South Valley and the citizens of Sudan.\n\nThe study started in the branch in 2006 in a temporary headquarters of the Academy’s headquarters in Alexandria and included the College of Engineering and Technology and the College of Business Administration as well as the Faculty of International Transport and Logistics. With the increasing demand in the numbers of students at the College of Engineering and Technology and over the years, engineering departments were established as following: -\n\n1- Electronics and Communication Engineering.\n\n2- Construction and Building Engineering.\n\n3- Architectural Engineering and Environmental Design.\n\n4- Mechanical & Mechatronics Engineering.\n\nBased on the desire of the Academy to allow the opportunity to start towards excellence in achieving its vision and mission, the College of Engineering and Technology-South Valley Branch were established in Aswan.\n\nProf. Dr. Mohamed Fahmy Shehadeh\n\nDean of the College of Engineering and Technology",
+
+  "location": {
+    "city": "Aswan",
+    "country": "Egypt",
+    "branch": "South Valley"
+  },
+
+  "establishment": {
+    "year_established": 2006,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "degrees_programs": {
+    "undergraduate": [
+      "Electronics and Communication Engineering",
+      "Construction and Building Engineering",
+      "Architectural Engineering and Environmental Design",
+      "Mechanical & Mechatronics Engineering"
+    ],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+
+  "accreditation": {
+    "national": [],
+    "international": []
+  },
+
+  "training_and_practice": {
+    "mandatory_training": null,
+    "industry_training": true,
+    "sea_or_field_training": null,
+    "description": "Strong collaboration with industry through the Industrial Advisory Committee (IAC) to promote university-industry interaction, joint projects, and applied initiatives."
+  },
+
+  "industry_and_international_relations": [
+    "Industrial Advisory Committee (IAC)",
+    "Arab Institutions",
+    "International Engineering Authorities"
+  ],
+
+  "facilities_and_resources": [],
+
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": "50% tuition discount for people of the South Valley and citizens of Sudan."
+  },
+
+  "research_and_innovation": {
+    "research_focus": "Multidisciplinary research and innovation with industrial and social relevance.",
+    "industry_projects": true
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": null,
+    "qa_description": null
+  },
+
+  "vision_mission": {
+    "vision": "Our Vision is to excel as one of the best engineering colleges locally and regionally and to maintain internationally recognized programs with an advanced academic rank. We also envision to provide the highest quality educational programs, research, and community services and to play a leading role in, all our engineering activities, as a foremost engineering school in the Arab world.",
+    "mission": "Our mission is to efficiently integrate all of our facilities, and resources to prepare young generations for the requirements of the knowledge based societies and to proactively provide competitive, intellectual, and market-driven academic programs, research, and community services and pledges strong collaboration between our faculty, staff members, students, researchers, alumni, and industrial and business leaders. Further to maintain and develop long term and lasting partnerships with Arab institutions, and internationally acknowledged bodies."
+  },
+
+  "extra_sections": {
+    "Core Values and Principles": "Strong ties with community and industry; Faculty dedication and ethical engineering profession; Arab cooperation; International cooperation agreements; Quality teaching and learning environment; Multidisciplinary research and innovation; Decentralization and authority delegation; Student activities and participation.",
+    "Leadership": "Prof. Dr. Mohamed Fahmy Shehadeh – Dean of the College of Engineering and Technology"
+  }
+}

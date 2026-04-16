@@ -1,0 +1,169 @@
+{
+  "campus": {
+    "campus_id": "EL_ALAMEIN",
+    "name": "El Alamein Campus",
+    "city": "El Alamein",
+    "country": "Egypt",
+    "description": "A modern smart campus designed to support advanced medical and health sciences education with state-of-the-art laboratories and clinical facilities."
+  },
+
+  "college": {
+    "college_id": "DENT_ELALAMEIN",
+    "name": "College of Dentistry – El Alamein",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "A professional medical college focused on producing highly competent dental graduates through integrated clinical education, research, and ethical patient care.",
+
+    "vision": "To be a reputable college delivering world-class dental education and research, competing at national and regional levels.",
+
+    "mission": "To educate and graduate competent oral healthcare professionals through a high-quality clinical and research-based environment, providing ethical, patient-centered dental care and addressing regional oral health needs.",
+
+    "values": [
+      "Clinical excellence",
+      "Ethical patient care",
+      "Educational innovation",
+      "Research-driven practice",
+      "Community health responsibility"
+    ]
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Oral and Dental Surgery (BDS)",
+    "level": "Undergraduate",
+    "study_duration_years": 5,
+    "total_semesters": 10,
+    "credit_hours": 182,
+    "internship_required": true,
+    "post_graduation_training_year": 1
+  },
+
+  "program_structure": {
+    "academic_levels": 5,
+    "summer_clinical_training_hours": 80,
+    "curriculum_model": "Integrated spiral curriculum with vertical and horizontal integration",
+    "learning_methods": [
+      "Didactic lectures",
+      "Problem-based learning (PBL)",
+      "Team-based learning (TBL)",
+      "Simulation-based training",
+      "Clinical practice"
+    ]
+  },
+
+  "curriculum_domains": [
+    "Basic Medical Sciences",
+    "Basic Dental Sciences",
+    "Pre-clinical Dental Sciences",
+    "Clinical Dental Sciences"
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.75,
+    "practical_intensity": 0.9,
+    "clinical_dependency": "critical",
+    "research_exposure": "medium",
+    "simulation_dependency": "high"
+  },
+
+  "pressure_profile": {
+    "workload_level": "very_high",
+    "exam_pressure": "high",
+    "clinical_evaluation_pressure": "very_high",
+    "failure_risk": "medium_high"
+  },
+
+  "training_and_practice": {
+    "mandatory_training": true,
+    "clinical_training": true,
+    "training_model": [
+      "Pre-clinical simulation labs",
+      "Supervised clinical practice",
+      "Summer clinical training",
+      "One-year compulsory internship"
+    ],
+    "licensing_dependency": "mandatory"
+  },
+
+  "facilities_and_resources": [
+    "State-of-the-art dental clinics",
+    "Simulation laboratories",
+    "Technical laboratories",
+    "Multipurpose medical laboratories",
+    "Clinical skills training units"
+  ],
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Dental sciences",
+      "Oral public health",
+      "Social and legislative aspects of dentistry",
+      "Healthcare systems and policy"
+    ],
+    "student_research_exposure": "moderate",
+    "future_research_orientation": "high"
+  },
+
+  "governance": {
+    "college_council_exists": true,
+    "council_composition": [
+      "Dean",
+      "Vice Deans (Education, Students Affairs, Training)",
+      "Heads of Departments",
+      "Course Directors",
+      "Registrar",
+      "Teaching Assistants Representative",
+      "Student Representatives"
+    ],
+    "meeting_frequency": "monthly"
+  },
+
+  "career_outcomes": {
+    "primary_career_paths": [
+      "General Dental Practitioner",
+      "Clinical Dentist",
+      "Dental Intern",
+      "Public Health Dentist (after specialization)"
+    ],
+    "employment_sectors": [
+      "Private dental clinics",
+      "Public hospitals",
+      "Educational dental institutions",
+      "Healthcare organizations"
+    ],
+    "international_mobility": "medium",
+    "licensing_dependency": "high"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students committed to medical and clinical careers",
+      "High academic endurance",
+      "Strong manual dexterity and precision",
+      "Ethical and patient-focused personalities"
+    ],
+    "not_suitable_for": [
+      "Students seeking low academic pressure",
+      "Students uncomfortable with clinical responsibility",
+      "Students preferring purely theoretical study"
+    ]
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": true,
+    "status": "inferred",
+    "qa_practices": [
+      "Credit-hour system",
+      "Curriculum integration",
+      "Continuous assessment",
+      "Clinical competency evaluation"
+    ]
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "medical_program": true,
+    "licensing_program": true,
+    "supports_healthcare_career_matching": true,
+    "data_completeness": "high"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "campus": {
+    "campus_id": "ASWAN",
+    "name": "South Valley (Aswan) Campus",
+    "city": "Aswan",
+    "country": "Egypt",
+    "description": "AASTMT South Valley campus serving Upper Egypt, with focus on archaeology, cultural heritage, and interdisciplinary research."
+  },
+
+  "college": {
+    "college_id": "ARCH_CULTURAL_HERITAGE_SOUTH_VALLEY",
+    "name": "College of Archaeology and Cultural Heritage",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Specialized academic hub for archaeology and cultural heritage studies in Upper Egypt with strong international partnerships.",
+
+    "vision": "To create an international hub for archaeology and cultural heritage education and research, supporting preservation, innovation, and sustainable development.",
+    "mission": "To prepare graduates with strong academic, practical, and research foundations in archaeology and cultural heritage through interdisciplinary education aligned with labor market and societal needs.",
+
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities"
+      ],
+      "international_collaborations": [
+        "University of Cologne",
+        "University of Oxford (EAMENA Project)",
+        "University of Louisiana (pending dual degree approval)"
+      ]
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Dedicated Quality and Academic Accreditation Unit overseeing continuous improvement, self-evaluation, and readiness for national and international accreditation."
+    }
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Arts",
+    "level": "Undergraduate",
+    "study_duration_years": 4
+  },
+
+  "programs": [
+    {
+      "program_id": "ARCHAEOLOGY_AND_CULTURAL_HERITAGE",
+      "name": "Archaeology and Cultural Heritage",
+      "degree": "BA",
+      "discipline": "Archaeology & Heritage Studies",
+
+      "study_profile": {
+        "theoretical_intensity": 0.8,
+        "practical_intensity": 0.75,
+        "research_intensity": 0.85,
+        "fieldwork_intensity": 0.8,
+        "self_learning_dependency": "high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "medium_high",
+        "failure_risk": "medium",
+        "assessment_strictness": "high"
+      },
+
+      "curriculum_model": {
+        "core_credits": 72,
+        "specialization_credits": 12,
+        "electives": 3,
+        "graduation_requirement": {
+          "thesis_required": true,
+          "thesis_length_words": "6000–9000",
+          "defense_required": true
+        }
+      },
+
+      "specializations": [
+        "Egyptian Archaeology",
+        "Ancient Near East and South Arabian Archaeology",
+        "African Archaeology",
+        "Islamic Archaeology",
+        "Industrial and Contemporary Heritage",
+        "Maritime and Underwater Archaeology",
+        "Material Culture Conservation",
+        "Architectural Conservation"
+      ],
+
+      "teaching_style": {
+        "interactive": true,
+        "practical": true,
+        "field_based": true,
+        "student_centered": true
+      },
+
+      "career_outcomes": {
+        "common_roles": [
+          "Archaeologist",
+          "Cultural Heritage Specialist",
+          "Museum Specialist",
+          "Conservation Assistant",
+          "Research Assistant",
+          "Cultural Resource Manager"
+        ],
+        "market_demand": "medium",
+        "international_mobility": 0.7,
+        "public_sector_alignment": "high"
+      }
+    }
+  ],
+
+  "training_and_fieldwork": {
+    "mandatory_training": true,
+    "field_training": true,
+    "examples": [
+      "Modern Engineering Pioneers Company Training",
+      "Aswan Air Dome Site Training with Egyptian-British-Australian Mission"
+    ],
+    "international_training": true,
+    "summer_schools": [
+      "University of Cologne – Aswan Summer School (since 2017)"
+    ]
+  },
+
+  "student_regulations": {
+    "attendance_policy": "Strict attendance required; enforced withdrawal applied for violations.",
+    "academic_integrity": "Zero tolerance for cheating, falsification, vandalism, or misconduct.",
+    "disciplinary_severity": "High",
+    "gpa_system": {
+      "scale": "0–4.0",
+      "excellent": "3.4+",
+      "very_good": "2.8–3.39",
+      "good": "2.4–2.79",
+      "satisfactory": "2.0–2.39"
+    }
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Cultural Heritage Preservation",
+      "GIS and Satellite Mapping",
+      "Archaeological Databases",
+      "Historic Environment Records",
+      "Material Conservation"
+    ],
+    "industry_projects": true,
+    "international_projects": [
+      "EAMENA – University of Oxford"
+    ]
+  },
+
+  "facilities_and_resources": [
+    "Conservation Laboratories",
+    "Chemistry Laboratory",
+    "Computer Labs",
+    "Drawing Studios",
+    "Survey Laboratory",
+    "Experimental Trench",
+    "Cambridge Languages Centre"
+  ],
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_scoring": true,
+    "supports_constraints": true,
+    "supports_explainability": true
+  }
+}

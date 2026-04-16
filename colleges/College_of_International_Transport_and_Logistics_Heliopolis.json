@@ -1,0 +1,172 @@
+{
+  "campus": {
+    "campus_id": "HELIOPOLIS",
+    "name": "Heliopolis Campus",
+    "city": "Cairo",
+    "country": "Egypt",
+    "description": "Urban campus in East Cairo offering applied logistics, transport, and business-oriented education with bilingual delivery."
+  },
+
+  "college": {
+    "college_id": "CITL_HELIOPOLIS",
+    "name": "College of International Transport and Logistics – Heliopolis",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Applied logistics and international transport college delivering industry-oriented education in supply chain, trade, transport, and energy logistics with strong student support and bilingual instruction.",
+
+    "vision": "To deliver distinctive, high-impact education in logistics and international transport that equips graduates to compete in regional and global markets.",
+
+    "mission": "To prepare competent, adaptable, and industry-ready professionals in logistics and transport through modern teaching methods, practical exposure, and continuous skills development.",
+
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities (SCU)"
+      ],
+      "international": [
+        "Association of Arab Universities",
+        "International Association of Universities"
+      ]
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Academic quality is governed by AASTMT institutional standards and CITL system-wide quality frameworks."
+    }
+  },
+
+  "degree": {
+    "degree_name": "B.Sc. in Trade Logistics and International Transport Management",
+    "level": "Undergraduate",
+    "study_duration_years": 4,
+    "total_semesters": 8,
+    "language_tracks": [
+      "Arabic",
+      "English"
+    ]
+  },
+
+  "programs": [
+    {
+      "program_id": "LOGISTICS_SUPPLY_CHAIN",
+      "name": "Logistics and Supply Chain Management",
+      "focus": "Supply chain integration, inventory control, procurement, distribution, and operations",
+      "industry_orientation": "very_high"
+    },
+    {
+      "program_id": "INTL_TRADE_LOGISTICS",
+      "name": "International Trade Logistics Management",
+      "focus": "Customs, international trade operations, freight forwarding, and trade finance",
+      "industry_orientation": "very_high"
+    },
+    {
+      "program_id": "TRANSPORT_LOGISTICS",
+      "name": "Transport Logistics Management",
+      "focus": "Transport operations, multimodal logistics, ports, and transport economics",
+      "industry_orientation": "high"
+    },
+    {
+      "program_id": "ENERGY_PETROLEUM_LOGISTICS",
+      "name": "Energy and Petroleum Logistics Management",
+      "focus": "Energy supply chains, petroleum logistics, hazardous materials transport",
+      "industry_orientation": "high"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.6,
+    "practical_intensity": 0.7,
+    "project_dependency": "high",
+    "case_study_dependency": "high",
+    "exam_weight": "medium"
+  },
+
+  "pressure_profile": {
+    "workload_level": "medium_high",
+    "deadline_pressure": "medium",
+    "evaluation_style": "mixed_exams_and_projects",
+    "failure_risk": "medium"
+  },
+
+  "training_and_industry": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "training_style": [
+      "Applied coursework",
+      "Case studies",
+      "Industry-based projects",
+      "Practical simulations"
+    ],
+    "industry_alignment": "high"
+  },
+
+  "professional_certificates": [
+    {
+      "certificate_id": "CERTIFIED_INDUSTRIAL_ENGINEER",
+      "name": "Certified Industrial Engineer (CIE)",
+      "focus": [
+        "Process management",
+        "Production systems",
+        "Quality management",
+        "Supply chain management"
+      ],
+      "delivery_style": [
+        "Training",
+        "Case studies",
+        "Simulation",
+        "Testing"
+      ],
+      "target_audience": "Students and professionals seeking industrial and operational excellence",
+      "industry_relevance": "high"
+    }
+  ],
+
+  "student_support": {
+    "health_insurance": true,
+    "financial_aid": true,
+    "merit_scholarships": true,
+    "language_support": {
+      "arabic_track_english_support": true
+    }
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Logistics companies",
+      "Supply chain departments",
+      "Freight forwarding",
+      "Shipping lines",
+      "Energy and petroleum companies",
+      "Ports and transport authorities",
+      "Trade and customs services"
+    ],
+    "entry_roles": [
+      "Logistics Analyst",
+      "Supply Chain Coordinator",
+      "Transport Operations Officer",
+      "Trade Logistics Executive",
+      "Procurement Officer"
+    ],
+    "career_flexibility": "high",
+    "international_employability": "medium_high"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students interested in business-oriented logistics",
+      "Students seeking applied rather than purely theoretical study",
+      "Students preferring bilingual education",
+      "Students valuing financial and institutional support"
+    ],
+    "not_ideal_for": [
+      "Purely research-oriented students",
+      "Students seeking heavy mathematical or engineering depth"
+    ]
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_personality_matching": true,
+    "supports_industry_alignment_scoring": true,
+    "supports_cross_branch_comparison": true
+  }
+}

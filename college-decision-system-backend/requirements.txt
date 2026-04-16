@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic>=2.0.0
+pydantic-settings
+alembic
+python-dotenv
+google-generativeai
+pytest
+httpx
+thefuzz
+python-Levenshtein
+aiofiles
+imageio_ffmpeg
+openai-whisper
+setuptools-rust
+python-multipart

@@ -1,0 +1,207 @@
+{
+  "campus": {
+    "campus_id": "HELIOPOLIS",
+    "name": "Heliopolis Campus",
+    "city": "Cairo",
+    "country": "Egypt",
+    "description": "Major Cairo-based campus focused on smart business education, technology-enabled learning, and international academic integration."
+  },
+
+  "college": {
+    "college_id": "CMT_HELIOPOLIS",
+    "name": "College of Management & Technology – Heliopolis",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Smart business management college emphasizing technology-driven education, ethical leadership, entrepreneurship, and international academic integration.",
+
+    "vision": "To be recognized as one of the most reputable smart business management colleges in Egypt and the Middle East with a significant positive impact on the knowledge society.",
+
+    "mission": "To provide high-quality business and management education using modern teaching methodologies, hands-on learning, and ethical foundations, while preparing graduates capable of contributing to local, regional, and global business environments.",
+
+    "accreditation": {
+      "national": [],
+      "international": [
+        "University of London – Recognized Teaching Center"
+      ]
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Dedicated Quality Assurance Unit ensuring continuous improvement, academic excellence, ethical conduct, and compliance with international standards."
+    }
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Science",
+    "level": "Undergraduate",
+    "study_duration_years": 4,
+    "total_semesters": 8
+  },
+
+  "programs": [
+    {
+      "program_id": "MKT_INT_BUS",
+      "name": "Marketing and International Business",
+      "focus": "Marketing strategy, global business environments, consumer behavior, and international markets",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "BIS",
+      "name": "Business Information Systems",
+      "focus": "Business systems analysis, databases, decision support systems, and IT-enabled management",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "ACCOUNTING",
+      "name": "Accounting",
+      "focus": "Financial accounting, auditing, taxation, and reporting",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "FIN_ACC",
+      "name": "Finance and Accounting",
+      "focus": "Corporate finance, financial analysis, investment, and accounting systems",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "DIG_SUST_BUS_ECON",
+      "name": "Digital and Sustainable Business Economics",
+      "focus": "Digital economy, sustainability, business analytics, and economic decision-making",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "FR_SECTION",
+      "name": "La Section Francophone",
+      "focus": "Business and management education delivered in French",
+      "industry_alignment": "medium_high"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.6,
+    "practical_intensity": 0.65,
+    "technology_dependency": 0.75,
+    "project_dependency": "high",
+    "group_work_dependency": "high",
+    "research_orientation": "medium"
+  },
+
+  "pressure_profile": {
+    "workload_level": "medium_high",
+    "deadline_pressure": "medium",
+    "evaluation_style": "projects + coursework + exams",
+    "failure_risk": "low"
+  },
+
+  "training_and_industry": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "training_methods": [
+      "Hands-on applied projects",
+      "Group work and simulations",
+      "Technology-enabled assignments",
+      "Industry-aligned case studies"
+    ],
+    "industry_alignment": "high"
+  },
+
+  "international_exposure": {
+    "recognized_programs": [
+      "University of London Programs"
+    ],
+    "language_tracks": [
+      "English",
+      "French"
+    ],
+    "study_abroad": "optional"
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Business management",
+      "Accounting and finance",
+      "Digital business",
+      "Sustainable economics"
+    ],
+    "industry_projects": true,
+    "entrepreneurial_orientation": "high"
+  },
+
+  "facilities_and_resources": [
+    "Technology-enabled classrooms",
+    "Computer-aided learning systems",
+    "Business and IT labs",
+    "Quality Assurance Unit"
+  ],
+
+  "student_life": {
+    "campus_life_intensity": "medium",
+    "collaborative_environment": true,
+    "diversity": "high",
+    "entrepreneurial_culture": true
+  },
+
+  "student_support": {
+    "academic_advising": true,
+    "career_guidance": true,
+    "training_and_community_service": true
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Corporate organizations",
+      "Financial institutions",
+      "Technology-driven businesses",
+      "Consulting firms",
+      "Entrepreneurial ventures",
+      "Multinational companies"
+    ],
+    "common_roles": [
+      "Business Analyst",
+      "Accountant",
+      "Financial Analyst",
+      "Marketing Executive",
+      "MIS Specialist",
+      "Digital Business Consultant"
+    ],
+    "employability_level": "very_high"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students interested in technology-driven business",
+      "Students seeking international recognition",
+      "Entrepreneurial-minded students",
+      "Students preferring applied and group-based learning"
+    ],
+    "less_suitable_for": [
+      "Students seeking purely theoretical economics",
+      "Students avoiding technology-heavy coursework"
+    ]
+  },
+
+  "governing_values": [
+    "Excellence",
+    "Ethical and moral conduct",
+    "Innovation",
+    "Integrity and credibility",
+    "Human capital development",
+    "Hands-on interactive learning"
+  ],
+
+  "leadership": {
+    "dean": "Prof. Tarek Hasan Abdeen, PhD",
+    "vice_deans": [
+      "Dr. Hady Omar Taha – Educational Affairs",
+      "Dr. Nihal Ismail Ayad – Training and Community Service"
+    ],
+    "quality_assurance_head": "Dr. Ghada Ashraf Al-Sayyad"
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_cross_college_comparison": true,
+    "supports_personality_matching": true,
+    "supports_international_programs": true
+  }
+}

@@ -1,0 +1,1081 @@
+﻿{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "CET_LATAKIA.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "college",
+    "college_id": "CET_LATAKIA",
+    "college_name": "College of Engineering & Technology Latakia"
+  },
+  "official_data": {
+    "location": {
+      "city": "Latakia",
+      "country": "Syria",
+      "branch": "Latakia"
+    },
+    "establishment": {
+      "year_established": 2001,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A leading engineering college within AASTMT offering internationally accredited engineering programs with strong emphasis on applied training and industry collaboration.",
+      "current_status": "Active undergraduate and postgraduate engineering programs with international accreditation and industry partnerships.",
+      "future_prospectus": "Focus on continuous improvement, renewal of accreditations, enhancement of research activities, faculty development, scholarships, and strengthening industrial-academic collaboration."
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        "Architectural Engineering and Environmental Design",
+        "Computer Engineering",
+        "Construction and Buildings Engineering",
+        "Electrical and Control Engineering",
+        "Electronics and Communications Engineering",
+        "Industrial and Management Engineering",
+        "Marine Engineering",
+        "Mechanical Engineering"
+      ],
+      "postgraduate": [],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities (SCU)"
+      ],
+      "international": [
+        "ABET",
+        "IMechE",
+        "IMarEST",
+        "IET",
+        "ICE",
+        "IStructE",
+        "IHT",
+        "Royal Institute of British Architects (RIBA)"
+      ]
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Thanaweia Amma",
+        "IGCSE",
+        "American Diploma",
+        "IB",
+        "German Abitur",
+        "French Baccalaureate"
+      ],
+      "entry_exams_required": true,
+      "medical_fitness_required": true,
+      "age_limit": 22,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": 2,
+      "withdraw_deadline_week": 14,
+      "max_absence_percent": 15,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": []
+    },
+    "training_and_practice": {
+      "mandatory_training": null,
+      "industry_training": true,
+      "field_or_sea_training": null,
+      "description": "Industrial Advisory Committee meetings are held semi-annually to discuss students’ practical training opportunities, labor market needs, and industrial problems to be addressed through research projects."
+    },
+    "international_mobility": {
+      "available": true,
+      "mobility_types": [],
+      "regions": [
+        "Arab Countries"
+      ],
+      "partner_bodies": [
+        "Arab Institutions",
+        "International Engineering Bodies"
+      ],
+      "evidence_based_notes": []
+    },
+    "research_and_innovation": {
+      "research_focus": "Research activities supported by local and international funding and publication in highly ranked scientific journals.",
+      "industry_projects": true
+    },
+    "facilities_and_resources": [
+      "Laboratories",
+      "Educational Resources",
+      "Campus Infrastructure",
+      "Engineering Laboratories",
+      "Computer Labs",
+      "Workshops",
+      "Research Centers",
+      "Student Activities",
+      "Library"
+    ],
+    "industry_and_external_relations": [
+      "Industrial Advisory Committee",
+      "British Professional Institutes",
+      "Arab Institutions",
+      "International Engineering Bodies"
+    ],
+    "vision_mission": {
+      "vision": "Our Vision is to excel as one of the best engineering colleges locally and regionally and to maintain internationally recognized programs with an advanced academic rank. We also envision to provide the highest quality educational programs, research, and community services and to play a leading role in, all our aengineering activities, as a foremost engineering school in the Arab world.",
+      "mission": "Our mission is to efficiently integrate all of our facilities, and resources to prepare young generations for the requirements of the knowledge based societies and to proactively provide competitive, intellectual, and market-driven academic programs, research, and community services and pledges strong collaboration between our faculty, staff members, students, researchers, alumni, and industrial and business leaders. Further to maintain and develop long term and lasting partnerships with Arab institutions, and internationally acknowledged bodies."
+    },
+    "leadership": []
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.75,
+      "math_intensity": 0.79,
+      "practical_intensity": 0.79,
+      "field_work_intensity": 0.63,
+      "research_orientation": 0.62,
+      "career_flexibility": 0.63,
+      "egypt_employability": {
+        "level": 3,
+        "score": 0.68
+      },
+      "international_employability": {
+        "level": 2,
+        "score": 0.63
+      },
+      "international_mobility_strength": {
+        "level": 2,
+        "label": "medium",
+        "score": 0.66
+      },
+      "campus_life_score": 0.72,
+      "city_opportunity_score": 0.58,
+      "industry_exposure": 0.52,
+      "cost_of_living_score": 0.56
+    },
+    "program_profiles": [
+      {
+        "program_name": "Architectural Engineering and Environmental Design",
+        "decision_profile": {
+          "theoretical_depth": 0.77,
+          "math_intensity": 0.69,
+          "physics_intensity": 0.62,
+          "programming_intensity": 0.4,
+          "design_creativity": 0.88,
+          "lab_intensity": 0.74,
+          "field_work_intensity": 0.71,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.76,
+          "career_flexibility": 0.62,
+          "ai_focus": 0.4,
+          "data_focus": 0.41,
+          "software_focus": 0.52,
+          "security_focus": 0.24,
+          "hardware_focus": 0.2,
+          "business_focus": 0.44,
+          "finance_focus": 0.3,
+          "logistics_focus": 0.22,
+          "maritime_focus": 0.15,
+          "healthcare_focus": 0.2,
+          "creativity_design_focus": 0.84,
+          "language_communication_focus": 0.66,
+          "law_policy_focus": 0.26,
+          "research_orientation": 0.67,
+          "entrepreneurship_focus": 0.64,
+          "international_work_readiness": 0.59,
+          "remote_work_fit": 0.47
+        },
+        "career_paths": [
+          "Architect",
+          "Urban Designer",
+          "BIM Engineer",
+          "Architectural Consultant",
+          "Sustainability Architect"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.62
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Architectural Engineering and Environmental Design derived from available program indicators in the source file.",
+        "program_family": "DESIGN_FAMILY",
+        "close_alternatives": [
+          "Construction and Buildings Engineering",
+          "Electrical and Control Engineering",
+          "Electronics and Communications Engineering"
+        ],
+        "differentiation_notes": [
+          "Compared with Construction and Buildings Engineering, this profile leans less hardware and more creative design.",
+          "Compared with Electrical and Control Engineering, this profile leans less hardware and more creative design."
+        ]
+      },
+      {
+        "program_name": "Computer Engineering",
+        "decision_profile": {
+          "theoretical_depth": 0.81,
+          "math_intensity": 0.85,
+          "physics_intensity": 0.76,
+          "programming_intensity": 0.84,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.84,
+          "field_work_intensity": 0.49,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.82,
+          "career_flexibility": 0.72,
+          "ai_focus": 0.72,
+          "data_focus": 0.62,
+          "software_focus": 0.72,
+          "security_focus": 0.58,
+          "hardware_focus": 0.86,
+          "business_focus": 0.4,
+          "finance_focus": 0.38,
+          "logistics_focus": 0.35,
+          "maritime_focus": 0.2,
+          "healthcare_focus": 0.28,
+          "creativity_design_focus": 0.42,
+          "language_communication_focus": 0.45,
+          "law_policy_focus": 0.3,
+          "research_orientation": 0.76,
+          "entrepreneurship_focus": 0.58,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.71
+        },
+        "career_paths": [
+          "Software Engineer",
+          "Embedded Systems Engineer",
+          "AI Engineer",
+          "Machine Learning Engineer",
+          "Cloud Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.72
+          },
+          "international_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Interested in coding/problem-solving work",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer non-technical daily work"
+        ],
+        "summary": "Heuristic profile for Computer Engineering derived from available program indicators in the source file.",
+        "program_family": "CS_FAMILY",
+        "close_alternatives": [
+          "Construction and Buildings Engineering",
+          "Electrical and Control Engineering",
+          "Electronics and Communications Engineering"
+        ],
+        "differentiation_notes": [
+          "Compared with Construction and Buildings Engineering, this profile leans more remote work and more software.",
+          "Compared with Electrical and Control Engineering, this profile leans more remote work and more software."
+        ]
+      },
+      {
+        "program_name": "Construction and Buildings Engineering",
+        "decision_profile": {
+          "theoretical_depth": 0.73,
+          "math_intensity": 0.77,
+          "physics_intensity": 0.7,
+          "programming_intensity": 0.2,
+          "design_creativity": 0.58,
+          "lab_intensity": 0.72,
+          "field_work_intensity": 0.8,
+          "management_exposure": 0.78,
+          "workload_difficulty": 0.8,
+          "career_flexibility": 0.62,
+          "ai_focus": 0.38,
+          "data_focus": 0.3,
+          "software_focus": 0.28,
+          "security_focus": 0.3,
+          "hardware_focus": 0.2,
+          "business_focus": 0.42,
+          "finance_focus": 0.32,
+          "logistics_focus": 0.36,
+          "maritime_focus": 0.38,
+          "healthcare_focus": 0.22,
+          "creativity_design_focus": 0.48,
+          "language_communication_focus": 0.44,
+          "law_policy_focus": 0.24,
+          "research_orientation": 0.7,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.59,
+          "remote_work_fit": 0.27
+        },
+        "career_paths": [
+          "Structural Engineer",
+          "Site Engineer",
+          "Project Engineer",
+          "Construction Manager",
+          "Infrastructure Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.62
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Construction and Buildings Engineering derived from available program indicators in the source file.",
+        "program_family": "ENGINEERING_FAMILY",
+        "close_alternatives": [
+          "Electrical and Control Engineering",
+          "Electronics and Communications Engineering",
+          "Mechanical Engineering"
+        ],
+        "differentiation_notes": [
+          "Compared with Electrical and Control Engineering, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with Electronics and Communications Engineering, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "Electrical and Control Engineering",
+        "decision_profile": {
+          "theoretical_depth": 0.81,
+          "math_intensity": 0.87,
+          "physics_intensity": 0.82,
+          "programming_intensity": 0.52,
+          "design_creativity": 0.58,
+          "lab_intensity": 0.84,
+          "field_work_intensity": 0.66,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.82,
+          "career_flexibility": 0.62,
+          "ai_focus": 0.38,
+          "data_focus": 0.3,
+          "software_focus": 0.4,
+          "security_focus": 0.3,
+          "hardware_focus": 0.62,
+          "business_focus": 0.42,
+          "finance_focus": 0.32,
+          "logistics_focus": 0.36,
+          "maritime_focus": 0.38,
+          "healthcare_focus": 0.22,
+          "creativity_design_focus": 0.48,
+          "language_communication_focus": 0.44,
+          "law_policy_focus": 0.24,
+          "research_orientation": 0.7,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.59,
+          "remote_work_fit": 0.27
+        },
+        "career_paths": [
+          "Power Systems Engineer",
+          "Control Systems Engineer",
+          "Automation Engineer",
+          "Electrical Design Engineer",
+          "Instrumentation Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.62
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Electrical and Control Engineering derived from available program indicators in the source file.",
+        "program_family": "ENGINEERING_FAMILY",
+        "close_alternatives": [
+          "Construction and Buildings Engineering",
+          "Electronics and Communications Engineering",
+          "Mechanical Engineering"
+        ],
+        "differentiation_notes": [
+          "Compared with Construction and Buildings Engineering, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with Electronics and Communications Engineering, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "Electronics and Communications Engineering",
+        "decision_profile": {
+          "theoretical_depth": 0.79,
+          "math_intensity": 0.85,
+          "physics_intensity": 0.88,
+          "programming_intensity": 0.72,
+          "design_creativity": 0.58,
+          "lab_intensity": 0.82,
+          "field_work_intensity": 0.45,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.8,
+          "career_flexibility": 0.62,
+          "ai_focus": 0.38,
+          "data_focus": 0.56,
+          "software_focus": 0.66,
+          "security_focus": 0.3,
+          "hardware_focus": 0.9,
+          "business_focus": 0.42,
+          "finance_focus": 0.32,
+          "logistics_focus": 0.36,
+          "maritime_focus": 0.38,
+          "healthcare_focus": 0.22,
+          "creativity_design_focus": 0.48,
+          "language_communication_focus": 0.44,
+          "law_policy_focus": 0.24,
+          "research_orientation": 0.7,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.59,
+          "remote_work_fit": 0.27
+        },
+        "career_paths": [
+          "Electronics Design Engineer",
+          "Telecommunications Engineer",
+          "RF Engineer",
+          "Embedded Systems Engineer",
+          "Network Planning Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.62
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Electronics and Communications Engineering derived from available program indicators in the source file.",
+        "program_family": "ENGINEERING_FAMILY",
+        "close_alternatives": [
+          "Construction and Buildings Engineering",
+          "Electrical and Control Engineering",
+          "Mechanical Engineering"
+        ],
+        "differentiation_notes": [
+          "Compared with Construction and Buildings Engineering, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with Electrical and Control Engineering, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "Industrial and Management Engineering",
+        "decision_profile": {
+          "theoretical_depth": 0.75,
+          "math_intensity": 0.79,
+          "physics_intensity": 0.68,
+          "programming_intensity": 0.42,
+          "design_creativity": 0.58,
+          "lab_intensity": 0.74,
+          "field_work_intensity": 0.59,
+          "management_exposure": 0.73,
+          "workload_difficulty": 0.76,
+          "career_flexibility": 0.62,
+          "ai_focus": 0.38,
+          "data_focus": 0.6,
+          "software_focus": 0.4,
+          "security_focus": 0.3,
+          "hardware_focus": 0.2,
+          "business_focus": 0.68,
+          "finance_focus": 0.64,
+          "logistics_focus": 0.58,
+          "maritime_focus": 0.24,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.44,
+          "language_communication_focus": 0.68,
+          "law_policy_focus": 0.45,
+          "research_orientation": 0.64,
+          "entrepreneurship_focus": 0.74,
+          "international_work_readiness": 0.65,
+          "remote_work_fit": 0.49
+        },
+        "career_paths": [
+          "Industrial Engineer",
+          "Operations Excellence Engineer",
+          "Supply Chain Engineer",
+          "Manufacturing Systems Engineer",
+          "Quality Engineering Specialist"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.62
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Industrial and Management Engineering derived from available program indicators in the source file.",
+        "program_family": "BUSINESS_FAMILY",
+        "close_alternatives": [
+          "Architectural Engineering and Environmental Design",
+          "Construction and Buildings Engineering",
+          "Electrical and Control Engineering"
+        ],
+        "differentiation_notes": [
+          "Compared with Architectural Engineering and Environmental Design, this profile leans less creative design and more business.",
+          "Compared with Construction and Buildings Engineering, this profile leans less hardware and more business."
+        ]
+      },
+      {
+        "program_name": "Marine Engineering",
+        "decision_profile": {
+          "theoretical_depth": 0.75,
+          "math_intensity": 0.77,
+          "physics_intensity": 0.8,
+          "programming_intensity": 0.5,
+          "design_creativity": 0.58,
+          "lab_intensity": 0.78,
+          "field_work_intensity": 0.75,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.8,
+          "career_flexibility": 0.62,
+          "ai_focus": 0.3,
+          "data_focus": 0.51,
+          "software_focus": 0.34,
+          "security_focus": 0.3,
+          "hardware_focus": 0.72,
+          "business_focus": 0.52,
+          "finance_focus": 0.4,
+          "logistics_focus": 0.72,
+          "maritime_focus": 0.92,
+          "healthcare_focus": 0.2,
+          "creativity_design_focus": 0.26,
+          "language_communication_focus": 0.54,
+          "law_policy_focus": 0.42,
+          "research_orientation": 0.66,
+          "entrepreneurship_focus": 0.52,
+          "international_work_readiness": 0.69,
+          "remote_work_fit": 0.17
+        },
+        "career_paths": [
+          "Marine Engineer",
+          "Ship Systems Engineer",
+          "Marine Propulsion Engineer",
+          "Port Technical Engineer",
+          "Vessel Operations Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.62
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Marine Engineering derived from available program indicators in the source file.",
+        "program_family": "MARITIME_FAMILY",
+        "close_alternatives": [
+          "Construction and Buildings Engineering",
+          "Electrical and Control Engineering",
+          "Electronics and Communications Engineering"
+        ],
+        "differentiation_notes": [
+          "Compared with Construction and Buildings Engineering, this profile leans more maritime and more logistics.",
+          "Compared with Electrical and Control Engineering, this profile leans more maritime and more logistics."
+        ]
+      },
+      {
+        "program_name": "Mechanical Engineering",
+        "decision_profile": {
+          "theoretical_depth": 0.75,
+          "math_intensity": 0.79,
+          "physics_intensity": 0.76,
+          "programming_intensity": 0.5,
+          "design_creativity": 0.58,
+          "lab_intensity": 0.78,
+          "field_work_intensity": 0.63,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.78,
+          "career_flexibility": 0.62,
+          "ai_focus": 0.38,
+          "data_focus": 0.49,
+          "software_focus": 0.42,
+          "security_focus": 0.3,
+          "hardware_focus": 0.74,
+          "business_focus": 0.42,
+          "finance_focus": 0.32,
+          "logistics_focus": 0.36,
+          "maritime_focus": 0.38,
+          "healthcare_focus": 0.22,
+          "creativity_design_focus": 0.48,
+          "language_communication_focus": 0.44,
+          "law_policy_focus": 0.24,
+          "research_orientation": 0.7,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.59,
+          "remote_work_fit": 0.27
+        },
+        "career_paths": [
+          "Mechanical Design Engineer",
+          "Manufacturing Engineer",
+          "Automation Engineer",
+          "Robotics Engineer",
+          "Thermal Systems Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.68
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.62
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Mechanical Engineering derived from available program indicators in the source file.",
+        "program_family": "ENGINEERING_FAMILY",
+        "close_alternatives": [
+          "Construction and Buildings Engineering",
+          "Electrical and Control Engineering",
+          "Electronics and Communications Engineering"
+        ],
+        "differentiation_notes": [
+          "Compared with Construction and Buildings Engineering, the focus balance is similar with only slight emphasis shifts.",
+          "Compared with Electrical and Control Engineering, the focus balance is similar with only slight emphasis shifts."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Latakia-Coastal",
+      "commute_friction_index": 0.62,
+      "relocation_friction_index": 0.72,
+      "industry_access_signal": 0.82,
+      "internship_density_signal": 0.73,
+      "campus_lifestyle_signal": 0.54,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": "College Of Engineering & Technology  latakia\nCollege Message\nCurrent Status and Future Prospectus\n\nAASTMT has realized the importance of educational innovation and development, since the early days of its establishment in 1972.\n\nThe College of Engineering and Technology, at AASTMT, was established in 1990 in Alexandria, Egypt and in 2001 in Latakia, Syria. Currently, the College of Engineering and Technology offers Bachelor's and Master's degrees in the areas of Architectural and Environmental design, Computer, Construction and Buildings, Electrical and Control, Electronics and Communications, Industrial and Management, Marine, and Mechanical Engineering.\n\nAll programs offered by the College are acknowledged by the Supreme Council of Egyptian Universities (SCU) and fully accredited Internationally from the British Professional Institutes (IMechE), (IMarEST), (IET), (ICE), (IStructE), and (IHT), beside the accreditation from the Royal Institute of British Architects (RIBA) parts 1 and 2 for the Architectural Engineering program. Also all college programs, except Architecture & Environmental Design, obtained the \"ABET\" accreditation since 2010, (ABET, Accreditation Board for Engineering Technologists).\n\nThe core objective of the college is achieving Excellency in all provided educational services, throughout the effective implementation of continuous improvement concept, as well as the success in obtaining and renewal of all local and international accreditations.\n\nNumbers of qualified and competent faculty members have increased drastically during the last five years resulting in huge developments in research activities whether to obtain research funds from local and international entities or to publish in the highly ranked and prominent scientific journals. Also, higher admission requirements combined with a competitive system of scholarships have been applied to attract high quality students. Furthermore, continuous development of educational resources, lab facilities, and campus infrastructure has been a constant activity in the College to maintain delivery of its quality services to students and faculty members.\n\nAs a step forward towards the enhancement of the relationship between the industrial and academic communities, the Industrial Advisory Committee was holding meetings on a semi-annual basis. These meetings discuss the opportunities of students' practical training, market needs in the college's graduates and finally the industrial problems that may be treated in the research projects.\n\nIn the future, the COE is strategically targeting to efficiently integrate all of our facilities, and resources to prepare young generations for the requirements of the knowledge based societies and to proactively provide competitive, intellectual and market"
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college_name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "location.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "location.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "location.branch"
+      },
+      {
+        "field": "official_data.establishment.year_established",
+        "source_path": "establishment.year_established"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "establishment.parent_institution"
+      },
+      {
+        "field": "official_data.overview.future_prospectus",
+        "source_path": "extra_sections.Current Status and Future Prospectus"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "degrees_programs.undergraduate"
+      },
+      {
+        "field": "official_data.degrees_programs.postgraduate",
+        "source_path": "degrees_programs.postgraduate"
+      },
+      {
+        "field": "official_data.accreditation.national",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "official_data.accreditation.international",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "text_artifacts.cleaned_summary_text",
+        "source_path": "raw_text"
+      },
+      {
+        "field": "official_data.training_and_practice.industry_training",
+        "source_path": "training_and_practice.industry_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_practice"
+      },
+      {
+        "field": "official_data.international_mobility.available",
+        "source_path": "mobility_evidence"
+      },
+      {
+        "field": "official_data.research_and_innovation.research_focus",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.research_and_innovation.industry_projects",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.facilities_and_resources",
+        "source_path": "facilities/labs"
+      },
+      {
+        "field": "official_data.industry_and_external_relations",
+        "source_path": "partners/industry"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "vision_mission.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "vision_mission.mission"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[Architectural Engineering and Environmental Design]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Engineering]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Construction and Buildings Engineering]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Electrical and Control Engineering]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Electronics and Communications Engineering]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Industrial and Management Engineering]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Marine Engineering]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Mechanical Engineering]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[Architectural Engineering and Environmental Design].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Architectural Engineering and Environmental Design].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Engineering].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Engineering].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Construction and Buildings Engineering].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Construction and Buildings Engineering].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Electrical and Control Engineering].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Electrical and Control Engineering].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Electronics and Communications Engineering].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Electronics and Communications Engineering].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Industrial and Management Engineering].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Industrial and Management Engineering].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Marine Engineering].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Marine Engineering].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Mechanical Engineering].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Mechanical Engineering].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Architectural Engineering and Environmental Design].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Architectural Engineering and Environmental Design].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Engineering].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Engineering].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Construction and Buildings Engineering].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Construction and Buildings Engineering].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Electrical and Control Engineering].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Electrical and Control Engineering].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Electronics and Communications Engineering].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Electronics and Communications Engineering].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Industrial and Management Engineering].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Industrial and Management Engineering].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Marine Engineering].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Marine Engineering].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Mechanical Engineering].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Mechanical Engineering].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.overview.short_description",
+      "official_data.overview.current_status",
+      "official_data.admission_requirements.entry_exams_required",
+      "official_data.admission_requirements.medical_fitness_required",
+      "official_data.admission_requirements.age_limit",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.training_and_practice.mandatory_training",
+      "official_data.training_and_practice.field_or_sea_training",
+      "official_data.degrees_programs.professional_certificates",
+      "official_data.admission_requirements.accepted_certificates",
+      "official_data.admission_requirements.other_conditions",
+      "official_data.student_regulations.special_conditions",
+      "official_data.international_mobility.mobility_types",
+      "official_data.international_mobility.evidence_based_notes",
+      "official_data.leadership"
+    ],
+    "uncertain_items": [],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded.",
+      "Engineering-file targeted audit/repair applied for overview, admission, regulations, facilities, careers, and decision profile realism."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

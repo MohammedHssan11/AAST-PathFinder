@@ -1,0 +1,346 @@
+﻿{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "cai_elalamein.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "branch",
+    "college_id": "CAI_EL_ALAMEIN",
+    "college_name": "College of Artificial Intelligence"
+  },
+  "official_data": {
+    "location": {
+      "city": "New El Alamein City",
+      "country": "Egypt",
+      "branch": "El Alamein Campus"
+    },
+    "establishment": {
+      "year_established": 2019,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport (AASTMT)"
+    },
+    "overview": {
+      "short_description": "The College of Artificial Intelligence provides education, training, and research in artificial intelligence, machine learning, and intelligent digital systems.",
+      "current_status": "Active undergraduate college offering AI-related study tracks with practical learning, labs, and applied computing exposure.",
+      "future_prospectus": "Expected to expand in applied AI research, interdisciplinary intelligent systems development, and stronger industry collaboration aligned with digital transformation needs."
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        "Intelligent Systems",
+        "Data Science"
+      ],
+      "postgraduate": [],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities"
+      ],
+      "international": []
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Thanaweya Amma",
+        "IGCSE",
+        "American Diploma",
+        "International Baccalaureate (IB)",
+        "French Baccalaureate",
+        "German Abitur"
+      ],
+      "entry_exams_required": false,
+      "medical_fitness_required": true,
+      "age_limit": null,
+      "other_conditions": [
+        "Applicant must satisfy AASTMT admission regulations and the minimum admission score for the assigned program.",
+        "Certificate equivalency requirements apply where relevant."
+      ]
+    },
+    "student_regulations": {
+      "add_course_deadline_week": 2,
+      "withdraw_deadline_week": 8,
+      "max_absence_percent": 25,
+      "postponement_policy": "Students may request semester postponement according to academy regulations and subject to administrative approval.",
+      "readmission_policy": "Students may apply for readmission according to academy academic regulations and subject to approval by the college.",
+      "special_conditions": []
+    },
+    "training_and_practice": {
+      "mandatory_training": true,
+      "industry_training": true,
+      "field_or_sea_training": false,
+      "description": "Students are expected to complete practical training or applied project-based work to strengthen technical readiness and employability."
+    },
+    "international_mobility": {
+      "available": true,
+      "mobility_types": [
+        "partner_universities"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "partner_bodies": [
+        "Autònoma University of Barcelona",
+        "University of Central Lancashire (UCLan)"
+      ],
+      "evidence_based_notes": [
+        "Partnership evidence mentions Autònoma University of Barcelona.",
+        "Partnership evidence mentions University of Central Lancashire (UCLan)."
+      ]
+    },
+    "research_and_innovation": {
+      "research_focus": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Science",
+        "Intelligent Systems",
+        "Applied Computing"
+      ],
+      "industry_projects": true
+    },
+    "facilities_and_resources": [
+      "Robotics Lab",
+      "Virtual Reality Lab",
+      "IoT Lab",
+      "Computer Labs",
+      "High-performance computing-enabled lab environment"
+    ],
+    "industry_and_external_relations": [
+      "Academic and partnership links supporting student exposure, collaboration, and applied learning."
+    ],
+    "vision_mission": {
+      "vision": "To be a leading regional college in artificial intelligence education, research, and innovation.",
+      "mission": "To prepare graduates with strong scientific foundations, practical AI skills, and the ability to solve real-world problems through high-quality education, research, and industry engagement."
+    },
+    "leadership": [
+      {
+        "name": "Ali Ali Mohamed Fahmy",
+        "title": "Dean",
+        "period": null
+      },
+      {
+        "name": "Ahmed Abdelkhalik Ahmed Abouelfarag",
+        "title": "Vice Dean",
+        "period": null
+      }
+    ]
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are calibrated heuristic estimates for recommendation use and are not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.76,
+      "math_intensity": 0.84,
+      "practical_intensity": 0.79,
+      "field_work_intensity": 0.28,
+      "research_orientation": 0.74,
+      "career_flexibility": 0.71,
+      "egypt_employability": {
+        "level": 3,
+        "score": 0.74
+      },
+      "international_employability": {
+        "level": 3,
+        "score": 0.72
+      },
+      "international_mobility_strength": {
+        "level": 3,
+        "label": "strong",
+        "score": 0.79
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "Intelligent Systems",
+        "decision_profile": {
+          "theoretical_depth": 0.84,
+          "math_intensity": 0.89,
+          "physics_intensity": 0.26,
+          "programming_intensity": 0.91,
+          "design_creativity": 0.42,
+          "lab_intensity": 0.78,
+          "field_work_intensity": 0.22,
+          "management_exposure": 0.36,
+          "workload_difficulty": 0.80,
+          "career_flexibility": 0.68,
+          "ai_focus": 0.93,
+          "data_focus": 0.72,
+          "software_focus": 0.79,
+          "security_focus": 0.31,
+          "hardware_focus": 0.34,
+          "business_focus": 0.26,
+          "finance_focus": 0.18,
+          "logistics_focus": 0.22,
+          "maritime_focus": 0.10,
+          "healthcare_focus": 0.28,
+          "creativity_design_focus": 0.38,
+          "language_communication_focus": 0.39,
+          "law_policy_focus": 0.18,
+          "research_orientation": 0.83,
+          "entrepreneurship_focus": 0.49,
+          "international_work_readiness": 0.73,
+          "remote_work_fit": 0.82
+        },
+        "career_paths": [
+          "AI Engineer",
+          "Machine Learning Engineer",
+          "Computer Vision Engineer",
+          "Robotics Engineer",
+          "Intelligent Systems Engineer",
+          "AI Research Engineer",
+          "MLOps Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.73
+          },
+          "international_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.76
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and abstract problem solving",
+          "Comfortable with mathematics-heavy study",
+          "Interested in AI systems and intelligent automation",
+          "Likes programming-intensive work",
+          "Can handle sustained technical workload"
+        ],
+        "avoid_if": [
+          "You strongly dislike mathematics",
+          "You want low-intensity technical coursework",
+          "You prefer mainly business-oriented study"
+        ],
+        "summary": "Best suited for students who want stronger AI depth, intelligent automation exposure, and technically demanding software-centered careers.",
+        "program_family": "AI_FAMILY",
+        "close_alternatives": [
+          "Data Science"
+        ],
+        "differentiation_notes": [
+          "Compared with Data Science, this program is more AI-centric and slightly less business/data-analytics oriented.",
+          "It fits students aiming for intelligent applications, machine learning systems, and advanced AI engineering roles."
+        ]
+      },
+      {
+        "program_name": "Data Science",
+        "decision_profile": {
+          "theoretical_depth": 0.78,
+          "math_intensity": 0.85,
+          "physics_intensity": 0.14,
+          "programming_intensity": 0.82,
+          "design_creativity": 0.30,
+          "lab_intensity": 0.71,
+          "field_work_intensity": 0.16,
+          "management_exposure": 0.41,
+          "workload_difficulty": 0.73,
+          "career_flexibility": 0.78,
+          "ai_focus": 0.67,
+          "data_focus": 0.96,
+          "software_focus": 0.73,
+          "security_focus": 0.24,
+          "hardware_focus": 0.12,
+          "business_focus": 0.52,
+          "finance_focus": 0.46,
+          "logistics_focus": 0.36,
+          "maritime_focus": 0.12,
+          "healthcare_focus": 0.30,
+          "creativity_design_focus": 0.24,
+          "language_communication_focus": 0.44,
+          "law_policy_focus": 0.20,
+          "research_orientation": 0.77,
+          "entrepreneurship_focus": 0.46,
+          "international_work_readiness": 0.75,
+          "remote_work_fit": 0.89
+        },
+        "career_paths": [
+          "Data Scientist",
+          "Data Analyst",
+          "Machine Learning Engineer",
+          "Data Engineer",
+          "Analytics Engineer",
+          "Business Intelligence Engineer",
+          "Recommender Systems Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.77
+          },
+          "international_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.74
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys working with data, patterns, and quantitative reasoning",
+          "Comfortable with statistics and mathematics",
+          "Interested in analytics, prediction, and decision support",
+          "Likes coding with applied real-world use cases"
+        ],
+        "avoid_if": [
+          "You want minimal statistics or mathematics",
+          "You dislike data-heavy analytical work",
+          "You prefer hardware-focused study"
+        ],
+        "summary": "Best suited for students who want strong data analysis, predictive modeling, and flexible analytics-to-ML career pathways.",
+        "program_family": "DATA_FAMILY",
+        "close_alternatives": [
+          "Intelligent Systems"
+        ],
+        "differentiation_notes": [
+          "Compared with Intelligent Systems, this program is more data-centric and more aligned with analytics and broad data careers.",
+          "It offers stronger flexibility for data science, analytics, and remote-friendly technical roles."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Matrouh-Coastal",
+      "commute_friction_index": 0.64,
+      "relocation_friction_index": 0.74,
+      "industry_access_signal": 0.52,
+      "internship_density_signal": 0.47,
+      "campus_lifestyle_signal": 0.61,
+      "safety_signal": 0.68,
+      "housing_affordability_signal": 0.71,
+      "notes": [
+        "All campus_profile values are heuristic estimates for recommendation use.",
+        "Signals reflect the branch location context and expected access patterns relative to larger metro markets."
+      ]
+    }
+  },
+
+ 
+
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer the closer campus to the student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If the top program is unavailable on the student's preferred campus, recommend the closest alternative within the same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.50,
+      "career_score_weight": 0.30,
+      "opportunity_score_weight": 0.20,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

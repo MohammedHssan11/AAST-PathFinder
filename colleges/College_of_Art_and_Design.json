@@ -1,0 +1,160 @@
+{
+  "campus": {
+    "campus_id": "SMART_VILLAGE",
+    "name": "Smart Village Campus",
+    "city": "Smart Village",
+    "country": "Egypt",
+    "description": "Technology-driven campus integrating engineering, media, business, and creative disciplines."
+  },
+
+  "college": {
+    "college_id": "CAD_SMART_VILLAGE",
+    "name": "College of Art and Design",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Industry-oriented art and design college focused on integrating creativity into industrial production and applied innovation.",
+
+    "vision": "To actively integrate art into industry and become an essential creative pillar within state-of-the-art industrial organizations.",
+    "mission": "To graduate highly competent, innovative designers capable of creating practical, artistic, and market-ready solutions through lateral thinking and industry collaboration.",
+
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities (SCU)"
+      ],
+      "international": [
+        "Cardiff Metropolitan University (UK)"
+      ]
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Continuous improvement framework focused on academic excellence and renewal of local and international accreditations."
+    }
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Arts",
+    "level": "Undergraduate",
+    "study_duration_years": 4
+  },
+
+  "programs": [
+    {
+      "program_id": "INDUSTRIAL_DESIGN",
+      "name": "Industrial Design",
+      "creative_orientation": "high",
+      "industry_orientation": "very_high"
+    },
+    {
+      "program_id": "GRAPHIC_COMMUNICATION_DESIGN",
+      "name": "Graphic Communication Design",
+      "creative_orientation": "very_high",
+      "industry_orientation": "high"
+    },
+    {
+      "program_id": "FASHION_DESIGN",
+      "name": "Fashion Design",
+      "creative_orientation": "very_high",
+      "industry_orientation": "medium_high"
+    },
+    {
+      "program_id": "INTERIOR_FURNITURE_DESIGN",
+      "name": "Interior and Furniture Design",
+      "creative_orientation": "high",
+      "industry_orientation": "high"
+    },
+    {
+      "program_id": "FILM_VISUAL_ART",
+      "name": "Film and Visual Art",
+      "creative_orientation": "very_high",
+      "industry_orientation": "medium"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.45,
+    "practical_intensity": 0.85,
+    "creative_intensity": 0.95,
+    "research_intensity": 0.6,
+    "project_dependency": "very_high",
+    "portfolio_dependency": "critical"
+  },
+
+  "pressure_profile": {
+    "workload_level": "high",
+    "deadline_pressure": "very_high",
+    "evaluation_style": "continuous_project_based",
+    "failure_risk": "medium"
+  },
+
+  "training_and_industry": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "training_style": [
+      "Industry-oriented projects",
+      "Multidisciplinary collaboration",
+      "Applied design research"
+    ],
+    "industry_alignment": "very_high"
+  },
+
+  "career_outcomes": {
+    "employment_style": [
+      "Design studios",
+      "Industrial companies",
+      "Creative agencies",
+      "Freelance and entrepreneurship",
+      "Startups and innovation hubs"
+    ],
+    "common_roles": [
+      "Industrial Designer",
+      "Graphic Designer",
+      "Fashion Designer",
+      "Interior Designer",
+      "Visual Artist",
+      "Creative Director",
+      "Design Entrepreneur"
+    ],
+    "self_employment_probability": "high",
+    "international_mobility": 0.75
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Art–Industry Integration",
+      "Applied Design Innovation",
+      "Multidisciplinary Creative Research",
+      "Product and Visual Communication Development"
+    ],
+    "industry_projects": true
+  },
+
+  "facilities_and_resources": [
+    "Design Studios",
+    "Specialized Laboratories",
+    "Creative Workshops",
+    "Research Facilities",
+    "Shared Resources with Engineering, Media, and Business Colleges"
+  ],
+
+  "student_fit_model": {
+    "best_for": [
+      "Highly creative students",
+      "Visual thinkers",
+      "Students preferring projects over exams",
+      "Entrepreneurial personalities"
+    ],
+    "not_ideal_for": [
+      "Exam-oriented students",
+      "Low tolerance for deadlines",
+      "Preference for rigid curricula"
+    ]
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_personality_matching": true,
+    "supports_portfolio_based_evaluation": true,
+    "supports_cross_college_comparison": true
+  }
+}

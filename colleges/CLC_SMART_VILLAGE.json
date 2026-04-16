@@ -1,0 +1,61 @@
+{
+  "college_id": "CLC_SMART_VILLAGE",
+  "college_name": "College of Language and Communication - Smart Village",
+  "raw_text": "College of Language and Communication  Smart Village\nProvide students with the basic knowledge and skills in all the fields of mass communication.\nPrepare prominent media professionals of high level of knowledge and innovation and who apply the code of ethics of the media work.\nDevelop the communication skills to understand the international views and cultural pluralism.\nHold effective partnership with the stakeholders to reinforce the program.\nProvide opportunities of creativity and innovation for all the teaching staff members and students.\nPromote cooperation and care about getting the graduates' opinions.Vision \nCollege of Language and Communication – Smart Village aims to be a leading academic hub in language and communication studies, fostering innovation, research excellence, and global engagement. We strive to shape future professionals who drive positive change in the fields of media, translation, and intercultural communication.\n\n Mission\nCLC aspires to achieve sustainable development by equipping students with educational and training programs that meet international standards. Through the application of the highest quality standards and governance, the college seeks to qualify outstanding graduates who can contribute to a constantly changing workplacProf. Yasser El-Shamy\nDean of College of Language & Communication (CLC) - Smart Village\nWelcome to the College of Language and Communication (CLC), Smart Village Campus!I am very happy to welcome you all to our College Website. It gives me great pleasure to lead the College of Language and Communication as I work hand in hand with faculty, staff, and students to bring the College to the forefront in the region. CLC has a well-established environment and state of the art smart premises. In this multinational, educational, and academic environment, students are educated to be exemplary leaders. The College and programs offered are accredited by the Ministry of Higher Education. The rigorous four-year undergraduate programs and high-quality education we offer equip students with the knowledge and skills to compete in a rapidly changing world. Our vision is to build the most active academic environment in the region and be a center of excellence in teaching, research, and training. We are here to bridge the gap between diverse viewpoints and critically examine both theory and practice, while seeking innovative ways to approach language, media, and communication locally, regionally, and internationally. Our students are well-acquainted with the global environment and emerge as future leaders through constant knowledge exchange, evaluation, and establishment of critical thinking. We aim to graduate professionals who are competitive, innovative, knowledgeable, and passionate. Graduates of our College have a wide range of employment and career opportunities available to them, including teaching, translation and interpretation, journalism, public relations, advertising, script writing, film and documentary making, photography, and communication media. We provide a warm environment for students from different nationalities and all the necessary tools to accommodate them. We further do our best to provide them with the necessary means to succeed. The partnerships and MOUs that we have made and signed with various well-known international universities allow students to complete part of their core courses/electives overseas to gain better exposure and diverse experiences. This is a time when we need to continue fostering critical dialogue by bringing together different voices to effective and positive change. We invite our graduates to keep in touch with our College and are in the process of establishing a cohesive alumni program and events for our College graduates. We advocate an open door policy and our main objective is to build trust among faculty members and students. We hope that you will visit us on campus to learn more about CLC and the opportunities we offer for education and training, research, service, and collaboration. I invite you to explore our Website to learn more about our programs and learning environment.",
+  "location": {
+    "city": "Smart Village",
+    "country": "Egypt",
+    "branch": "Smart Village"
+  },
+  "establishment": {
+    "year_established": null,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+  "degrees_programs": {
+    "undergraduate": [],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+  "accreditation": {
+    "national": [
+      "Ministry of Higher Education"
+    ],
+    "international": []
+  },
+  "training_and_practice": {
+    "mandatory_training": null,
+    "industry_training": true,
+    "sea_or_field_training": null,
+    "description": "Partnerships and MOUs with international universities allow students to complete part of their core courses or electives overseas to gain exposure and diverse experiences."
+  },
+  "industry_and_international_relations": [
+    "International universities (unspecified partners through MOUs)"
+  ],
+  "facilities_and_resources": [
+    "State of the art smart premises",
+    "Modern educational and academic environment"
+  ],
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": null
+  },
+  "research_and_innovation": {
+    "research_focus": "Language studies, media, communication, translation, intercultural communication",
+    "industry_projects": null
+  },
+  "quality_assurance": {
+    "qa_unit_exists": null,
+    "qa_description": "Programs are accredited by the Ministry of Higher Education and delivered under high quality standards and governance."
+  },
+  "vision_mission": {
+    "vision": "College of Language and Communication – Smart Village aims to be a leading academic hub in language and communication studies, fostering innovation, research excellence, and global engagement. We strive to shape future professionals who drive positive change in the fields of media, translation, and intercultural communication.",
+    "mission": "CLC aspires to achieve sustainable development by equipping students with educational and training programs that meet international standards. Through the application of the highest quality standards and governance, the college seeks to qualify outstanding graduates who can contribute to a constantly changing workplace."
+  },
+  "extra_sections": {
+    "College Objectives": "Provide students with the basic knowledge and skills in all the fields of mass communication. Prepare prominent media professionals of high level of knowledge and innovation and who apply the code of ethics of the media work. Develop the communication skills to understand the international views and cultural pluralism. Hold effective partnership with the stakeholders to reinforce the program. Provide opportunities of creativity and innovation for all the teaching staff members and students. Promote cooperation and care about getting the graduates' opinions.",
+    "Dean Message": "Welcome message by Prof. Yasser El-Shamy highlighting leadership, academic excellence, global engagement, partnerships, alumni relations, and career opportunities."
+  }
+}

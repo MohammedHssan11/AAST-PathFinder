@@ -1,0 +1,113 @@
+{
+  "college_id": "LAW_SMART_VILLAGE",
+  "college_name": "College of Law",
+  "branch": "Smart Village",
+
+  "location": {
+    "city": "Giza",
+    "area": "Smart Village",
+    "country": "Egypt"
+  },
+
+  "establishment": {
+    "year_established": null,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "academic_level": "undergraduate",
+
+  "degrees_programs": {
+    "undergraduate": [
+      {
+        "degree": "Bachelor of Law",
+        "track": "National Program",
+        "certification": "Supreme Council of Egyptian Universities"
+      },
+      {
+        "degree": "Bachelor of Law",
+        "track": "Dual Degree Program",
+        "partner_university": "Universitat Autònoma de Barcelona (UAB)",
+        "certification": [
+          "AASTMT",
+          "Universitat Autònoma de Barcelona"
+        ],
+        "program_start_year": 2020
+      }
+    ],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+
+  "accreditation": {
+    "national": [
+      "Supreme Council of Egyptian Universities"
+    ],
+    "international": [],
+    "notes": "Bachelor of Law programs are officially accredited and nationally recognized"
+  },
+
+  "vision_mission": {
+    "vision": "To become the leading College of Law in Egypt and the Middle East by complying with international standards in education, scientific research, innovation, and training while fulfilling social responsibility and serving as a distinguished Arab legal expertise house.",
+    "mission": "To graduate highly qualified legal professionals capable of shaping the future of law nationally and internationally, while contributing to the social and economic development of the Arab region through comprehensive academic programs, distinguished faculty, and excellence in research, training, and consultancy."
+  },
+
+  "dean_and_leadership": {
+    "dean": "Prof. Rasha Abo Elgheit",
+    "title": "Dean of AAST College of Law & Professor of Law",
+    "dean_statement": "The future is the main focus of AAST College of Law. Our mission is educating students and enabling them to fulfill their duties in the legal field nationally and internationally."
+  },
+
+  "educational_pillars": [
+    "Highly qualified faculty members from Egyptian universities with top academic degrees",
+    "Strong emphasis on practical legal training",
+    "Development of legal reasoning, dispute resolution, and problem-solving skills"
+  ],
+
+  "training_and_practice": {
+    "mandatory_training": false,
+    "industry_training": true,
+    "description": "Practical training through summer programs, legal workshops, professional clubs, and cooperation agreements with judicial and prosecution authorities."
+  },
+
+  "industry_and_institutional_relations": [
+    "Universitat Autònoma de Barcelona (Spain)",
+    "State Lawsuit Authority (Egypt)",
+    "Administrative Prosecution (Egypt)"
+  ],
+
+  "facilities_and_resources": [
+    "Modern classrooms equipped with advanced teaching technologies",
+    "Credit hour education system",
+    "Student organizations and legal clubs",
+    "Healthcare and student support services"
+  ],
+
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": "Class size limited to a maximum of 25 students to ensure high-quality education."
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Comparative legal systems",
+      "Legal education development",
+      "Scientific and legal culture dissemination",
+      "Judicial and legislative studies"
+    ],
+    "industry_projects": false
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": true,
+    "qa_description": "Commitment to international standards in legal education, research quality, innovation, and academic governance."
+  },
+
+  "strategic_positioning": {
+    "focus": "Legal education, international law exposure, judicial practice",
+    "target_students": "Students seeking national and international legal careers",
+    "regional_role": "One of AASTMT’s flagship law programs with international partnerships"
+  }
+}

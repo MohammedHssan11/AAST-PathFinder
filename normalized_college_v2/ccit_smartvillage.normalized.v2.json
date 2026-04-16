@@ -1,0 +1,656 @@
+{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "ccit_smartvillage.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "branch",
+    "college_id": "CCIT_SMART_VILLAGE",
+    "college_name": "College of Computing and Information Technology"
+  },
+  "official_data": {
+    "location": {
+      "city": "6 October City",
+      "country": "Egypt",
+      "branch": "Smart Village Campus"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A leading engineering college within AASTMT offering internationally accredited engineering programs with strong emphasis on applied training and industry collaboration.",
+      "current_status": "Active undergraduate and postgraduate engineering programs with international accreditation and industry partnerships.",
+      "future_prospectus": null
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        "Computer Science",
+        "Software Engineering",
+        "Artificial Intelligence",
+        "Cybersecurity"
+      ],
+      "postgraduate": [],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [],
+      "international": []
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Thanaweia Amma",
+        "IGCSE",
+        "American Diploma",
+        "IB",
+        "German Abitur",
+        "French Baccalaureate"
+      ],
+      "entry_exams_required": true,
+      "medical_fitness_required": true,
+      "age_limit": 22,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": 2,
+      "withdraw_deadline_week": 14,
+      "max_absence_percent": 15,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": []
+    },
+    "training_and_practice": {
+      "mandatory_training": true,
+      "industry_training": null,
+      "field_or_sea_training": null,
+      "description": "mandatory_training: True; industry_internships: True; international_training: True; typical_partners: IBM; Microsoft; Huawei; Dell Technologies; Orange; Vodafone; ITI; EG-CERT; NTRA; BARQ Systems; Valeo; Ejada Systems; skills_covered: AI & Machine Learning; Cybersecurity & SOC Operations; DevOps & Cloud; Data Science & Analytics; Software Engineering; Automation & RPA; Networking & Infrastructure; Soft Skills & Professional Development"
+    },
+    "international_mobility": {
+      "available": null,
+      "mobility_types": [],
+      "regions": [],
+      "partner_bodies": [],
+      "evidence_based_notes": []
+    },
+    "research_and_innovation": {
+      "research_focus": null,
+      "industry_projects": null
+    },
+    "facilities_and_resources": [
+      "Engineering Laboratories",
+      "Computer Labs",
+      "Workshops",
+      "Research Centers",
+      "Student Activities",
+      "Campus Infrastructure",
+      "Library"
+    ],
+    "industry_and_external_relations": [],
+    "vision_mission": {
+      "vision": "To be a leading educational and training hub and a pioneer in state-of-the-art scientific research in computing, forging strong ties with the computing industry at national, regional, and international levels.",
+      "mission": "To graduate calibers with solid theoretical background and practical skills, promote innovation and scientific research, and deliver high-quality training and consultation services aligned with professional and ethical standards."
+    },
+    "leadership": []
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.8,
+      "math_intensity": 0.74,
+      "practical_intensity": 0.83,
+      "field_work_intensity": 0.33,
+      "research_orientation": 0.5,
+      "career_flexibility": 0.68,
+      "egypt_employability": {
+        "level": 3,
+        "score": 0.8
+      },
+      "international_employability": {
+        "level": 3,
+        "score": 0.81
+      },
+      "international_mobility_strength": {
+        "level": 1,
+        "label": "weak",
+        "score": 0.42
+      },
+      "campus_life_score": 0.78,
+      "city_opportunity_score": 0.9,
+      "industry_exposure": 0.88,
+      "cost_of_living_score": 0.42
+    },
+    "program_profiles": [
+      {
+        "program_name": "Computer Science",
+        "decision_profile": {
+          "theoretical_depth": 0.86,
+          "math_intensity": 0.82,
+          "physics_intensity": 0.45,
+          "programming_intensity": 0.9,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.75,
+          "field_work_intensity": 0.3,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.75,
+          "career_flexibility": 0.82,
+          "ai_focus": 0.6,
+          "data_focus": 0.8,
+          "software_focus": 0.84,
+          "security_focus": 0.58,
+          "hardware_focus": 0.6,
+          "business_focus": 0.4,
+          "finance_focus": 0.38,
+          "logistics_focus": 0.35,
+          "maritime_focus": 0.2,
+          "healthcare_focus": 0.28,
+          "creativity_design_focus": 0.42,
+          "language_communication_focus": 0.45,
+          "law_policy_focus": 0.3,
+          "research_orientation": 0.82,
+          "entrepreneurship_focus": 0.58,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.9
+        },
+        "career_paths": [
+          "Software Engineer",
+          "Backend Developer",
+          "Full Stack Developer",
+          "Data Engineer",
+          "Cloud Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.75
+          },
+          "international_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.75
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Interested in coding/problem-solving work",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer non-technical daily work"
+        ],
+        "summary": "Heuristic profile for Computer Science derived from available program indicators in the source file.",
+        "program_family": "CS_FAMILY",
+        "close_alternatives": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Cybersecurity"
+        ],
+        "differentiation_notes": [
+          "Compared with Software Engineering, this profile leans more data and more hardware.",
+          "Compared with Artificial Intelligence, this profile leans less AI and more software."
+        ]
+      },
+      {
+        "program_name": "Software Engineering",
+        "decision_profile": {
+          "theoretical_depth": 0.72,
+          "math_intensity": 0.7,
+          "physics_intensity": 0.45,
+          "programming_intensity": 0.92,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.88,
+          "field_work_intensity": 0.3,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.75,
+          "career_flexibility": 0.82,
+          "ai_focus": 0.52,
+          "data_focus": 0.52,
+          "software_focus": 0.99,
+          "security_focus": 0.55,
+          "hardware_focus": 0.3,
+          "business_focus": 0.42,
+          "finance_focus": 0.36,
+          "logistics_focus": 0.34,
+          "maritime_focus": 0.18,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.42,
+          "language_communication_focus": 0.45,
+          "law_policy_focus": 0.3,
+          "research_orientation": 0.72,
+          "entrepreneurship_focus": 0.6,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.92
+        },
+        "career_paths": [
+          "Software Engineer",
+          "Full Stack Developer",
+          "DevOps Engineer",
+          "QA Automation Engineer",
+          "Site Reliability Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.85
+          },
+          "international_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.8
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Interested in coding/problem-solving work",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You prefer non-technical daily work"
+        ],
+        "summary": "Heuristic profile for Software Engineering derived from available program indicators in the source file.",
+        "program_family": "SOFTWARE_FAMILY",
+        "close_alternatives": [
+          "Computer Science",
+          "Cybersecurity",
+          "Artificial Intelligence"
+        ],
+        "differentiation_notes": [
+          "Compared with Computer Science, this profile leans less data and less hardware.",
+          "Compared with Cybersecurity, this profile leans less security and less law/policy."
+        ]
+      },
+      {
+        "program_name": "Artificial Intelligence",
+        "decision_profile": {
+          "theoretical_depth": 0.9,
+          "math_intensity": 0.9,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.9,
+          "design_creativity": 0.9,
+          "lab_intensity": 0.8,
+          "field_work_intensity": 0.42,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.85,
+          "career_flexibility": 0.78,
+          "ai_focus": 0.92,
+          "data_focus": 0.82,
+          "software_focus": 0.8,
+          "security_focus": 0.4,
+          "hardware_focus": 0.35,
+          "business_focus": 0.38,
+          "finance_focus": 0.35,
+          "logistics_focus": 0.33,
+          "maritime_focus": 0.25,
+          "healthcare_focus": 0.35,
+          "creativity_design_focus": 0.53,
+          "language_communication_focus": 0.45,
+          "law_policy_focus": 0.33,
+          "research_orientation": 0.86,
+          "entrepreneurship_focus": 0.56,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.88
+        },
+        "career_paths": [
+          "AI Engineer",
+          "Machine Learning Engineer",
+          "Computer Vision Engineer",
+          "NLP Engineer",
+          "AI Research Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.75
+          },
+          "international_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.85
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Comfortable with mathematics-heavy coursework",
+          "Interested in coding/problem-solving work",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want minimal mathematics",
+          "You prefer non-technical daily work",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Artificial Intelligence derived from available program indicators in the source file.",
+        "program_family": "AI_FAMILY",
+        "close_alternatives": [
+          "Computer Science",
+          "Software Engineering",
+          "Cybersecurity"
+        ],
+        "differentiation_notes": [
+          "Compared with Computer Science, this profile leans more AI and less software.",
+          "Compared with Software Engineering, this profile leans more AI and more data."
+        ]
+      },
+      {
+        "program_name": "Cybersecurity",
+        "decision_profile": {
+          "theoretical_depth": 0.8,
+          "math_intensity": 0.64,
+          "physics_intensity": 0.45,
+          "programming_intensity": 0.78,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.85,
+          "field_work_intensity": 0.3,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.75,
+          "career_flexibility": 0.78,
+          "ai_focus": 0.46,
+          "data_focus": 0.5,
+          "software_focus": 0.8,
+          "security_focus": 0.94,
+          "hardware_focus": 0.42,
+          "business_focus": 0.42,
+          "finance_focus": 0.4,
+          "logistics_focus": 0.34,
+          "maritime_focus": 0.22,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.32,
+          "language_communication_focus": 0.48,
+          "law_policy_focus": 0.6,
+          "research_orientation": 0.74,
+          "entrepreneurship_focus": 0.5,
+          "international_work_readiness": 0.66,
+          "remote_work_fit": 0.84
+        },
+        "career_paths": [
+          "Cybersecurity Analyst",
+          "SOC Engineer",
+          "Penetration Tester",
+          "Threat Intelligence Analyst",
+          "Security Engineer"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.85
+          },
+          "international_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.85
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Interested in coding/problem-solving work",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You prefer non-technical daily work"
+        ],
+        "summary": "Heuristic profile for Cybersecurity derived from available program indicators in the source file.",
+        "program_family": "CYBERSEC_FAMILY",
+        "close_alternatives": [
+          "Software Engineering",
+          "Computer Science",
+          "Artificial Intelligence"
+        ],
+        "differentiation_notes": [
+          "Compared with Software Engineering, this profile leans more security and more law/policy.",
+          "Compared with Computer Science, this profile leans more security and more law/policy."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Cairo",
+      "commute_friction_index": 0.5,
+      "relocation_friction_index": 0.6,
+      "industry_access_signal": 0.45,
+      "internship_density_signal": 0.46,
+      "campus_lifestyle_signal": 0.47,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": null
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college.college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college.name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "campus.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "campus.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "campus.name"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "college.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "programs/departments/nodes"
+      },
+      {
+        "field": "official_data.training_and_practice.mandatory_training",
+        "source_path": "training_and_industry_exposure.mandatory_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_industry_exposure"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "college.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "college.mission"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[Computer Science]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Software Engineering]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Artificial Intelligence]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Cybersecurity]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Science].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Science].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Software Engineering].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Software Engineering].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Artificial Intelligence].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Artificial Intelligence].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Cybersecurity].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Cybersecurity].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Science].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Computer Science].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Software Engineering].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Software Engineering].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Artificial Intelligence].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Artificial Intelligence].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Cybersecurity].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Cybersecurity].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.establishment.year_established",
+      "official_data.overview.short_description",
+      "official_data.overview.current_status",
+      "official_data.overview.future_prospectus",
+      "official_data.admission_requirements.entry_exams_required",
+      "official_data.admission_requirements.medical_fitness_required",
+      "official_data.admission_requirements.age_limit",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.training_and_practice.industry_training",
+      "official_data.training_and_practice.field_or_sea_training",
+      "official_data.international_mobility.available",
+      "official_data.research_and_innovation.research_focus",
+      "official_data.research_and_innovation.industry_projects",
+      "official_data.degrees_programs.postgraduate",
+      "official_data.degrees_programs.professional_certificates",
+      "official_data.accreditation.national",
+      "official_data.accreditation.international",
+      "official_data.admission_requirements.accepted_certificates",
+      "official_data.admission_requirements.other_conditions",
+      "official_data.student_regulations.special_conditions",
+      "official_data.international_mobility.mobility_types",
+      "official_data.international_mobility.regions",
+      "official_data.international_mobility.partner_bodies",
+      "official_data.international_mobility.evidence_based_notes",
+      "official_data.facilities_and_resources",
+      "official_data.industry_and_external_relations",
+      "official_data.leadership"
+    ],
+    "uncertain_items": [
+      "International mobility remained null due to no explicit partner/exchange/training-abroad evidence in file."
+    ],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded.",
+      "Engineering-file targeted audit/repair applied for overview, admission, regulations, facilities, careers, and decision profile realism."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

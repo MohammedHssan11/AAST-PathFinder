@@ -1,0 +1,227 @@
+{
+  "nodes": [
+    {
+      "id": "college_eng",
+      "label": "College",
+      "properties": { "name": "College of Engineering" }
+    },
+    {
+      "id": "college_pharm",
+      "label": "College",
+      "properties": { "name": "College of Pharmacy" }
+    },
+    {
+      "id": "college_ccit",
+      "label": "College",
+      "properties": { "name": "College of Computing and Information Technology" }
+    },
+    {
+      "id": "college_med",
+      "label": "College",
+      "properties": { "name": "College of Medicine" }
+    },
+    {
+      "id": "college_ai",
+      "label": "College",
+      "properties": { "name": "School of Artificial Intelligence" }
+    },
+
+    {
+      "id": "fee_eng_A_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 5210,
+        "currency": "USD",
+        "category": "A",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_eng_B_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 6110,
+        "currency": "USD",
+        "category": "B",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_eng_C_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 6830,
+        "currency": "USD",
+        "category": "C",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+
+    {
+      "id": "fee_pharm_A_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 5850,
+        "currency": "USD",
+        "category": "A",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_pharm_B_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 6850,
+        "currency": "USD",
+        "category": "B",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_pharm_C_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 7250,
+        "currency": "USD",
+        "category": "C",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+
+    {
+      "id": "fee_ccit_A_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 5060,
+        "currency": "USD",
+        "category": "A",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_ccit_B_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 5960,
+        "currency": "USD",
+        "category": "B",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_ccit_C_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 6320,
+        "currency": "USD",
+        "category": "C",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+
+    {
+      "id": "fee_med_A_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 8750,
+        "currency": "USD",
+        "category": "A",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_med_B_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 9020,
+        "currency": "USD",
+        "category": "B",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_med_C_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 9470,
+        "currency": "USD",
+        "category": "C",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+
+    {
+      "id": "fee_ai_A_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 5660,
+        "currency": "USD",
+        "category": "A",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+    {
+      "id": "fee_ai_B_2025",
+      "label": "TuitionFee",
+      "properties": {
+        "amount": 6305,
+        "currency": "USD",
+        "category": "B",
+        "academic_year": "2025/2026",
+        "per_semester": true
+      }
+    },
+
+    {
+      "id": "scholarship_general",
+      "label": "Scholarship",
+      "properties": {
+        "name": "General Grants and Scholarships",
+        "types": ["Full", "Partial"],
+        "eligible_categories": [
+          "High achievers in Egyptian High School",
+          "Children of Arab League employees",
+          "Children of Ministry of Foreign Affairs employees",
+          "Children of Armed Forces personnel",
+          "Children of Police personnel",
+          "Children of Academy alumni",
+          "Siblings of current students or alumni"
+        ]
+      }
+    }
+  ],
+
+  "relationships": [
+    { "type": "HAS_FEE", "from": "college_eng", "to": "fee_eng_A_2025" },
+    { "type": "HAS_FEE", "from": "college_eng", "to": "fee_eng_B_2025" },
+    { "type": "HAS_FEE", "from": "college_eng", "to": "fee_eng_C_2025" },
+
+    { "type": "HAS_FEE", "from": "college_pharm", "to": "fee_pharm_A_2025" },
+    { "type": "HAS_FEE", "from": "college_pharm", "to": "fee_pharm_B_2025" },
+    { "type": "HAS_FEE", "from": "college_pharm", "to": "fee_pharm_C_2025" },
+
+    { "type": "HAS_FEE", "from": "college_ccit", "to": "fee_ccit_A_2025" },
+    { "type": "HAS_FEE", "from": "college_ccit", "to": "fee_ccit_B_2025" },
+    { "type": "HAS_FEE", "from": "college_ccit", "to": "fee_ccit_C_2025" },
+
+    { "type": "HAS_FEE", "from": "college_med", "to": "fee_med_A_2025" },
+    { "type": "HAS_FEE", "from": "college_med", "to": "fee_med_B_2025" },
+    { "type": "HAS_FEE", "from": "college_med", "to": "fee_med_C_2025" },
+
+    { "type": "HAS_FEE", "from": "college_ai", "to": "fee_ai_A_2025" },
+    { "type": "HAS_FEE", "from": "college_ai", "to": "fee_ai_B_2025" }
+  ]
+}

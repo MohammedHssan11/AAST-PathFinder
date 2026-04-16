@@ -1,0 +1,212 @@
+{
+  "campus": {
+    "campus_id": "DOKKI",
+    "name": "Dokki Campus",
+    "city": "Cairo",
+    "country": "Egypt",
+    "description": "Urban campus located near downtown Cairo, serving as AASTMT’s first Cairo-based management education hub."
+  },
+
+  "college": {
+    "college_id": "CMT_DOKKI",
+    "name": "College of Management & Technology – Dokki",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Comprehensive business and management college focused on applied management education, technology integration, and ethical leadership.",
+
+    "vision": "To be one of the most reputable Business Management colleges in the Middle East.",
+
+    "mission": "To provide high-quality management education and training using modern teaching methodologies, strong ethical foundations, and close engagement with society to prepare competent graduates who contribute to economic and social development in the Arab region.",
+
+    "accreditation": {
+      "national": [],
+      "international": []
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Academic quality maintained through high academic standards, experiential learning, industry placements, and continuous curriculum development."
+    }
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Science",
+    "level": "Undergraduate",
+    "study_duration_years": 4,
+    "total_semesters": 8
+  },
+
+  "programs": [
+    {
+      "program_id": "FIN_ACC",
+      "name": "Finance and Accounting",
+      "focus": "Financial analysis, accounting systems, auditing, taxation, and corporate finance",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "MARK_INT_BUS",
+      "name": "Marketing and International Business",
+      "focus": "Marketing strategy, international markets, consumer behavior, and global trade",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "MIS",
+      "name": "Management Information Systems",
+      "focus": "Business systems, databases, decision support systems, and IT management",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "ECOMMERCE",
+      "name": "E-Commerce",
+      "focus": "Digital business models, online platforms, electronic payment systems, and digital strategy",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "MEDIA_MGMT",
+      "name": "Media Management",
+      "focus": "Media operations, communication strategy, content management, and media economics",
+      "industry_alignment": "medium_high"
+    },
+    {
+      "program_id": "BUS_MGMT",
+      "name": "Business and Management",
+      "focus": "General management, organizational behavior, leadership, and strategic management",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "ECONOMICS",
+      "name": "Economics",
+      "focus": "Microeconomics, macroeconomics, economic analysis, and policy impact",
+      "industry_alignment": "medium"
+    },
+    {
+      "program_id": "LOGISTICS_MGMT",
+      "name": "Logistics Management",
+      "focus": "Operations, logistics planning, supply chain fundamentals, and distribution systems",
+      "industry_alignment": "high"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.65,
+    "practical_intensity": 0.55,
+    "quantitative_intensity": 0.6,
+    "project_dependency": "medium",
+    "case_study_dependency": "high",
+    "technology_dependency": "medium"
+  },
+
+  "pressure_profile": {
+    "workload_level": "medium",
+    "deadline_pressure": "medium",
+    "evaluation_style": "exams + projects + coursework",
+    "failure_risk": "low"
+  },
+
+  "training_and_industry": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "training_methods": [
+      "Summer internships",
+      "Industry placements",
+      "Case studies",
+      "Group projects"
+    ],
+    "industry_alignment": "high"
+  },
+
+  "international_exposure": {
+    "exchange_opportunities": true,
+    "partner_regions": [
+      "United Kingdom",
+      "France",
+      "United States"
+    ],
+    "study_abroad": "optional"
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Management studies",
+      "Organizational behavior",
+      "Business systems",
+      "Applied economics"
+    ],
+    "industry_projects": true,
+    "applied_research_orientation": "medium"
+  },
+
+  "facilities_and_resources": [
+    "Urban academic campus",
+    "Technology-enabled classrooms",
+    "Business labs",
+    "Student activity spaces"
+  ],
+
+  "student_life": {
+    "campus_life_intensity": "medium",
+    "networking_opportunities": "very_high",
+    "diversity": "high",
+    "extracurricular_activities": true
+  },
+
+  "student_support": {
+    "academic_advising": true,
+    "career_guidance": true,
+    "ethical_and_personal_development": true
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Corporate organizations",
+      "Banks and financial institutions",
+      "Marketing and media agencies",
+      "Technology companies",
+      "Logistics and operations firms",
+      "Consulting firms"
+    ],
+    "common_roles": [
+      "Accountant",
+      "Financial Analyst",
+      "Marketing Executive",
+      "Business Analyst",
+      "MIS Specialist",
+      "Operations Coordinator"
+    ],
+    "employability_level": "high"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students seeking broad business education",
+      "Students interested in management and leadership",
+      "Students who value networking and urban exposure",
+      "Students preferring balanced academic pressure"
+    ],
+    "less_suitable_for": [
+      "Students seeking heavy engineering or technical specialization",
+      "Students preferring purely research-focused programs"
+    ]
+  },
+
+  "core_values": [
+    "Excellence",
+    "Ethical conduct",
+    "Respect and fairness",
+    "Innovation",
+    "Experiential learning",
+    "Cultural diversity",
+    "Accessibility and affordability"
+  ],
+
+  "leadership": {
+    "academic_dean": "Dr. Ahmed F. Hassab-Allah"
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_cross_college_comparison": true,
+    "supports_personality_matching": true,
+    "supports_business_cluster_analysis": true
+  }
+}

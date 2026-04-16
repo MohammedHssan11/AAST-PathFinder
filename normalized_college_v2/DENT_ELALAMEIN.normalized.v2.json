@@ -1,0 +1,381 @@
+{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "DENT_ELALAMEIN.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "branch",
+    "college_id": "DENT_ELALAMEIN",
+    "college_name": "College of Dentistry – El Alamein"
+  },
+  "official_data": {
+    "location": {
+      "city": "El Alamein",
+      "country": "Egypt",
+      "branch": "El Alamein Campus"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A clinical dental education college in El Alamein delivering integrated pre-clinical and clinical training toward professional dental practice.",
+      "current_status": "Active Bachelor of Dental Surgery education with simulation labs, supervised clinics, and structured competency-based assessment.",
+      "future_prospectus": "Strengthening advanced clinical dentistry, community oral health, and evidence-based practice through expanded training partnerships."
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        "Bachelor of Dental Surgery (BDS)"
+      ],
+      "postgraduate": [],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [],
+      "international": []
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Egyptian Thanaweya Amma",
+        "IGCSE",
+        "American Diploma",
+        "Arab High School Certificates"
+      ],
+      "entry_exams_required": false,
+      "medical_fitness_required": true,
+      "age_limit": null,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": null,
+      "withdraw_deadline_week": null,
+      "max_absence_percent": null,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": []
+    },
+    "training_and_practice": {
+      "mandatory_training": true,
+      "industry_training": true,
+      "field_or_sea_training": null,
+      "description": "mandatory_training: True; clinical_training: True; training_model: Pre-clinical simulation labs; Supervised clinical practice; Summer clinical training; One-year compulsory internship; licensing_dependency: mandatory"
+    },
+    "international_mobility": {
+      "available": null,
+      "mobility_types": [],
+      "regions": [],
+      "partner_bodies": [],
+      "evidence_based_notes": []
+    },
+    "research_and_innovation": {
+      "research_focus": [
+        "Dental sciences",
+        "Oral public health",
+        "Social and legislative aspects of dentistry",
+        "Healthcare systems and policy"
+      ],
+      "industry_projects": null
+    },
+    "facilities_and_resources": [
+      "State-of-the-art dental clinics",
+      "Simulation laboratories",
+      "Technical laboratories",
+      "Multipurpose medical laboratories",
+      "Clinical skills training units"
+    ],
+    "industry_and_external_relations": [
+      "Ministry of Health hospitals",
+      "Dental clinics",
+      "Healthcare training centers"
+    ],
+    "vision_mission": {
+      "vision": "To be a reputable college delivering world-class dental education and research, competing at national and regional levels.",
+      "mission": "To educate and graduate competent oral healthcare professionals through a high-quality clinical and research-based environment, providing ethical, patient-centered dental care and addressing regional oral health needs."
+    },
+    "leadership": []
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.78,
+      "math_intensity": 0.55,
+      "practical_intensity": 0.85,
+      "field_work_intensity": 0.82,
+      "research_orientation": 0.62,
+      "career_flexibility": 0.52,
+      "egypt_employability": {
+        "level": 3,
+        "score": 0.74
+      },
+      "international_employability": {
+        "level": 2,
+        "score": 0.58
+      },
+      "international_mobility_strength": {
+        "level": 1,
+        "label": "weak",
+        "score": 0.42
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "Bachelor of Dental Surgery (BDS)",
+        "decision_profile": {
+          "theoretical_depth": 0.78,
+          "math_intensity": 0.3,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.05,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.9,
+          "field_work_intensity": 0.82,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.86,
+          "career_flexibility": 0.52,
+          "ai_focus": 0.4,
+          "data_focus": 0.5,
+          "software_focus": 0.26,
+          "security_focus": 0.24,
+          "hardware_focus": 0.26,
+          "business_focus": 0.36,
+          "finance_focus": 0.32,
+          "logistics_focus": 0.32,
+          "maritime_focus": 0.16,
+          "healthcare_focus": 0.98,
+          "creativity_design_focus": 0.26,
+          "language_communication_focus": 0.58,
+          "law_policy_focus": 0.4,
+          "research_orientation": 0.7,
+          "entrepreneurship_focus": 0.42,
+          "international_work_readiness": 0.61,
+          "remote_work_fit": 0.12
+        },
+        "career_paths": [
+          "Dentist",
+          "Orthodontist",
+          "Oral Surgeon",
+          "Periodontist",
+          "Prosthodontist",
+          "Dental Public Health Specialist",
+          "Dental Researcher"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.74
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want no field/clinical exposure",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for College of Dentistry – El Alamein derived from available program indicators in the source file.",
+        "program_family": "HEALTHCARE_FAMILY",
+        "close_alternatives": [],
+        "differentiation_notes": [
+          "Focus pattern is distinct relative to other available options in this file."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Matrouh-Coastal",
+      "commute_friction_index": 0.63,
+      "relocation_friction_index": 0.73,
+      "industry_access_signal": 0.45,
+      "internship_density_signal": 0.46,
+      "campus_lifestyle_signal": 0.64,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": null
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college.college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college.name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "campus.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "campus.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "campus.name"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "college.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "programs/departments/nodes"
+      },
+      {
+        "field": "official_data.training_and_practice.mandatory_training",
+        "source_path": "training_and_practice.mandatory_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_practice"
+      },
+      {
+        "field": "official_data.research_and_innovation.research_focus",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.facilities_and_resources",
+        "source_path": "facilities/labs"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "college.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "college.mission"
+      },
+      {
+        "field": "official_data.leadership",
+        "source_path": "leadership sources"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[College of Dentistry – El Alamein]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[College of Dentistry – El Alamein].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[College of Dentistry – El Alamein].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[College of Dentistry – El Alamein].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[College of Dentistry – El Alamein].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.establishment.year_established",
+      "official_data.overview.short_description",
+      "official_data.overview.current_status",
+      "official_data.overview.future_prospectus",
+      "official_data.admission_requirements.entry_exams_required",
+      "official_data.admission_requirements.medical_fitness_required",
+      "official_data.admission_requirements.age_limit",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.training_and_practice.industry_training",
+      "official_data.training_and_practice.field_or_sea_training",
+      "official_data.international_mobility.available",
+      "official_data.research_and_innovation.industry_projects",
+      "official_data.degrees_programs.postgraduate",
+      "official_data.degrees_programs.professional_certificates",
+      "official_data.accreditation.national",
+      "official_data.accreditation.international",
+      "official_data.admission_requirements.accepted_certificates",
+      "official_data.admission_requirements.other_conditions",
+      "official_data.student_regulations.special_conditions",
+      "official_data.international_mobility.mobility_types",
+      "official_data.international_mobility.regions",
+      "official_data.international_mobility.partner_bodies",
+      "official_data.international_mobility.evidence_based_notes",
+      "official_data.industry_and_external_relations"
+    ],
+    "uncertain_items": [
+      "International mobility remained null due to no explicit partner/exchange/training-abroad evidence in file."
+    ],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

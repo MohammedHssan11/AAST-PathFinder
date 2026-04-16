@@ -1,0 +1,417 @@
+{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "PHARM_ABUKIR.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "branch",
+    "college_id": "PHARM_ABUKIR",
+    "college_name": "College of Pharmacy"
+  },
+  "official_data": {
+    "location": {
+      "city": "Alexandria",
+      "country": "Egypt",
+      "branch": "Abu Qir"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A specialized College of Pharmacy at Abu Qir focused on pharmaceutical sciences, clinical pharmacy foundations, and patient-centered pharmacy practice.",
+      "current_status": "Active pharmacy education with integrated academic, laboratory, and practical training aligned with healthcare and pharmaceutical industry needs.",
+      "future_prospectus": "Advancing pharmacy education through stronger clinical exposure, research participation, and modern pharmaceutical innovation competencies."
+    },
+    "degrees_programs": {
+      "undergraduate": [
+        {
+          "degree": "Bachelor of Pharmacy (B.Pharm)",
+          "study_duration_years": 5,
+          "training_structure": "Academic study integrated with experiential pharmaceutical training",
+          "degree_objective": "Preparation of competent pharmacists capable of national and international competition"
+        }
+      ],
+      "postgraduate": [],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [
+        "Supreme Council of Egyptian Universities"
+      ],
+      "international": [
+        "International Pharmaceutical Federation (FIP)"
+      ]
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Egyptian Thanaweya Amma (Science)",
+        "IGCSE (Science track)",
+        "American Diploma (Science track)",
+        "Arab High School Certificates (Science)"
+      ],
+      "entry_exams_required": false,
+      "medical_fitness_required": true,
+      "age_limit": null,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": null,
+      "withdraw_deadline_week": null,
+      "max_absence_percent": null,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": []
+    },
+    "training_and_practice": {
+      "mandatory_training": true,
+      "industry_training": true,
+      "field_or_sea_training": null,
+      "description": "Four experiential learning rotations placed in summer semesters, including applied pharmaceutical and professional practice training."
+    },
+    "international_mobility": {
+      "available": true,
+      "mobility_types": [],
+      "regions": [],
+      "partner_bodies": [
+        "International pharmaceutical organizations",
+        "International universities"
+      ],
+      "evidence_based_notes": []
+    },
+    "research_and_innovation": {
+      "research_focus": [
+        "Pharmaceutical sciences",
+        "Pharmacy practice",
+        "Healthcare quality improvement",
+        "Pharmaceutical logistics and supply chains",
+        "Pharmaceutical biotechnology",
+        "Clinical pharmacology"
+      ],
+      "industry_projects": true
+    },
+    "facilities_and_resources": [
+      "Advanced pharmaceutical laboratories",
+      "Computing and digital learning facilities",
+      "Modern educational infrastructure supporting pharmacy education"
+    ],
+    "industry_and_external_relations": [
+      "Egyptian Pharmacy Syndicate",
+      "National pharmaceutical organizations",
+      "International pharmaceutical organizations",
+      "International universities"
+    ],
+    "vision_mission": {
+      "vision": "To achieve excellence and international competitiveness in pharmacy education and research.",
+      "mission": "Achieving sustainable pharmacy education through quality education, applied research, international cooperation, and strong engagement with the pharmaceutical sector."
+    },
+    "leadership": [
+      {
+        "name": "Amira Mostafa Helmy Sonbul",
+        "title": "Dean",
+        "role_description": "Dean - College of Pharmacy"
+      },
+      {
+        "name": "Mai Mahmoud Ali Ahmed",
+        "title": "Vice Dean for Postgraduate Studies and Scientific Research",
+        "role_description": "Associate Professor of Pharmaceutics"
+      },
+      {
+        "name": "Mohamed Metwalli Abdelmoneim Mosly",
+        "title": "Vice Dean for Training and Community Service",
+        "role_description": "Lecturer of Pharmacy Practice"
+      }
+    ]
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.78,
+      "math_intensity": 0.55,
+      "practical_intensity": 0.85,
+      "field_work_intensity": 0.82,
+      "research_orientation": 0.72,
+      "career_flexibility": 0.52,
+      "egypt_employability": {
+        "level": 3,
+        "score": 0.74
+      },
+      "international_employability": {
+        "level": 2,
+        "score": 0.58
+      },
+      "international_mobility_strength": {
+        "level": 2,
+        "label": "medium",
+        "score": 0.66
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "Bachelor of Pharmacy (B.Pharm)",
+        "decision_profile": {
+          "theoretical_depth": 0.8,
+          "math_intensity": 0.36,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.2,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.84,
+          "field_work_intensity": 0.74,
+          "management_exposure": 0.45,
+          "workload_difficulty": 0.82,
+          "career_flexibility": 0.52,
+          "ai_focus": 0.4,
+          "data_focus": 0.5,
+          "software_focus": 0.26,
+          "security_focus": 0.24,
+          "hardware_focus": 0.26,
+          "business_focus": 0.3,
+          "finance_focus": 0.32,
+          "logistics_focus": 0.12,
+          "maritime_focus": 0.16,
+          "healthcare_focus": 0.96,
+          "creativity_design_focus": 0.26,
+          "language_communication_focus": 0.58,
+          "law_policy_focus": 0.4,
+          "research_orientation": 0.76,
+          "entrepreneurship_focus": 0.42,
+          "international_work_readiness": 0.61,
+          "remote_work_fit": 0.2
+        },
+        "career_paths": [
+          "Clinical Pharmacist",
+          "Hospital Pharmacist",
+          "Community Pharmacist",
+          "Pharmaceutical Industry Specialist",
+          "Drug Safety Specialist",
+          "Regulatory Affairs Pharmacist",
+          "Pharmaceutical Researcher",
+          "Pharmacovigilance Specialist"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 3,
+            "label": "strong",
+            "score": 0.74
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          }
+        },
+        "best_fit_traits": [
+          "Enjoys analytical and theoretical reasoning",
+          "Prefers practical or lab-oriented learning",
+          "Can handle sustained high workload"
+        ],
+        "avoid_if": [
+          "You want no field/clinical exposure",
+          "You prefer low academic pressure"
+        ],
+        "summary": "Heuristic profile for Bachelor of Pharmacy (B.Pharm) derived from available program indicators in the source file.",
+        "program_family": "HEALTHCARE_FAMILY",
+        "close_alternatives": [],
+        "differentiation_notes": [
+          "Focus pattern is distinct relative to other available options in this file."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Alexandria",
+      "commute_friction_index": 0.48,
+      "relocation_friction_index": 0.58,
+      "industry_access_signal": 0.82,
+      "internship_density_signal": 0.73,
+      "campus_lifestyle_signal": 0.54,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": null
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college_name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "location.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "location.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "branch"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "establishment.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "degrees_programs.undergraduate"
+      },
+      {
+        "field": "official_data.accreditation.international",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "official_data.training_and_practice.mandatory_training",
+        "source_path": "training_and_practice.mandatory_training"
+      },
+      {
+        "field": "official_data.training_and_practice.industry_training",
+        "source_path": "training_and_practice.industry_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_practice"
+      },
+      {
+        "field": "official_data.international_mobility.available",
+        "source_path": "mobility_evidence"
+      },
+      {
+        "field": "official_data.research_and_innovation.research_focus",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.research_and_innovation.industry_projects",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.facilities_and_resources",
+        "source_path": "facilities/labs"
+      },
+      {
+        "field": "official_data.industry_and_external_relations",
+        "source_path": "partners/industry"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "vision_mission.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "vision_mission.mission"
+      },
+      {
+        "field": "official_data.leadership",
+        "source_path": "leadership sources"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[Bachelor of Pharmacy (B.Pharm)]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Pharmacy (B.Pharm)].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Pharmacy (B.Pharm)].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Pharmacy (B.Pharm)].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Bachelor of Pharmacy (B.Pharm)].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.establishment.year_established",
+      "official_data.degrees_programs.postgraduate",
+      "official_data.degrees_programs.professional_certificates",
+      "official_data.accreditation.national",
+      "official_data.admission_requirements.age_limit",
+      "official_data.admission_requirements.other_conditions",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.student_regulations.special_conditions",
+      "official_data.training_and_practice.field_or_sea_training",
+      "official_data.international_mobility.mobility_types",
+      "official_data.international_mobility.regions",
+      "official_data.international_mobility.evidence_based_notes"
+    ],
+    "uncertain_items": [],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

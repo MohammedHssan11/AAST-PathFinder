@@ -1,0 +1,171 @@
+{
+  "campus": {
+    "campus_id": "SOUTH_VALLEY",
+    "name": "South Valley Campus",
+    "city": "Aswan",
+    "country": "Egypt",
+    "description": "AASTMT’s Upper Egypt campus serving the South Valley region with a focus on business education, community development, and regional economic growth."
+  },
+
+  "college": {
+    "college_id": "CMT_SOUTH_VALLEY",
+    "name": "College of Management & Technology – South Valley",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "Regional business college focused on high-quality undergraduate education, ethical standards, applied research, and serving the South Valley community.",
+
+    "vision": "To be one of the most privileged business management colleges in Egypt and the Middle East, and to be recognized as a premier business college in higher education and applied research serving industry and society locally and globally.",
+
+    "mission": "To provide high-quality business education and training using modern teaching methodologies and technologies, uphold strong ethical standards, support community development in South Valley, and prepare graduates to compete effectively in regional and global business environments.",
+
+    "values": [
+      "Ethical conduct",
+      "Community responsibility",
+      "Educational excellence",
+      "Human capital development",
+      "Sustainable growth"
+    ]
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Science",
+    "level": "Undergraduate",
+    "study_duration_years": 4,
+    "total_semesters": 8
+  },
+
+  "departments": [
+    "Finance",
+    "Accounting",
+    "Marketing",
+    "Business Information Systems"
+  ],
+
+  "programs": [
+    {
+      "program_id": "FIN",
+      "name": "Finance",
+      "focus": "Financial management, banking, and corporate finance",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "ACC",
+      "name": "Accounting",
+      "focus": "Financial accounting, auditing, and managerial accounting",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "MKT",
+      "name": "Marketing",
+      "focus": "Marketing principles, consumer behavior, and market analysis",
+      "industry_alignment": "medium_high"
+    },
+    {
+      "program_id": "BIS",
+      "name": "Business Information Systems",
+      "focus": "Business systems, information management, and digital tools",
+      "industry_alignment": "medium_high"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.65,
+    "practical_intensity": 0.55,
+    "technology_dependency": 0.55,
+    "project_dependency": "medium",
+    "group_work_dependency": "medium",
+    "research_orientation": "medium"
+  },
+
+  "pressure_profile": {
+    "workload_level": "medium",
+    "deadline_pressure": "medium",
+    "evaluation_style": "coursework + exams",
+    "failure_risk": "low"
+  },
+
+  "training_and_practice": {
+    "mandatory_training": false,
+    "industry_training": "limited",
+    "training_model": [
+      "Applied coursework",
+      "Graduation project",
+      "Community-oriented case studies"
+    ],
+    "industry_alignment": "medium"
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Sustainable development in the Arab region",
+      "Environmental, social, and economic development",
+      "Applied business research"
+    ],
+    "industry_projects": false,
+    "community_research_orientation": "high"
+  },
+
+  "international_exposure": {
+    "exchange_programs": false,
+    "language_tracks": [
+      "English"
+    ],
+    "international_accreditation_dependency": "low"
+  },
+
+  "facilities_and_resources": [
+    "Teaching classrooms",
+    "Computer labs",
+    "Student service facilities"
+  ],
+
+  "student_life": {
+    "campus_life_intensity": "medium",
+    "community_engagement": "very_high",
+    "extracurricular_activity_level": "medium"
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Local and regional businesses",
+      "Banks and financial institutions",
+      "Public sector organizations",
+      "SMEs",
+      "Community development projects"
+    ],
+    "common_roles": [
+      "Accountant",
+      "Finance Officer",
+      "Marketing Executive",
+      "Business Administrator",
+      "MIS Assistant"
+    ],
+    "employability_level": "medium_high"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students in Upper Egypt seeking accredited business education",
+      "Students interested in community-oriented careers",
+      "Students preferring moderate academic pressure",
+      "Students aiming for regional employment"
+    ],
+    "less_suitable_for": [
+      "Students seeking strong international exposure",
+      "Students aiming for highly competitive multinational careers immediately after graduation"
+    ]
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": false,
+    "status": "inferred",
+    "note": "Quality assurance practices follow AASTMT standards; formal unit not explicitly stated."
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "data_completeness": "medium",
+    "supports_cross_college_comparison": true,
+    "supports_regional_weighting": true
+  }
+}

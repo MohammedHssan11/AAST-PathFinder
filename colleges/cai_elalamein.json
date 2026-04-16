@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    {
+      "id": "el_alamein",
+      "label": "Campus",
+      "properties": {
+        "name": "El Alamein Campus",
+        "city": "New El Alamein City",
+        "country": "Egypt"
+      }
+    },
+    {
+      "id": "aast_cai",
+      "label": "College",
+      "properties": {
+        "name": "College of Artificial Intelligence",
+        "established_year": 2019,
+        "region_significance": "First College of Artificial Intelligence in MENA",
+        "description": "The College of Artificial Intelligence provides cutting-edge education, training, and research services to support technology-centric environments and solve future challenges using Artificial Intelligence and Machine Learning."
+      }
+    },
+    {
+      "id": "bsc_ai_is",
+      "label": "Program",
+      "properties": {
+        "name": "Intelligent Systems",
+        "entity_type": "Program"
+      }
+    },
+    {
+      "id": "bsc_ai_ds",
+      "label": "Program",
+      "properties": {
+        "name": "Data Science",
+        "entity_type": "Program",
+        "vision": "To become a leading hub for high-quality education, research, and community service in Data Science at national, regional, and international levels through excellence in data-driven innovation, ethical practices, and impactful real-world applications.",
+        "mission": "To contribute to sustainable development in Arab countries by preparing highly skilled professionals capable of leveraging data to drive insights, decisions, and innovation through competitive education, cutting-edge research, and impactful community services."
+      }
+    },
+    {
+      "id": "degree_bsc",
+      "label": "Degree",
+      "properties": {
+        "name": "Bachelor of Science",
+        "level": "Undergraduate"
+      }
+    },
+    {
+      "id": "spec_intelligent_systems",
+      "label": "Specialization",
+      "properties": {
+        "name": "Intelligent Systems",
+        "entity_type": "Specialization"
+      }
+    },
+    {
+      "id": "spec_data_science",
+      "label": "Specialization",
+      "properties": {
+        "name": "Data Science",
+        "entity_type": "Specialization"
+      }
+    },
+    {
+      "id": "curr_shared_foundation",
+      "label": "Curriculum",
+      "properties": {
+        "name": "Shared Foundation",
+        "semesters": [1, 2, 3, 4]
+      }
+    },
+    {
+      "id": "curr_is_core",
+      "label": "Curriculum",
+      "properties": {
+        "name": "Intelligent Systems Core",
+        "semesters": [5, 6, 7, 8]
+      }
+    },
+    {
+      "id": "curr_ds_core",
+      "label": "Curriculum",
+      "properties": {
+        "name": "Data Science Core",
+        "semesters": [5, 6, 7, 8]
+      }
+    },
+    {
+      "id": "lab_robotics",
+      "label": "Lab",
+      "properties": {
+        "name": "Robotics Lab"
+      }
+    },
+    {
+      "id": "lab_vr",
+      "label": "Lab",
+      "properties": {
+        "name": "Virtual Reality Lab"
+      }
+    },
+    {
+      "id": "lab_iot",
+      "label": "Lab",
+      "properties": {
+        "name": "IoT Lab"
+      }
+    },
+    {
+      "id": "accr_egypt_scu",
+      "label": "Accreditation",
+      "properties": {
+        "name": "Egyptian Supreme Council of Universities"
+      }
+    },
+    {
+      "id": "partner_uab",
+      "label": "Partner",
+      "properties": {
+        "name": "Autònoma University of Barcelona"
+      }
+    },
+    {
+      "id": "partner_uclan",
+      "label": "Partner",
+      "properties": {
+        "name": "University of Central Lancashire (UCLan)"
+      }
+    },
+    {
+      "id": "person_dean_ali",
+      "label": "Person",
+      "properties": {
+        "name": "Ali Ali Mohamed Fahmy",
+        "role": "Dean"
+      }
+    },
+    {
+      "id": "person_vice_dean",
+      "label": "Person",
+      "properties": {
+        "name": "Ahmed Abdelkhalik Ahmed Abouelfarag",
+        "role": "Vice Dean"
+      }
+    },
+    {
+      "id": "scholarship_excellence",
+      "label": "Scholarship",
+      "properties": {
+        "name": "Excellence Scholarship",
+        "min_gpa": 3.4,
+        "summer_applicable": false,
+        "max_transfer_students": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "HAS_COLLEGE",
+      "from": "el_alamein",
+      "to": "aast_cai",
+      "properties": {}
+    },
+    {
+      "type": "OFFERS_PROGRAM",
+      "from": "aast_cai",
+      "to": "bsc_ai_is",
+      "properties": {}
+    },
+    {
+      "type": "OFFERS_PROGRAM",
+      "from": "aast_cai",
+      "to": "bsc_ai_ds",
+      "properties": {}
+    },
+    {
+      "type": "HAS_DEGREE",
+      "from": "bsc_ai_is",
+      "to": "degree_bsc",
+      "properties": {}
+    },
+    {
+      "type": "HAS_DEGREE",
+      "from": "bsc_ai_ds",
+      "to": "degree_bsc",
+      "properties": {}
+    },
+    {
+      "type": "HAS_SPECIALIZATION",
+      "from": "bsc_ai_is",
+      "to": "spec_intelligent_systems",
+      "properties": {}
+    },
+    {
+      "type": "HAS_SPECIALIZATION",
+      "from": "bsc_ai_ds",
+      "to": "spec_data_science",
+      "properties": {}
+    },
+    {
+      "type": "HAS_CURRICULUM",
+      "from": "spec_intelligent_systems",
+      "to": "curr_shared_foundation",
+      "properties": {}
+    },
+    {
+      "type": "HAS_CURRICULUM",
+      "from": "spec_intelligent_systems",
+      "to": "curr_is_core",
+      "properties": {}
+    },
+    {
+      "type": "HAS_CURRICULUM",
+      "from": "spec_data_science",
+      "to": "curr_shared_foundation",
+      "properties": {}
+    },
+    {
+      "type": "HAS_CURRICULUM",
+      "from": "spec_data_science",
+      "to": "curr_ds_core",
+      "properties": {}
+    },
+    {
+      "type": "ACCREDITED_BY",
+      "from": "aast_cai",
+      "to": "accr_egypt_scu",
+      "properties": {}
+    },
+    {
+      "type": "HAS_PARTNER",
+      "from": "aast_cai",
+      "to": "partner_uab",
+      "properties": {}
+    },
+    {
+      "type": "HAS_PARTNER",
+      "from": "aast_cai",
+      "to": "partner_uclan",
+      "properties": {}
+    },
+    {
+      "type": "HAS_ADMIN",
+      "from": "aast_cai",
+      "to": "person_dean_ali",
+      "properties": {}
+    },
+    {
+      "type": "HAS_ADMIN",
+      "from": "aast_cai",
+      "to": "person_vice_dean",
+      "properties": {}
+    },
+    {
+      "type": "HAS_LAB",
+      "from": "aast_cai",
+      "to": "lab_robotics",
+      "properties": {}
+    },
+    {
+      "type": "HAS_LAB",
+      "from": "aast_cai",
+      "to": "lab_vr",
+      "properties": {}
+    },
+    {
+      "type": "HAS_LAB",
+      "from": "aast_cai",
+      "to": "lab_iot",
+      "properties": {}
+    },
+    {
+      "type": "HAS_SCHOLARSHIP",
+      "from": "bsc_ai_is",
+      "to": "scholarship_excellence",
+      "properties": {}
+    },
+    {
+      "type": "HAS_SCHOLARSHIP",
+      "from": "bsc_ai_ds",
+      "to": "scholarship_excellence",
+      "properties": {}
+    }
+  ]
+}
+
+

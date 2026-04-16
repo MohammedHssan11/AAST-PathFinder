@@ -1,0 +1,104 @@
+{
+  "college_id": "CET_LATAKIA",
+  "college_name": "College of Engineering & Technology Latakia",
+
+  "raw_text": "College Of Engineering & Technology  latakia\nCollege Message\nCurrent Status and Future Prospectus\n\nAASTMT has realized the importance of educational innovation and development, since the early days of its establishment in 1972. \n\nThe College of Engineering and Technology, at AASTMT, was established in 1990 in Alexandria, Egypt and in 2001 in Latakia, Syria. Currently, the College of Engineering and Technology offers Bachelor’s and Master’s degrees in the areas of Architectural and Environmental design, Computer, Construction and Buildings, Electrical and Control, Electronics and Communications, Industrial and Management, Marine, and Mechanical Engineering. \n\nAll programs offered by the College are acknowledged by the Supreme Council of Egyptian Universities (SCU) and fully accredited Internationally from the British Professional Institutes (IMechE), (IMarEST), (IET), (ICE), (IStructE), and (IHT), beside the accreditation from the Royal Institute of British Architects (RIBA) parts 1 and 2 for the Architectural Engineering program. Also all college programs, except Architecture & Environmental Design, obtained the “ABET” accreditation since 2010, (ABET, Accreditation Board for Engineering Technologists).\n\nThe core objective of the college is achieving Excellency in all provided educational services, throughout the effective implementation of continuous improvement concept, as well as the success in obtaining and renewal of all local and international accreditations.  \n\nNumbers of qualified and competent faculty members have increased drastically during the last five years resulting in huge developments in research activities whether to obtain research funds from local and international entities or to publish in the highly ranked and prominent scientific journals. Also, higher admission requirements combined with a competitive system of scholarships have been applied to attract high quality students. Furthermore, continuous development of educational resources, lab facilities, and campus infrastructure has been a constant activity in the College to maintain delivery of its quality services to students and faculty members.\n\nAs a step forward towards the enhancement of the relationship between the industrial and academic communities, the Industrial Advisory Committee was holding meetings on a semi-annual basis. These meetings discuss the opportunities of students’ practical training, market needs in the college’s graduates and finally the industrial problems that may be treated in the research projects.\n\nIn the future, the COE is strategically targeting to efficiently integrate all of our facilities, and resources to prepare young generations for the requirements of the knowledge based societies and to proactively provide competitive, intellectual and market divan academic programs, research, and community services and pledges strong collaboration between our Faulty, staff members, students, researchers, alumni and industrial and business leaders.\n\nVision and Mission\nVision:\n\nOur Vision is to excel as one of the best engineering colleges locally and regionally and to maintain internationally recognized programs with an advanced academic rank. We also envision to provide the highest quality educational programs, research, and community services and to play a leading role in, all our aengineering activities, as a foremost engineering school in the Arab world.\n\nMission\n\nOur mission is to efficiently integrate all of our facilities, and resources to prepare young generations for the requirements of the knowledge based societies and to proactively provide competitive, intellectual, and market-driven academic programs, research, and community services and pledges strong collaboration between our faculty, staff members, students, researchers, alumni, and industrial and business leaders. Further to maintain and develop long term and lasting partnerships with Arab institutions, and internationally acknowledged bodies",
+
+  "location": {
+    "city": "Latakia",
+    "country": "Syria",
+    "branch": "Latakia"
+  },
+
+  "establishment": {
+    "year_established": 2001,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "degrees_programs": {
+    "undergraduate": [
+      "Architectural Engineering and Environmental Design",
+      "Computer Engineering",
+      "Construction and Buildings Engineering",
+      "Electrical and Control Engineering",
+      "Electronics and Communications Engineering",
+      "Industrial and Management Engineering",
+      "Marine Engineering",
+      "Mechanical Engineering"
+    ],
+    "postgraduate": [
+      "Architectural Engineering and Environmental Design",
+      "Computer Engineering",
+      "Construction and Buildings Engineering",
+      "Electrical and Control Engineering",
+      "Electronics and Communications Engineering",
+      "Industrial and Management Engineering",
+      "Marine Engineering",
+      "Mechanical Engineering"
+    ],
+    "professional_certificates": []
+  },
+
+  "accreditation": {
+    "national": [
+      "Supreme Council of Egyptian Universities (SCU)"
+    ],
+    "international": [
+      "ABET",
+      "IMechE",
+      "IMarEST",
+      "IET",
+      "ICE",
+      "IStructE",
+      "IHT",
+      "Royal Institute of British Architects (RIBA)"
+    ]
+  },
+
+  "training_and_practice": {
+    "mandatory_training": null,
+    "industry_training": true,
+    "sea_or_field_training": null,
+    "description": "Industrial Advisory Committee meetings are held semi-annually to discuss students’ practical training opportunities, labor market needs, and industrial problems to be addressed through research projects."
+  },
+
+  "industry_and_international_relations": [
+    "Industrial Advisory Committee",
+    "British Professional Institutes",
+    "Arab Institutions",
+    "International Engineering Bodies"
+  ],
+
+  "facilities_and_resources": [
+    "Laboratories",
+    "Educational Resources",
+    "Campus Infrastructure"
+  ],
+
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": null
+  },
+
+  "research_and_innovation": {
+    "research_focus": "Research activities supported by local and international funding and publication in highly ranked scientific journals.",
+    "industry_projects": true
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": null,
+    "qa_description": null
+  },
+
+  "vision_mission": {
+    "vision": "Our Vision is to excel as one of the best engineering colleges locally and regionally and to maintain internationally recognized programs with an advanced academic rank. We also envision to provide the highest quality educational programs, research, and community services and to play a leading role in, all our aengineering activities, as a foremost engineering school in the Arab world.",
+    "mission": "Our mission is to efficiently integrate all of our facilities, and resources to prepare young generations for the requirements of the knowledge based societies and to proactively provide competitive, intellectual, and market-driven academic programs, research, and community services and pledges strong collaboration between our faculty, staff members, students, researchers, alumni, and industrial and business leaders. Further to maintain and develop long term and lasting partnerships with Arab institutions, and internationally acknowledged bodies."
+  },
+
+  "extra_sections": {
+    "Current Status and Future Prospectus": "Focus on continuous improvement, renewal of accreditations, enhancement of research activities, faculty development, scholarships, and strengthening industrial-academic collaboration."
+  }
+}

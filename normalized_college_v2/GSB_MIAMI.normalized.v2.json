@@ -1,0 +1,492 @@
+{
+  "schema_version": "college_normalized_v2",
+  "source": {
+    "source_file_name": "GSB_MIAMI.json",
+    "input_path": "C:\\Users\\mh978\\Downloads\\college-decision\\colleges",
+    "generated_at": "2026-03-06T00:09:57Z"
+  },
+  "entity": {
+    "entity_type": "branch",
+    "college_id": "GSB_MIAMI",
+    "college_name": "Graduate School of Business"
+  },
+  "official_data": {
+    "location": {
+      "city": "Alexandria",
+      "country": "Egypt",
+      "branch": "Miami"
+    },
+    "establishment": {
+      "year_established": null,
+      "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+    },
+    "overview": {
+      "short_description": "A graduate business school delivering advanced management education through MBA and DBA tracks with applied and executive-oriented learning.",
+      "current_status": "Active postgraduate business programs focused on leadership, strategic decision-making, and professional managerial competencies.",
+      "future_prospectus": "Enhancing research-informed graduate business education and executive development aligned with regional and international market needs."
+    },
+    "degrees_programs": {
+      "undergraduate": [],
+      "postgraduate": [
+        {
+          "degree": "Master of Business Administration",
+          "abbreviation": "MBA"
+        },
+        {
+          "degree": "Doctor of Business Administration",
+          "abbreviation": "DBA"
+        }
+      ],
+      "professional_certificates": []
+    },
+    "accreditation": {
+      "national": [
+        "Egyptian Supreme Council for Universities"
+      ],
+      "international": []
+    },
+    "admission_requirements": {
+      "accepted_certificates": [
+        "Bachelor degree in relevant discipline."
+      ],
+      "entry_exams_required": null,
+      "medical_fitness_required": null,
+      "age_limit": null,
+      "other_conditions": []
+    },
+    "student_regulations": {
+      "add_course_deadline_week": null,
+      "withdraw_deadline_week": null,
+      "max_absence_percent": null,
+      "postponement_policy": null,
+      "readmission_policy": null,
+      "special_conditions": []
+    },
+    "training_and_practice": {
+      "mandatory_training": false,
+      "industry_training": true,
+      "field_or_sea_training": null,
+      "description": "Experiential learning through internships, applied research projects, executive training programs, and business consultancy services."
+    },
+    "international_mobility": {
+      "available": true,
+      "mobility_types": [
+        "student_exchange"
+      ],
+      "regions": [
+        "Arab Countries"
+      ],
+      "partner_bodies": [],
+      "evidence_based_notes": [
+        "institutes_and_centers[5]: Arab Institute of Trade and Commodities Exchange (AITCE)"
+      ]
+    },
+    "research_and_innovation": {
+      "research_focus": [
+        "Management and leadership",
+        "Innovation and entrepreneurship",
+        "Ethical business practices",
+        "Sustainability and social responsibility",
+        "Future management challenges"
+      ],
+      "industry_projects": true
+    },
+    "facilities_and_resources": [
+      "Graduate School of Business (GSB)",
+      "Advanced Management Institute (AMI)",
+      "Institute of Public Administration (IPA)",
+      "Business Development Center (BDC)",
+      "Institute of Finance and Investment (IFI)",
+      "Arab Institute of Trade and Commodities Exchange (AITCE)",
+      "International Programs Unit"
+    ],
+    "industry_and_external_relations": [
+      "Industrial and business community representatives",
+      "Industry partners",
+      "Thought leaders and professional experts"
+    ],
+    "vision_mission": {
+      "vision": "To be recognized as one of the top business education service providers in the Arab region, offering rigorous graduate programs in management alongside impactful intellectual contributions and outreach initiatives.",
+      "mission": "To contribute to the intellectual and human capital development of future business leaders by continuously updating graduate programs that advance management and business practices in a rapidly changing world."
+    },
+    "leadership": []
+  },
+  "decision_support": {
+    "heuristic_basis_note": "Decision-support values are heuristic estimates, not official university facts.",
+    "college_level_profile": {
+      "theoretical_depth": 0.62,
+      "math_intensity": 0.55,
+      "practical_intensity": 0.5,
+      "field_work_intensity": 0.45,
+      "research_orientation": 0.62,
+      "career_flexibility": 0.7,
+      "egypt_employability": {
+        "level": 2,
+        "score": 0.64
+      },
+      "international_employability": {
+        "level": 2,
+        "score": 0.58
+      },
+      "international_mobility_strength": {
+        "level": 2,
+        "label": "medium",
+        "score": 0.66
+      }
+    },
+    "program_profiles": [
+      {
+        "program_name": "Master of Business Administration",
+        "decision_profile": {
+          "theoretical_depth": 0.6,
+          "math_intensity": 0.38,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.16,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.68,
+          "field_work_intensity": 0.45,
+          "management_exposure": 0.94,
+          "workload_difficulty": 0.62,
+          "career_flexibility": 0.86,
+          "ai_focus": 0.38,
+          "data_focus": 0.5,
+          "software_focus": 0.4,
+          "security_focus": 0.3,
+          "hardware_focus": 0.2,
+          "business_focus": 0.95,
+          "finance_focus": 0.64,
+          "logistics_focus": 0.56,
+          "maritime_focus": 0.24,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.44,
+          "language_communication_focus": 0.68,
+          "law_policy_focus": 0.45,
+          "research_orientation": 0.5,
+          "entrepreneurship_focus": 0.79,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.72
+        },
+        "career_paths": [
+          "Business Consultant",
+          "Strategy Manager",
+          "Operations Director",
+          "Business Development Manager",
+          "Product Manager",
+          "Entrepreneur"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.64
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          }
+        },
+        "best_fit_traits": [
+          "Prefers strategy, operations, and business decision contexts"
+        ],
+        "avoid_if": [
+          "You dislike case-driven or business-oriented projects"
+        ],
+        "summary": "Heuristic profile for Master of Business Administration derived from available program indicators in the source file.",
+        "program_family": "BUSINESS_FAMILY",
+        "close_alternatives": [
+          "Doctor of Business Administration"
+        ],
+        "differentiation_notes": [
+          "Compared with Doctor of Business Administration, the focus balance is similar with only slight emphasis shifts."
+        ]
+      },
+      {
+        "program_name": "Doctor of Business Administration",
+        "decision_profile": {
+          "theoretical_depth": 0.88,
+          "math_intensity": 0.46,
+          "physics_intensity": 0.35,
+          "programming_intensity": 0.12,
+          "design_creativity": 0.4,
+          "lab_intensity": 0.5,
+          "field_work_intensity": 0.45,
+          "management_exposure": 0.84,
+          "workload_difficulty": 0.62,
+          "career_flexibility": 0.64,
+          "ai_focus": 0.38,
+          "data_focus": 0.7,
+          "software_focus": 0.4,
+          "security_focus": 0.3,
+          "hardware_focus": 0.2,
+          "business_focus": 0.86,
+          "finance_focus": 0.64,
+          "logistics_focus": 0.56,
+          "maritime_focus": 0.24,
+          "healthcare_focus": 0.25,
+          "creativity_design_focus": 0.44,
+          "language_communication_focus": 0.68,
+          "law_policy_focus": 0.45,
+          "research_orientation": 0.94,
+          "entrepreneurship_focus": 0.79,
+          "international_work_readiness": 0.62,
+          "remote_work_fit": 0.74
+        },
+        "career_paths": [
+          "Business Researcher",
+          "University Lecturer",
+          "Policy Research Analyst",
+          "Research Consultant",
+          "Strategy Advisor"
+        ],
+        "employment_outlook": {
+          "egypt_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.64
+          },
+          "international_market": {
+            "level": 2,
+            "label": "medium",
+            "score": 0.58
+          }
+        },
+        "best_fit_traits": [
+          "Prefers strategy, operations, and business decision contexts"
+        ],
+        "avoid_if": [
+          "You dislike case-driven or business-oriented projects"
+        ],
+        "summary": "Heuristic profile for Doctor of Business Administration derived from available program indicators in the source file.",
+        "program_family": "BUSINESS_FAMILY",
+        "close_alternatives": [
+          "Master of Business Administration"
+        ],
+        "differentiation_notes": [
+          "Compared with Master of Business Administration, the focus balance is similar with only slight emphasis shifts."
+        ]
+      }
+    ],
+    "campus_profile": {
+      "metro_area": "Alexandria",
+      "commute_friction_index": 0.48,
+      "relocation_friction_index": 0.58,
+      "industry_access_signal": 0.8,
+      "internship_density_signal": 0.68,
+      "campus_lifestyle_signal": 0.66,
+      "notes": [
+        "All campus_profile signals are heuristic estimates, not official statistics.",
+        "Signals are derived from city/branch context and official relation/training/facility presence."
+      ]
+    }
+  },
+  "text_artifacts": {
+    "cleaned_summary_text": null
+  },
+  "traceability": {
+    "supported_facts": [
+      {
+        "field": "entity.college_id",
+        "source_path": "college_id"
+      },
+      {
+        "field": "entity.college_name",
+        "source_path": "college_name"
+      },
+      {
+        "field": "official_data.location.city",
+        "source_path": "location.city"
+      },
+      {
+        "field": "official_data.location.country",
+        "source_path": "location.country"
+      },
+      {
+        "field": "official_data.location.branch",
+        "source_path": "branch"
+      },
+      {
+        "field": "official_data.establishment.parent_institution",
+        "source_path": "establishment.parent_institution"
+      },
+      {
+        "field": "official_data.degrees_programs.postgraduate",
+        "source_path": "degrees_programs.postgraduate"
+      },
+      {
+        "field": "official_data.degrees_programs.undergraduate",
+        "source_path": "programs/departments/nodes"
+      },
+      {
+        "field": "official_data.accreditation.national",
+        "source_path": "accreditation/accreditations"
+      },
+      {
+        "field": "official_data.training_and_practice.mandatory_training",
+        "source_path": "training_and_practice.mandatory_training"
+      },
+      {
+        "field": "official_data.training_and_practice.industry_training",
+        "source_path": "training_and_practice.industry_training"
+      },
+      {
+        "field": "official_data.training_and_practice.description",
+        "source_path": "training_and_practice"
+      },
+      {
+        "field": "official_data.international_mobility.available",
+        "source_path": "mobility_evidence"
+      },
+      {
+        "field": "official_data.research_and_innovation.research_focus",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.research_and_innovation.industry_projects",
+        "source_path": "research_and_innovation"
+      },
+      {
+        "field": "official_data.facilities_and_resources",
+        "source_path": "facilities/labs"
+      },
+      {
+        "field": "official_data.industry_and_external_relations",
+        "source_path": "partners/industry"
+      },
+      {
+        "field": "official_data.vision_mission.vision",
+        "source_path": "vision_mission.vision"
+      },
+      {
+        "field": "official_data.vision_mission.mission",
+        "source_path": "vision_mission.mission"
+      },
+      {
+        "field": "official_data.leadership",
+        "source_path": "leadership sources"
+      }
+    ],
+    "inferred_items": [
+      {
+        "item": "decision_support.program_profiles[Master of Business Administration]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.program_profiles[Doctor of Business Administration]",
+        "basis": "Heuristic profile from program title and available study/pressure/career fields."
+      },
+      {
+        "item": "decision_support.college_level_profile",
+        "basis": "Aggregated from heuristic program profiles and source mobility/research signals."
+      },
+      {
+        "item": "decision_support.program_profiles[Master of Business Administration].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Master of Business Administration].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Doctor of Business Administration].decision_profile_focus_extensions",
+        "basis": "Heuristic focus expansion inferred from program_name and existing decision_profile indicators."
+      },
+      {
+        "item": "decision_support.program_profiles[Doctor of Business Administration].program_family",
+        "basis": "Heuristic family classification based on program_name semantics."
+      },
+      {
+        "item": "decision_support.program_profiles[Master of Business Administration].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Master of Business Administration].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.program_profiles[Doctor of Business Administration].close_alternatives",
+        "basis": "Heuristic closeness derived from focus-vector similarity and program_family proximity within file."
+      },
+      {
+        "item": "decision_support.program_profiles[Doctor of Business Administration].differentiation_notes",
+        "basis": "Heuristic differences generated from relative focus-field strengths against closest alternatives."
+      },
+      {
+        "item": "decision_support.campus_profile",
+        "basis": "Heuristic campus decision layer inferred from official location plus relations/training/facilities signals."
+      },
+      {
+        "item": "recommendation_layer",
+        "basis": "Deterministic recommendation template added for tie-breaking and fallback logic."
+      },
+      {
+        "item": "decision_support.college_level_profile.international_mobility_strength",
+        "basis": "Heuristic mobility strength computed from explicit mobility evidence density in official_data."
+      },
+      {
+        "item": "decision_support.program_profiles",
+        "basis": "Program profile audit/repair applied for completeness, consistency, and realistic heuristic calibration."
+      }
+    ]
+  },
+  "quality_check": {
+    "duplicate_content_removed": false,
+    "missing_fields": [
+      "official_data.establishment.year_established",
+      "official_data.overview.short_description",
+      "official_data.overview.current_status",
+      "official_data.overview.future_prospectus",
+      "official_data.admission_requirements.entry_exams_required",
+      "official_data.admission_requirements.medical_fitness_required",
+      "official_data.admission_requirements.age_limit",
+      "official_data.student_regulations.add_course_deadline_week",
+      "official_data.student_regulations.withdraw_deadline_week",
+      "official_data.student_regulations.max_absence_percent",
+      "official_data.student_regulations.postponement_policy",
+      "official_data.student_regulations.readmission_policy",
+      "official_data.training_and_practice.field_or_sea_training",
+      "official_data.degrees_programs.professional_certificates",
+      "official_data.accreditation.international",
+      "official_data.admission_requirements.accepted_certificates",
+      "official_data.admission_requirements.other_conditions",
+      "official_data.student_regulations.special_conditions",
+      "official_data.international_mobility.partner_bodies"
+    ],
+    "uncertain_items": [],
+    "notes": [
+      "Official fields are extracted strictly from source-supported content.",
+      "Decision-support fields are heuristic and separated from official_data.",
+      "Heuristic recommendation/taxonomy/location layers were added under decision_support/recommendation_layer only.",
+      "Decision-support fields were repaired heuristically; official_data remained source-grounded."
+    ]
+  },
+  "recommendation_layer": {
+    "tie_break_rules": [
+      {
+        "rule_id": "LOCATION_TIE_BREAK",
+        "when": "If final scores are close (difference <= 0.05), prefer closer campus to student's city.",
+        "thresholds": {
+          "score_delta_close": 0.05
+        }
+      },
+      {
+        "rule_id": "QUALITY_OVERRIDES_DISTANCE",
+        "when": "If one option beats another by a meaningful margin (difference >= 0.12), choose the better option even if farther.",
+        "thresholds": {
+          "score_delta_override": 0.12
+        }
+      },
+      {
+        "rule_id": "PROGRAM_FAMILY_FALLBACK",
+        "when": "If top program is not available on student's preferred campus, recommend closest alternative within same program_family.",
+        "thresholds": {}
+      }
+    ],
+    "scoring_components": {
+      "fit_score_weight": 0.5,
+      "career_score_weight": 0.3,
+      "opportunity_score_weight": 0.2,
+      "location_weight_inside_opportunity": 0.35
+    }
+  }
+}

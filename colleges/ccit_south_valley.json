@@ -1,0 +1,91 @@
+{
+  "college_id": "CCIT_SOUTH_VALLEY",
+  "college_name": "College of Computing and Information Technology - South Valley",
+
+  "raw_text": "Computing & Information Technology  South Valley\nCCIT provides opportunities for students to participate in summer training and exchange programs through international agreements made with top-ranked universities across the globe.\n\n \n\nInternational Center for Competencies & Business Development\n\nView summer programs in [Renewable Energy - Germany / India] and [Automotive Technology] for 2019\n\n \n\nSheridan College - Canada\n\nView summer programs in [Mechatronics] and Business] for 2019\n\n \n\nCalifornia Polytechnic State University - USA\n\nView summer [International workshops] for 2019\n\n \n\nUniversity of Oviedo - Spain\n\n \n\nUniversity of Central Lancashire (UCLan) - UK\n\nView summer academies in [Operation Research] and [Intelligent Machines] for 2019\n\n \n\nUniversity Technology Malaysia (UTM) - Malaysia\n\n \n\nUniversity of Northampton - UK\n\n \n\nTecnico Institute - Portugal\n\n \n\nColumbus State University - USA\n\rAccreditation\nAll Undergraduate and Graduate programs in the College of Computing and Information Technology are currently acknowledged by the Supreme Council of Egyptian Universities of Egypt.\nThe Computer Science program is accredited by the Computing Accreditation Commission of ABET, https://www.abet.orgVision and Mission\n \n\n \n\nCollege Vision\n\nCollege of Computing and Information Technology at Smart Village vision is to become a distinct prototype of the bridge between the higher education sector and the ICT industry on both the regional and the international levels.\n\nCollege Mission\n\n Provide a caliber graduate through theoretical and practical training, to provide suitable solutions to real-world problems.\nBecome a regional and an international leader in the scholarly research.\nProvide students the inspiration to become technological entrepreneurs through shaping the near future with intelligent ideas. ollege History\n \n\nThe Arab academy for science and technology and Maritime transport (AAST) is one of the leading educational establishments in the Middle East, and it always had a leading role providing the latest technology with the most up-to-date educational facilities and resources to insure that our teaching and research is kept at the leading edge. It includes many important fields of research highly needed in most areas of modern life. Therefore the academy has established the new College of Computing and information Technology(CCIT) specialized in Computer Science, Information Systems, Software Engineering, and meeting the needs of students with a wide background and experience in computing. However, the roots of the college extend back to 2001, when the computer Science department started to offer its program through the Computer Engineering Department. The new CCIT is located in Smart Campus. The CCIT is concerned in providing the latest of technologies and distinguished educational, training and research services, in order to support higher study courses that conform to the needs of computer usage in many important field of research. Since its establishment, the CCIT maintains sound relationships with a number of universities in USA, UK and Egypt for joint cooperation in both undergraduate studies and supervision of postgraduate studies and research worCollege Message\n \n\n \n\nThe College of Computing and Information Technology (CCIT) aims to develop a generation that could harness innovation with creativity. Through hands on the most recent programming design methodologies and facilities our students are inspired to discover innovative solution for any real problem.  \n\n \n\nMoreover, and since its establishment, the CCIT has built a number of beneficial relationships with several governmental and private companies those exist in the Egyptian market, to tackling the new trends required in the Information and Communication Technology (ICT) industry. Therefore, and through capacity building programs the CCIT provides, Multimedia and Graphics graduates are capable of acquiring numerous career opportunities and competing in several international competitions to become the next generation of entrepreneurs. \n\n \n\nCollege Vision\n\nCollege of Computing and Information Technology at South Valley Branch vision is to become a distinct prototype of the bridge between the higher education sector and the ICT industry on both the regional and the international levels.\n\nCollege Mission\n\n• Provide a caliber graduate through theoretical, and practical training, to provide suitable solutions to real-world problems.\n• Become a regional and an international leader in the scholarly research.\n• Provide students with the inspiration to become technological entrepreneurs through shaping the near future with intelligent ideaOverview\n \n\nThe Arab Academy for Science, Technology and Maritime Transport (AASTMT) is one of the leading educational establishments in the Middle East, and it has always had a leading role in providing the latest technology with the most up-to-date educational facilities and resources to ensure that our teaching and research is kept at the leading edge.\nThe evolution of computer technology and the increasing need of computer usage, has made the field of computing very essential field of study. Computer science encompasses many important fields of research that are highly needed in most areas of modern life. Therefore the Academy has established the new College of Computing and Information Technology (CCIT) specialized in Computer Science, Information Systems, Software Engineering, and meeting the needs of students with a wide background and experience in computing. The roots of the college extend back to 2001, when the Computer Science Department started to offer its program through the Computer Engineering Department",
+
+  "location": {
+    "city": "South Valley",
+    "country": "Egypt",
+    "branch": "South Valley"
+  },
+
+  "establishment": {
+    "year_established": 2001,
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport"
+  },
+
+  "degrees_programs": {
+    "undergraduate": [
+      "Computer Science",
+      "Information Systems",
+      "Software Engineering",
+      "Multimedia and Graphics"
+    ],
+    "postgraduate": [],
+    "professional_certificates": []
+  },
+
+  "accreditation": {
+    "national": [
+      "Supreme Council of Egyptian Universities"
+    ],
+    "international": [
+      "ABET Computing Accreditation Commission"
+    ]
+  },
+
+  "training_and_practice": {
+    "mandatory_training": null,
+    "industry_training": true,
+    "sea_or_field_training": false,
+    "description": "CCIT provides opportunities for students to participate in summer training and exchange programs through international agreements made with top-ranked universities across the globe."
+  },
+
+  "industry_and_international_relations": [
+    "International Center for Competencies & Business Development",
+    "Sheridan College - Canada",
+    "California Polytechnic State University - USA",
+    "University of Oviedo - Spain",
+    "University of Central Lancashire (UCLan) - UK",
+    "University Technology Malaysia (UTM) - Malaysia",
+    "University of Northampton - UK",
+    "Tecnico Institute - Portugal",
+    "Columbus State University - USA"
+  ],
+
+  "facilities_and_resources": [
+    "Smart Campus",
+    "Educational laboratories",
+    "Training and research services"
+  ],
+
+  "student_regulations": {
+    "attendance_policy": null,
+    "withdrawal_policy": null,
+    "postponement_policy": null,
+    "readmission_policy": null,
+    "special_conditions": null
+  },
+
+  "research_and_innovation": {
+    "research_focus": "Computer Science, Information Systems, Software Engineering, Multimedia and Graphics, ICT industry trends",
+    "industry_projects": true
+  },
+
+  "quality_assurance": {
+    "qa_unit_exists": null,
+    "qa_description": null
+  },
+
+  "vision_mission": {
+    "vision": "College of Computing and Information Technology at South Valley Branch vision is to become a distinct prototype of the bridge between the higher education sector and the ICT industry on both the regional and the international levels.",
+    "mission": "• Provide a caliber graduate through theoretical, and practical training, to provide suitable solutions to real-world problems.\n• Become a regional and an international leader in the scholarly research.\n• Provide students with the inspiration to become technological entrepreneurs through shaping the near future with intelligent idea"
+  },
+
+  "extra_sections": {
+    "College History": "The Arab academy for science and technology and Maritime transport (AAST) is one of the leading educational establishments in the Middle East, and it always had a leading role providing the latest technology with the most up-to-date educational facilities and resources to insure that our teaching and research is kept at the leading edge. It includes many important fields of research highly needed in most areas of modern life. Therefore the academy has established the new College of Computing and information Technology(CCIT) specialized in Computer Science, Information Systems, Software Engineering, and meeting the needs of students with a wide background and experience in computing. However, the roots of the college extend back to 2001, when the computer Science department started to offer its program through the Computer Engineering Department. The new CCIT is located in Smart Campus. The CCIT is concerned in providing the latest of technologies and distinguished educational, training and research services, in order to support higher study courses that conform to the needs of computer usage in many important field of research.",
+    "College Message": "The College of Computing and Information Technology (CCIT) aims to develop a generation that could harness innovation with creativity. Through hands on the most recent programming design methodologies and facilities our students are inspired to discover innovative solution for any real problem.\n\nMoreover, and since its establishment, the CCIT has built a number of beneficial relationships with several governmental and private companies those exist in the Egyptian market, to tackling the new trends required in the Information and Communication Technology (ICT) industry. Therefore, and through capacity building programs the CCIT provides, Multimedia and Graphics graduates are capable of acquiring numerous career opportunities and competing in several international competitions to become the next generation of entrepreneurs.",
+    "Overview": "The Arab Academy for Science, Technology and Maritime Transport (AASTMT) is one of the leading educational establishments in the Middle East, and it has always had a leading role in providing the latest technology with the most up-to-date educational facilities and resources to ensure that our teaching and research is kept at the leading edge.\nThe evolution of computer technology and the increasing need of computer usage, has made the field of computing very essential field of study. Computer science encompasses many important fields of research that are highly needed in most areas of modern life. Therefore the Academy has established the new College of Computing and Information Technology (CCIT) specialized in Computer Science, Information Systems, Software Engineering, and meeting the needs of students with a wide background and experience in computing. The roots of the college extend back to 2001, when the Computer Science Department started to offer its program through the Computer Engineering Department"
+  }
+}

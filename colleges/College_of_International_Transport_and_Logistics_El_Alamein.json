@@ -1,0 +1,215 @@
+{
+  "college_id": "CITL_EL_ALAMEIN",
+  "college_name": "College of International Transport and Logistics",
+  "parent_institution": "Arab Academy for Science, Technology and Maritime Transport (AASTMT)",
+
+  "campus": {
+    "city": "El Alamein",
+    "country": "Egypt",
+    "branch": "Alamein Campus",
+    "regional_role": "Strategic logistics education hub supporting Egypt’s transformation into a global trade and transport center"
+  },
+
+  "college_identity": {
+    "description": "A regional and international center of excellence in logistics, supply chain management, and international transport education, research, and professional development.",
+    "unique_positioning": [
+      "Only college in MENA offering bilingual Bachelor degrees in Trade Logistics and International Transport",
+      "Strong industry-driven, applied, and research-oriented model",
+      "Deep integration with ports, airports, logistics zones, and government authorities"
+    ]
+  },
+
+  "vision_mission": {
+    "vision": "To be a leading regional and international center of excellence in transport, logistics, and global trade education—driving innovation, sustainability, and digital transformation in shaping the future of integrated global supply chains.",
+    "mission": "To prepare competent, ethical, and globally oriented professionals in transport, logistics, and international trade through excellence in education, applied research, and collaboration with industry and academic partners."
+  },
+
+  "establishment_and_history": {
+    "logistics_education_since": 1995,
+    "college_established": "2007–2008",
+    "first_bachelor_awarded": "October 1996",
+    "historical_note": "CITL evolved from logistics education within AASTMT to become a standalone college serving Egypt, the Arab region, and Africa."
+  },
+
+  "accreditation": {
+    "national": [
+      "National Authority for Quality Assurance and Accreditation of Education (NAQAAE)",
+      "Supreme Council of Egyptian Universities",
+      "Egyptian Ministry of Higher Education"
+    ],
+    "international": [
+      "Association to Advance Collegiate Schools of Business (AACSB)",
+      "Association of Arab Universities",
+      "International Association of Universities"
+    ]
+  },
+
+  "international_affiliations": {
+    "iscea": {
+      "status": "ISCEA University Affiliate",
+      "organization": "International Supply Chain Education Alliance (USA)",
+      "benefits": [
+        "Professional supply chain certifications",
+        "Scholarships up to 85%",
+        "Direct alignment with Global 2000 company standards"
+      ]
+    },
+    "dual_degree_partner": {
+      "university": "University of Hull (United Kingdom)",
+      "program_type": "Dual Degree",
+      "certification": [
+        "AASTMT Degree",
+        "University of Hull Degree"
+      ]
+    }
+  },
+
+  "degrees": {
+    "degree_name": "Bachelor of Science (BSc)",
+    "duration_years": 4,
+    "total_semesters": 8,
+    "language_tracks": ["Arabic", "English"],
+    "study_structure": {
+      "foundation_year": true,
+      "major_selection": "From semester 3",
+      "minor_system": "Starts semester 5",
+      "graduation_project": true
+    }
+  },
+
+  "academic_programs": {
+    "majors": [
+      {
+        "program_id": "TRANSPORT_LOGISTICS_MANAGEMENT",
+        "focus": "Transport operations, ports, terminals, multimodal transport, sustainability"
+      },
+      {
+        "program_id": "LOGISTICS_SUPPLY_CHAIN_MANAGEMENT",
+        "focus": "Procurement, inventory, lean supply chains, digital and sustainable SCM"
+      },
+      {
+        "program_id": "INTERNATIONAL_TRADE_LOGISTICS",
+        "focus": "Customs, freight, trade finance, global logistics operations"
+      }
+    ]
+  },
+
+  "professional_certifications": [
+    {
+      "name": "Certified Supply Chain Analyst (CSCA)",
+      "hours": 17,
+      "language": ["Arabic", "English"]
+    },
+    {
+      "name": "Certified Professional in Logistics Management (CPLM)",
+      "hours": 26,
+      "language": "English"
+    },
+    {
+      "name": "Certified Healthcare Supply Chain Analyst (CHSCA)",
+      "hours": 17,
+      "language": "English"
+    },
+    {
+      "name": "Certified Blockchain Supply Chain Professional (CBSCP)",
+      "hours": 26,
+      "language": "English"
+    }
+  ],
+
+  "training_and_industry_engagement": {
+    "mandatory_training": true,
+    "training_models": [
+      "Summer internships",
+      "Mid-year training",
+      "Field visits",
+      "Guest lectures",
+      "Industry-led projects"
+    ],
+    "training_sectors": [
+      "Ports and maritime authorities",
+      "Airports",
+      "Freight forwarding",
+      "Shipping lines",
+      "Banking and finance",
+      "FMCGs",
+      "Petrochemicals"
+    ]
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Supply chain resilience",
+      "Transport digitalization",
+      "AI in logistics",
+      "Sustainable and green logistics"
+    ],
+    "student_research": true,
+    "staff_research": true,
+    "international_projects": [
+      "EU-funded logistics and supply chain initiatives",
+      "Consulting studies for League of Arab States"
+    ]
+  },
+
+  "events_and_camps": {
+    "international_logistics_camp": {
+      "edition": "4th",
+      "theme": "Artificial Intelligence in Logistics",
+      "participants": 160,
+      "speakers": 21,
+      "alignment": [
+        "UN SDG 9 – Industry, Innovation & Infrastructure",
+        "UN SDG 12 – Responsible Consumption & Production"
+      ]
+    }
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Logistics companies",
+      "Ports and terminals",
+      "Air transport",
+      "Supply chain consultancies",
+      "International trade firms",
+      "Government authorities",
+      "Multinational corporations"
+    ],
+    "career_roles": [
+      "Logistics Analyst",
+      "Supply Chain Manager",
+      "Transport Operations Manager",
+      "Freight Forwarder",
+      "Trade Compliance Officer",
+      "Consultant"
+    ]
+  },
+
+  "student_life_and_support": {
+    "student_affairs": true,
+    "sports_and_activities": true,
+    "leadership_development": true,
+    "support_for_people_of_determination": true
+  },
+
+  "admission_requirements": {
+    "accepted_certificates": [
+      "Egyptian Thanaweya Amma",
+      "Arab High School Certificates",
+      "IGCSE",
+      "American Diploma"
+    ],
+    "language_requirement": "English placement or B2 CEPT for Hull program",
+    "additional_requirements": [
+      "Personal interview for Hull dual degree"
+    ]
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_dual_degree": true,
+    "supports_certification_layer": true,
+    "supports_personality_matching": true,
+    "supports_workload_scoring": true
+  }
+}

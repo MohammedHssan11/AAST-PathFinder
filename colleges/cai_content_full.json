@@ -1,0 +1,216 @@
+{
+  "campus": {
+    "campus_id": "EL_ALAMEIN",
+    "name": "El Alamein Campus",
+    "city": "New El Alamein City",
+    "country": "Egypt"
+  },
+
+  "college": {
+    "college_id": "CAI_EL_ALAMEIN",
+    "name": "College of Artificial Intelligence",
+    "established_year": 2019,
+    "positioning": "First College of Artificial Intelligence in MENA",
+    "description": "Provides cutting-edge education, training, and research in Artificial Intelligence and Machine Learning to address future technological challenges.",
+    "accreditation": [
+      "Egyptian Supreme Council of Universities"
+    ],
+    "international_partners": [
+      "Autònoma University of Barcelona",
+      "University of Central Lancashire (UCLan)"
+    ],
+    "administration": {
+      "dean": "Ali Ali Mohamed Fahmy",
+      "vice_dean": "Ahmed Abdelkhalik Ahmed Abouelfarag"
+    },
+    "labs": [
+      "Robotics Lab",
+      "Virtual Reality Lab",
+      "IoT Lab"
+    ]
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Science",
+    "level": "Undergraduate"
+  },
+
+  "programs": [
+    {
+      "program_id": "INTELLIGENT_SYSTEMS",
+      "name": "Intelligent Systems",
+      "degree": "BSc",
+      "discipline": "Artificial Intelligence",
+      "study_duration_years": 4,
+
+      "study_profile": {
+        "theoretical_intensity": 0.85,
+        "practical_intensity": 0.8,
+        "math_intensity": 0.9,
+        "programming_intensity": 0.9,
+        "self_learning_dependency": "high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "high",
+        "failure_risk": "medium_high"
+      },
+
+      "curriculum": {
+        "foundation": [
+          "ESP Foundation",
+          "Foundation Mathematics",
+          "Introduction to Computing",
+          "Problem Solving & Programming",
+          "Discrete Mathematics",
+          "Calculus I",
+          "Calculus II",
+          "Linear Algebra",
+          "Probability & Statistics",
+          "Physics"
+        ],
+        "core": [
+          "Fundamentals of AI",
+          "Machine Learning",
+          "Deep Learning",
+          "Computer Vision",
+          "Natural Language Processing",
+          "Image Processing & Pattern Recognition",
+          "Optimization Techniques",
+          "Computing Algorithms",
+          "Operating Systems",
+          "Software Engineering"
+        ],
+        "specializations": {
+          "Robotics": [
+            "Fundamentals of Robotics",
+            "Reinforcement Learning",
+            "Cognitive Computing",
+            "Localization & Path Planning",
+            "Swarm Intelligence"
+          ]
+        }
+      },
+
+      "scholarships": [
+        {
+          "name": "Excellence Scholarship",
+          "min_gpa": 3.4,
+          "summer_applicable": false,
+          "transfer_students_allowed": false
+        }
+      ],
+
+      "career_outcomes": {
+        "common_roles": [
+          "AI Engineer",
+          "Machine Learning Engineer",
+          "Robotics Engineer",
+          "Research Engineer"
+        ],
+        "market_demand": "high",
+        "international_mobility": 0.8
+      }
+    },
+
+    {
+      "program_id": "DATA_SCIENCE",
+      "name": "Data Science",
+      "degree": "BSc",
+      "discipline": "Data & Analytics",
+      "study_duration_years": 4,
+
+      "vision": "To become a leading hub for high-quality education, research, and community service in Data Science at national, regional, and international levels.",
+      "mission": "To prepare highly skilled professionals capable of leveraging data to drive insights, decisions, and innovation for sustainable development.",
+
+      "study_profile": {
+        "theoretical_intensity": 0.75,
+        "practical_intensity": 0.85,
+        "math_intensity": 0.8,
+        "programming_intensity": 0.75,
+        "self_learning_dependency": "medium_high"
+      },
+
+      "pressure_profile": {
+        "workload_level": "medium_high",
+        "failure_risk": "medium"
+      },
+
+      "curriculum": {
+        "foundation": [
+          "ESP Foundation",
+          "Foundation Mathematics",
+          "Introduction to Computing",
+          "Problem Solving & Programming",
+          "Discrete Mathematics",
+          "Calculus I",
+          "Calculus II",
+          "Linear Algebra",
+          "Probability & Statistics"
+        ],
+        "core": [
+          "Database Systems Design",
+          "Fundamentals of Data Science",
+          "Statistics for Data Science",
+          "Data Mining",
+          "Advanced Database",
+          "Big Data Analytics",
+          "Information Retrieval & Search Engines",
+          "Business Process Management",
+          "Ethics & Governance of AI"
+        ]
+      },
+
+      "scholarships": [
+        {
+          "name": "Excellence Scholarship",
+          "min_gpa": 3.4,
+          "summer_applicable": false,
+          "transfer_students_allowed": false
+        }
+      ],
+
+      "career_outcomes": {
+        "common_roles": [
+          "Data Scientist",
+          "Data Analyst",
+          "Business Intelligence Engineer",
+          "Big Data Engineer"
+        ],
+        "market_demand": "high",
+        "international_mobility": 0.7
+      }
+    }
+  ],
+
+  "courses": [
+    {
+      "course_code": "IN221",
+      "name": "Machine Learning",
+      "credits": 3,
+      "difficulty": "high",
+      "prerequisites": ["Fundamentals of AI", "Linear Algebra"]
+    },
+    {
+      "course_code": "IN311",
+      "name": "Deep Learning",
+      "credits": 3,
+      "difficulty": "very_high",
+      "prerequisites": ["Machine Learning"]
+    },
+    {
+      "course_code": "DS313",
+      "name": "Data Mining",
+      "credits": 3,
+      "difficulty": "medium_high",
+      "prerequisites": ["Fundamentals of Data Science"]
+    }
+  ],
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_scoring": true,
+    "supports_constraints": true,
+    "supports_explainability": true
+  }
+}

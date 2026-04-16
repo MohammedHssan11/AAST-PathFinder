@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aast-navy: #0f172a;
+  --color-aast-blue: #1e3a8a;
+  --color-aast-gold: #eab308;
+  --color-aast-light: #f8fafc;
+}
+
+@layer base {
+  body {
+    @apply bg-aast-light text-slate-900 font-sans antialiased;
+  }
+}

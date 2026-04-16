@@ -1,0 +1,210 @@
+{
+  "campus": {
+    "campus_id": "MIAMI",
+    "name": "Miami Campus",
+    "city": "Alexandria",
+    "country": "Egypt",
+    "description": "One of AASTMT’s flagship Alexandria campuses, focused on business education, applied research, industry engagement, and international accreditation."
+  },
+
+  "college": {
+    "college_id": "CMT_MIAMI",
+    "name": "College of Management & Technology – Miami",
+    "parent_institution": "Arab Academy for Science, Technology and Maritime Transport",
+
+    "positioning": "AACSB-accredited business college emphasizing applied management education, technology integration, quality assurance, and industry-driven learning.",
+
+    "vision": "To be recognized as a premier business college in higher education and applied research, serving industry and society at the local, regional, and international levels.",
+
+    "mission": "To provide high-quality management education and applied research through modern teaching methodologies, strong ethical values, and continuous engagement with industry and society.",
+
+    "accreditation": {
+      "national": [
+        "National Authority for Quality Assurance and Accreditation of Education (NAQAAE)"
+      ],
+      "international": [
+        "Association to Advance Collegiate Schools of Business (AACSB)",
+        "ISO 9001:2015 Quality Management System"
+      ]
+    },
+
+    "quality_assurance": {
+      "qa_unit_exists": true,
+      "description": "Comprehensive quality assurance framework aligned with AACSB, ISO 9001:2015, and NAQAAE standards to ensure continuous improvement and academic excellence."
+    }
+  },
+
+  "degree": {
+    "degree_name": "Bachelor of Science",
+    "level": "Undergraduate",
+    "study_duration_years": 4,
+    "total_semesters": 8
+  },
+
+  "programs": [
+    {
+      "program_id": "BIS",
+      "name": "Business Information Systems",
+      "focus": "Business systems, data management, decision support, and IT-enabled organizations",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "FIN_ACC",
+      "name": "Finance and Accounting",
+      "focus": "Financial reporting, corporate finance, auditing, and financial analysis",
+      "industry_alignment": "very_high"
+    },
+    {
+      "program_id": "MKT_INT_BUS",
+      "name": "Marketing and International Business",
+      "focus": "Marketing strategy, international trade, and global business environments",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "MEDIA_MGMT",
+      "name": "Media Management",
+      "focus": "Media economics, management, and strategic communication",
+      "industry_alignment": "medium_high"
+    },
+    {
+      "program_id": "HOTELS_TOURISM",
+      "name": "Hotels and Tourism Management",
+      "focus": "Hospitality operations, tourism economics, and service management",
+      "industry_alignment": "high"
+    },
+    {
+      "program_id": "POLITICAL_SCIENCE",
+      "name": "Political Science",
+      "focus": "Public policy, governance, and political economy",
+      "industry_alignment": "medium"
+    },
+    {
+      "program_id": "FR_MGMT",
+      "name": "Francophone Management Program",
+      "focus": "Business and management education delivered in French",
+      "industry_alignment": "medium_high"
+    }
+  ],
+
+  "study_profile": {
+    "theoretical_intensity": 0.6,
+    "practical_intensity": 0.65,
+    "technology_dependency": 0.7,
+    "project_dependency": "high",
+    "group_work_dependency": "high",
+    "research_orientation": "medium"
+  },
+
+  "pressure_profile": {
+    "workload_level": "medium_high",
+    "deadline_pressure": "medium",
+    "evaluation_style": "coursework + projects + exams",
+    "failure_risk": "low"
+  },
+
+  "training_and_industry": {
+    "mandatory_training": true,
+    "industry_training": true,
+    "training_channels": [
+      "Training and Development Initiatives (TDI)",
+      "Industry case studies",
+      "Consultancy-linked projects",
+      "Applied graduation projects"
+    ],
+    "industry_alignment": "high"
+  },
+
+  "international_exposure": {
+    "accreditation_based_mobility": true,
+    "language_tracks": [
+      "English",
+      "French"
+    ],
+    "international_programs": [
+      "AACSB-aligned curriculum",
+      "Francophone track"
+    ]
+  },
+
+  "research_and_innovation": {
+    "research_focus": [
+      "Applied business research",
+      "Sustainable development",
+      "Environmental, social, and economic impact",
+      "Industry-oriented studies"
+    ],
+    "industry_projects": true,
+    "consultancy_orientation": "high"
+  },
+
+  "facilities_and_resources": [
+    "Business and IT laboratories",
+    "Computer Networks and Data Center",
+    "Training and Development Initiatives (TDI)",
+    "Classrooms and meeting facilities"
+  ],
+
+  "student_life": {
+    "campus_life_intensity": "high",
+    "extracurricular_activity_level": "high",
+    "community_engagement": true
+  },
+
+  "career_outcomes": {
+    "employment_sectors": [
+      "Corporate organizations",
+      "Banks and financial institutions",
+      "Technology-driven firms",
+      "Media organizations",
+      "Hospitality and tourism industry",
+      "Public and private sector institutions"
+    ],
+    "common_roles": [
+      "Business Analyst",
+      "Accountant",
+      "Financial Analyst",
+      "Marketing Executive",
+      "MIS Specialist",
+      "Media Manager",
+      "Tourism Operations Manager"
+    ],
+    "employability_level": "very_high"
+  },
+
+  "student_fit_model": {
+    "best_for": [
+      "Students seeking AACSB-accredited business education",
+      "Students interested in applied and industry-linked learning",
+      "Students aiming for corporate and multinational careers",
+      "Students preferring structured but practical programs"
+    ],
+    "less_suitable_for": [
+      "Students seeking purely theoretical economics programs",
+      "Students avoiding teamwork and applied coursework"
+    ]
+  },
+
+  "governing_values": [
+    "Integrity",
+    "Commitment",
+    "Innovation",
+    "Quality",
+    "Social responsibility"
+  ],
+
+  "leadership": {
+    "dean": "Prof. Dr. Ashraf Adel Labib",
+    "vice_deans": [
+      "Vice Dean for Educational Affairs",
+      "Vice Dean for Student Affairs",
+      "Vice Dean for Environment & International Affairs"
+    ]
+  },
+
+  "system_flags": {
+    "decision_ready": true,
+    "supports_cross_college_comparison": true,
+    "supports_accreditation_weighting": true,
+    "supports_industry_alignment_scoring": true
+  }
+}
